@@ -2,7 +2,7 @@ LIBRARY IEEE;
 
 USE IEEE.std_logic_1164.all;
 
-ENTITY Decode_stage IS
+ENTITY Decode IS
 port(
 	IR : in STD_LOGIC_VECTOR(15 downto 0);
 	PC : in STD_LOGIC_VECTOR(31 downto 0);
@@ -21,9 +21,9 @@ port(
 	
 
 );
-END Decode_stage;
+END Decode;
 
-ARCHITECTURE use_DOC OF Decode_stage IS
+ARCHITECTURE use_DOC OF Decode IS
 
 Component myrev_nDFF IS
 GENERIC ( n : integer := 16);
