@@ -1,0 +1,522 @@
+m255
+K4
+z2
+!s11e vcom 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/19.3
+Eaddress_extend
+Z0 w1588580225
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z3 dD:/3rd Year/2nd sem/architecture 2/Project
+Z4 8D:/3rd Year/2nd sem/architecture 2/Project/AddressExtend.vhd
+Z5 FD:/3rd Year/2nd sem/architecture 2/Project/AddressExtend.vhd
+l0
+L4
+V@XcgAl`7:KNFaIY;]gNi?1
+!s100 bd9`1UIBCJLTMGTJ9SALL3
+Z6 OV;C;2019.2;69
+32
+Z7 !s110 1588591417
+!i10b 1
+Z8 !s108 1588591417.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/AddressExtend.vhd|
+Z10 !s107 D:/3rd Year/2nd sem/architecture 2/Project/AddressExtend.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 14 address_extend 0 22 @XcgAl`7:KNFaIY;]gNi?1
+l10
+L9
+VZdWbPmW@NjKfZD4_Nj;Q00
+!s100 AA96GXDhEB9QLFSXIQdOP0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eander
+Z13 w1577037552
+Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+R3
+Z16 8D:/3rd Year/2nd sem/architecture 2/Project/AND.vhd
+Z17 FD:/3rd Year/2nd sem/architecture 2/Project/AND.vhd
+l0
+L6
+Vf>IYfeKIM_OCPi3JTYgVn1
+!s100 n7c24od?Fh5T8KN6=zSld1
+R6
+32
+Z18 !s110 1588606128
+!i10b 1
+Z19 !s108 1588606128.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/AND.vhd|
+Z21 !s107 D:/3rd Year/2nd sem/architecture 2/Project/AND.vhd|
+!i113 1
+R11
+R12
+Astruct
+R14
+R15
+R1
+R2
+DEx4 work 5 ander 0 22 f>IYfeKIM_OCPi3JTYgVn1
+l18
+L15
+VFm:oD_JHK`di:A7zm[Sea0
+!s100 Si9N1<BlDb2lNd0o^b;Om1
+R6
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R11
+R12
+Ebuff
+Z22 w1588608833
+R1
+R2
+R3
+Z23 8D:/3rd Year/2nd sem/architecture 2/Project/tristate.vhd
+Z24 FD:/3rd Year/2nd sem/architecture 2/Project/tristate.vhd
+l0
+L5
+VKa?gbb4D7C<BWa_XITYS:1
+!s100 MOYeFBQUVc9Xkbb_U[T8l1
+R6
+32
+Z25 !s110 1588608837
+!i10b 1
+Z26 !s108 1588608837.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/tristate.vhd|
+Z28 !s107 D:/3rd Year/2nd sem/architecture 2/Project/tristate.vhd|
+!i113 1
+R11
+R12
+Amybuf
+R1
+R2
+DEx4 work 4 buff 0 22 Ka?gbb4D7C<BWa_XITYS:1
+l11
+L9
+V<CYh;kgXcfb3YO]B[^gEZ3
+!s100 i]j7zC88h9LM=0RL4bm[k2
+R6
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R11
+R12
+Edecode_stage
+Z29 w1588704288
+R1
+R2
+R3
+Z30 8D:\3rd Year\2nd sem\architecture 2\Project\decodeStage.vhd
+Z31 FD:\3rd Year\2nd sem\architecture 2\Project\decodeStage.vhd
+l0
+L5
+VKJI[_D[?j8JSTa>kgI7dY3
+!s100 lEj[?_J5QG7CHhX?kkd5f3
+R6
+32
+Z32 !s110 1588704329
+!i10b 1
+Z33 !s108 1588704329.000000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\decodeStage.vhd|
+Z35 !s107 D:\3rd Year\2nd sem\architecture 2\Project\decodeStage.vhd|
+!i113 1
+R11
+R12
+Ause_doc
+R1
+R2
+DEx4 work 12 decode_stage 0 22 KJI[_D[?j8JSTa>kgI7dY3
+l113
+L26
+V2mZBdCaVk`:aYAe]YT?fK1
+!s100 22mEWA>_O<J;Nz?<a_c^_1
+R6
+32
+R32
+!i10b 1
+R33
+R34
+R35
+!i113 1
+R11
+R12
+Edecoder_3_8
+Z36 w1577241336
+R1
+R2
+R3
+Z37 8D:\3rd Year\2nd sem\architecture 2\Project\decoder3x8.vhd
+Z38 FD:\3rd Year\2nd sem\architecture 2\Project\decoder3x8.vhd
+l0
+L4
+V2L98MNDlH;Kz:h@gCc]JB0
+!s100 TOHLM;zX;XJRKVZZ0Q1No1
+R6
+32
+Z39 !s110 1588605963
+!i10b 1
+Z40 !s108 1588605963.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\decoder3x8.vhd|
+Z42 !s107 D:\3rd Year\2nd sem\architecture 2\Project\decoder3x8.vhd|
+!i113 1
+R11
+R12
+Amy_decoder_3_8
+R1
+R2
+DEx4 work 11 decoder_3_8 0 22 2L98MNDlH;Kz:h@gCc]JB0
+l15
+L13
+V9]Gmg6Fo1U[2LGhm>?CK32
+!s100 0MCS?H3^o??9aR]0J4BM[0
+R6
+32
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R11
+R12
+Edoc
+Z43 w1588792776
+R1
+R2
+R3
+Z44 8D:\3rd Year\2nd sem\architecture 2\Project\DOC.vhd
+Z45 FD:\3rd Year\2nd sem\architecture 2\Project\DOC.vhd
+l0
+L4
+VHVIf=5S=d9XFDcWnLCfc13
+!s100 UKc[Be8;=3z8z@MgL1I@S2
+R6
+32
+Z46 !s110 1588792783
+!i10b 1
+Z47 !s108 1588792783.000000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\DOC.vhd|
+Z49 !s107 D:\3rd Year\2nd sem\architecture 2\Project\DOC.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+Z50 DEx4 work 3 doc 0 22 HVIf=5S=d9XFDcWnLCfc13
+l24
+L23
+V=ec6cc9mYSU@8TB1G0fi:2
+!s100 IgT;LdYZ1USE7HC<6Wa212
+R6
+32
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R11
+R12
+Emux_2x1
+Z51 w1588703656
+R1
+R2
+R3
+Z52 8D:\3rd Year\2nd sem\architecture 2\Project\mux2x1.vhd
+Z53 FD:\3rd Year\2nd sem\architecture 2\Project\mux2x1.vhd
+l0
+L4
+Vg?OEKQQiG4M14^cl2BVHB1
+!s100 26E96EgZY;]Y;V[zk8MW^1
+R6
+32
+Z54 !s110 1588703664
+!i10b 1
+Z55 !s108 1588703664.000000
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\mux2x1.vhd|
+Z57 !s107 D:\3rd Year\2nd sem\architecture 2\Project\mux2x1.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 7 mux_2x1 0 22 g?OEKQQiG4M14^cl2BVHB1
+l12
+L11
+VDz0cbRkXLgAOOZoN]PKGc1
+!s100 ]@R87b7M`KYKzo61]:J=]1
+R6
+32
+R54
+!i10b 1
+R55
+R56
+R57
+!i113 1
+R11
+R12
+Emux_4x1
+Z58 w1588638996
+R1
+R2
+R3
+Z59 8D:\3rd Year\2nd sem\architecture 2\Project\mux4x1.vhd
+Z60 FD:\3rd Year\2nd sem\architecture 2\Project\mux4x1.vhd
+l0
+L4
+V?VADOTTzc9PJ_XZ0URWRE0
+!s100 ]1XAf9La2>3^6Xhbz1J:_0
+R6
+32
+Z61 !s110 1588639000
+!i10b 1
+Z62 !s108 1588639000.000000
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\mux4x1.vhd|
+Z64 !s107 D:\3rd Year\2nd sem\architecture 2\Project\mux4x1.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 7 mux_4x1 0 22 ?VADOTTzc9PJ_XZ0URWRE0
+l13
+L12
+V`LVA3lcdD4gZCX<<fULeB1
+!s100 fcBo_RDXXQA013XjVTNOP2
+R6
+32
+R61
+!i10b 1
+R62
+R63
+R64
+!i113 1
+R11
+R12
+Emy_ndff
+Z65 w1577237059
+R1
+R2
+R3
+Z66 8D:\3rd Year\2nd sem\architecture 2\Project\Reg.vhd
+Z67 FD:\3rd Year\2nd sem\architecture 2\Project\Reg.vhd
+l0
+L5
+VZhi1LFUG_i`:oQ2zmIJ@90
+!s100 9J[=hBUQoUKB<l8c3M_Gb2
+R6
+32
+Z68 !s110 1588591416
+!i10b 1
+Z69 !s108 1588591416.000000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\Reg.vhd|
+Z71 !s107 D:\3rd Year\2nd sem\architecture 2\Project\Reg.vhd|
+!i113 1
+R11
+R12
+Aa_my_ndff
+R1
+R2
+DEx4 work 7 my_ndff 0 22 Zhi1LFUG_i`:oQ2zmIJ@90
+l17
+L15
+VnbYTEimQ3RMH3TUlL[TBL2
+!s100 Dd`Ye@7OjKWES`Q:Ek1DY3
+R6
+32
+R68
+!i10b 1
+R69
+R70
+R71
+!i113 1
+R11
+R12
+Emyrev_ndff
+Z72 w1588626269
+R1
+R2
+R3
+Z73 8D:\3rd Year\2nd sem\architecture 2\Project\regrev.vhd
+Z74 FD:\3rd Year\2nd sem\architecture 2\Project\regrev.vhd
+l0
+L5
+Vg8bUdLdmfOC]K8ia^aMgS0
+!s100 GP4dhDZbCcW?9PkG4MLL>1
+R6
+32
+Z75 !s110 1588626273
+!i10b 1
+Z76 !s108 1588626272.000000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\regrev.vhd|
+Z78 !s107 D:\3rd Year\2nd sem\architecture 2\Project\regrev.vhd|
+!i113 1
+R11
+R12
+Aa_my_ndff
+R1
+R2
+DEx4 work 10 myrev_ndff 0 22 g8bUdLdmfOC]K8ia^aMgS0
+l17
+L15
+VGXI<S<g9ITCVJcFW><<@c0
+!s100 @Li]0=?c<8ZkHDoAHHh^Q1
+R6
+32
+R75
+!i10b 1
+R76
+R77
+R78
+!i113 1
+R11
+R12
+Eregisterfile
+Z79 w1588687554
+R1
+R2
+R3
+Z80 8D:\3rd Year\2nd sem\architecture 2\Project\RegisterFile.vhd
+Z81 FD:\3rd Year\2nd sem\architecture 2\Project\RegisterFile.vhd
+l0
+L4
+V<4A;6_UK8^bjEdC2fAEoY2
+!s100 ZDFSR74Ize<Y^J77^W8KR0
+R6
+32
+Z82 !s110 1588687558
+!i10b 1
+Z83 !s108 1588687558.000000
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\RegisterFile.vhd|
+Z85 !s107 D:\3rd Year\2nd sem\architecture 2\Project\RegisterFile.vhd|
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+DEx4 work 12 registerfile 0 22 <4A;6_UK8^bjEdC2fAEoY2
+l65
+L28
+V?19Z>jL5k6;Q8FH3R^@W11
+!s100 `0LF5`SgkKml[9C2R=eRR3
+R6
+32
+R82
+!i10b 1
+R83
+R84
+R85
+!i113 1
+R11
+R12
+Eregisters
+Z86 w1577274721
+R1
+R2
+R3
+Z87 8D:\3rd Year\2nd sem\architecture 2\Project\REGISTERS.vhd
+Z88 FD:\3rd Year\2nd sem\architecture 2\Project\REGISTERS.vhd
+l0
+L4
+V^ifMCbmSikU39B_YQCbzG1
+!s100 ?6UE1MLSKi1U`:`^i<SV90
+R6
+32
+Z89 !s110 1588606147
+!i10b 1
+Z90 !s108 1588606146.000000
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\REGISTERS.vhd|
+Z92 !s107 D:\3rd Year\2nd sem\architecture 2\Project\REGISTERS.vhd|
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+DEx4 work 9 registers 0 22 ^ifMCbmSikU39B_YQCbzG1
+l46
+L18
+Vl0JiDSJ;5NJceASheY6Sb1
+!s100 bNB_KUEQdm4RQQP0K=U4A1
+R6
+32
+R89
+!i10b 1
+R90
+R91
+R92
+!i113 1
+R11
+R12
+Eregtri
+Z93 w1588608842
+R1
+R2
+R3
+Z94 8D:\3rd Year\2nd sem\architecture 2\Project\regTristate.vhd
+Z95 FD:\3rd Year\2nd sem\architecture 2\Project\regTristate.vhd
+l0
+L4
+V]cS5bLo0_3@KKE:FUmdVM3
+!s100 l10<I;hU_o3?MF3kKU6TF1
+R6
+32
+Z96 !s110 1588608847
+!i10b 1
+Z97 !s108 1588608847.000000
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\regTristate.vhd|
+Z99 !s107 D:\3rd Year\2nd sem\architecture 2\Project\regTristate.vhd|
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+DEx4 work 6 regtri 0 22 ]cS5bLo0_3@KKE:FUmdVM3
+l33
+L17
+V_cdaY]7b[oN0J32I8iG<[2
+!s100 j=WfS1OgABhLR9zHE<lRM2
+R6
+32
+R96
+!i10b 1
+R97
+R98
+R99
+!i113 1
+R11
+R12

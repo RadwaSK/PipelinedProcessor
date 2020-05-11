@@ -1,0 +1,89 @@
+{D:/3rd Year/2nd sem/architecture 2/Project/decoder3x8.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\3rd Year\2nd sem\architecture 2\Project\decoder3x8.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder_3_8
+-- Compiling architecture my_decoder_3_8 of decoder_3_8
+
+} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/Reg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\3rd Year\2nd sem\architecture 2\Project\Reg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nDFF
+-- Compiling architecture a_my_nDFF of my_nDFF
+
+} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/decodeStage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\3rd Year\2nd sem\architecture 2\Project\decodeStage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Decode_stage
+-- Compiling architecture use_DOC of Decode_stage
+
+} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/tristate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/3rd Year/2nd sem/architecture 2/Project/tristate.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity buff
+-- Compiling architecture Mybuf of buff
+
+} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/regrev.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\3rd Year\2nd sem\architecture 2\Project\regrev.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity myrev_nDFF
+-- Compiling architecture a_my_nDFF of myrev_nDFF
+
+} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/mux2x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\3rd Year\2nd sem\architecture 2\Project\mux2x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2x1
+-- Compiling architecture Behavioral of mux_2x1
+
+} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/RegisterFile.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\3rd Year\2nd sem\architecture 2\Project\RegisterFile.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity registerFile
+-- Compiling architecture struct of registerFile
+
+} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/DOC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\3rd Year\2nd sem\architecture 2\Project\DOC.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DOC
+-- Compiling architecture Behavioral of DOC
+
+} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/AddressExtend.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/3rd Year/2nd sem/architecture 2/Project/AddressExtend.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Address_Extend
+-- Compiling architecture Behavioral of Address_Extend
+
+} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/regTristate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\3rd Year\2nd sem\architecture 2\Project\regTristate.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regtri
+-- Compiling architecture struct of regtri
+
+} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/mux4x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\3rd Year\2nd sem\architecture 2\Project\mux4x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_4x1
+-- Compiling architecture Behavioral of mux_4x1
+
+} {} {}}
