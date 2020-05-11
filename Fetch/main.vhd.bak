@@ -6,7 +6,6 @@ ENTITY CPU_main IS
 PORT( Clk,Rst : IN std_logic;
 
       INport: in STD_LOGIC_VECTOR(31 downto 0);
-	MemOutput:in   STD_LOGIC_VECTOR(31 downto 0);--??
 	OpCodeOpflag: out STD_LOGIC_VECTOR(6 downto 0);
 	Rsrc1Final : out STD_LOGIC_VECTOR(31 downto 0);
 	Rsrc2Final : out STD_LOGIC_VECTOR(31 downto 0);
@@ -84,6 +83,6 @@ begin
 Memory : ram port map (Clk , '1' , PCout , RamOut , PCINT , PCRest);
 Fetch : FetMpd port map (Clk , Stall , IRregin , RamOut , RegDest , MemPC , PCRest , PCINT , IR , JZStates , PC , PCout ,Regdecoder );
 Hazard_Detection : HDU port map (RdstALU, RdstDec , RamOut , IRregin , Asel, Bsel , OpFlagBeforeALU, Stall);
-Decode :Decode_stage port map (IR , PC , INPort , stall ,Clk , Rst ,MemOutput ,OpCodeOpflag,Rsrc1Final,Rsrc2Final,PCreg2,Rdstreg,EAReg,IRregin);
+Decode :Decode_stage port map (IR , PC , INPort , stall ,Clk , Rst ,RamOut ,OpCodeOpflag,Rsrc1Final,Rsrc2Final,PCreg2,Rdstreg,EAReg,IRregin);
 
 end a_CPU_main ;
