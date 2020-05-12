@@ -10,11 +10,12 @@ port(
 	stall : in STD_LOGIC;
 	Clk,Rst: IN std_logic;
 	MemOutput:in   STD_LOGIC_VECTOR(31 downto 0);--??
-	
+	RFetch:   in   STD_LOGIC_VECTOR(2 downto 0);
 
 	OpCodeOpflag: out STD_LOGIC_VECTOR(6 downto 0);
 	Rsrc1Final : out STD_LOGIC_VECTOR(31 downto 0);
 	Rsrc2Final : out STD_LOGIC_VECTOR(31 downto 0);
+	f1 : out  STD_LOGIC_VECTOR(31 downto 0);
 	PCreg2: out STD_LOGIC_VECTOR(31 downto 0);
 	Rdstreg: out STD_LOGIC_VECTOR (2 downto 0);--enable ?
 	EAReg:  out STD_LOGIC_VECTOR(31 downto 0);
@@ -82,6 +83,7 @@ component registerFile IS
     PORT (
 	Rsrc1:    in   STD_LOGIC_VECTOR(2 downto 0);
 	Rsrc2:    in   STD_LOGIC_VECTOR(2 downto 0);
+	RFetch:   in   STD_LOGIC_VECTOR(2 downto 0);
 	Rdst:     in   STD_LOGIC_VECTOR(2 downto 0);
 	MemOutput:in   STD_LOGIC_VECTOR(31 downto 0);
 
@@ -93,10 +95,12 @@ component registerFile IS
 	--------------------------------------------
 	Rsrc1vFetch: out  STD_LOGIC_VECTOR(31 downto 0);
 	Rsrc2vFetch: out  STD_LOGIC_VECTOR(31 downto 0);
-	
+	-------------------------------------------
+	f1 : out  STD_LOGIC_VECTOR(31 downto 0);
 
 	clk :     in   std_logic;
 	rst :     in   std_logic
+
 
 	    );
 end component;
@@ -116,7 +120,7 @@ BEGIN
 xDOC: DOC port map(IR,stall,IRreginwire,Rsrc1w,Rsrc2w,Rdstw,Rsrc1Selw,Rsrc2Selw,Opcodew,Opflagw,extendw,IRflagwire);
 IregoutFetch <= IRreginwire;
 IRFlagRegister: my_nDFF generic map (N => 2) port map(clk,rst,'1',IRflagwire,IRreginwire);
-xregisterfile: registerFile port map(Rsrc1w,Rsrc2w,Rdstw,MemOutput,Rsrc1vw,Rsrc2vw,Rsrc1vFetchw,Rsrc2vFetchw,clk,rst);
+xregisterfile: registerFile port map(Rsrc1w,Rsrc2w,Rfetch,Rdstw,MemOutput,Rsrc1vw,Rsrc2vw,Rsrc1vFetchw,Rsrc2vFetchw,f1,clk,rst);
 
 -------------------------
 --for fetch

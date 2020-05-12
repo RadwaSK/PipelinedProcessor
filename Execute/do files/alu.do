@@ -1,6 +1,5 @@
 vsim -gui work.alu
 add wave -position end sim:/alu/*
-force -freeze sim:/alu/clock 1 0, 0 {50 ps} -r 100
 force -freeze sim:/alu/A 00000000000000000000000000000000 0
 force -freeze sim:/alu/B 00000000000000000000000000000001 0
 
