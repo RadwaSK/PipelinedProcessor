@@ -82,11 +82,11 @@ begin
     ALUOut_reg: M_S generic  map (32) port map (clock, resetSig, '1', ALUOutputSig, ALUOutput);
 
     -- signals to registers of E/M --
-    PC3Sig <= PC2 when clock = '1';
-    EAALUSig <= EADecode when clock = '1';
-    RdstALUSig <= RdstDec when clock = '1';
-    OpFlagOutSig <= OpFlagIn when clock = '1';
-    OpCodeOutSig <= OpCodeIn when clock = '1';
+    PC3Sig <= PC2 ;
+    EAALUSig <= EADecode ;
+    RdstALUSig <= RdstDec ;
+    OpFlagOutSig <= OpFlagIn ;
+    OpCodeOutSig <= OpCodeIn ;
     -- output --
     FlagRegOut <= tempFR when clock = '1';
     
