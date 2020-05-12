@@ -102,6 +102,29 @@ PORT( Clk , stall : IN std_logic;
   Regdecoder : OUT std_logic_vector(2 DOWNTO 0)) ; -- to get red Dest at call and jmp 
 end COMPONENT ; 
 
+component memory_main IS
+PORT (clk : IN std_logic;
+    opcode : IN std_logic_vector(5 downto 0);
+    flags_in: IN std_logic_vector(3 downto 0);
+    rdstALU :   IN std_logic_vector (2 downto 0);
+    opflag: IN std_logic;
+    aluout: IN std_logic_vector (31 downto 0);
+    ea: IN std_logic_vector(19 downto 0);
+    pc: In std_logic_vector(31 downto 0);
+    dataout : IN std_logic_vector(31 DOWNTO 0);
+    addr : OUT std_logic_vector (31 DOWNTO 0);
+    w : OUT std_logic;
+    ram_en : OUT std_logic;
+    datain : OUT std_logic_vector (31 DOWNTO 0);
+    memout: OUT std_logic_vector(31 DOWNTO 0);
+    flags_output: OUT std_logic_vector(3 downto 0);
+    opCodeFlagOut   :   out std_logic_vector (6 downto 0);
+    RdstMem :   OUT std_logic_vector (2 downto 0);
+    memBefOut   :   OUT std_logic_vector (31 downto 0);
+    updateFR    : OUT std_logic;
+);
+end component;
+
 signal RegDest , MemPC , PCINT , PCRest , PCout , PC: std_logic_vector(31 DOWNTO 0);
 signal RamOut , IR: std_logic_vector(15 DOWNTO 0);
 signal RdstALU, RdstDec , Regdecoder: std_logic_vector(2 DOWNTO 0);
@@ -120,6 +143,22 @@ signal	PCreg2:  STD_LOGIC_VECTOR(31 downto 0);
 signal	Rdstreg:  STD_LOGIC_VECTOR (2 downto 0);--enable ?
 signal	EAReg:   STD_LOGIC_VECTOR(31 downto 0);
 signal	IregoutFetch:  STD_LOGIC_VECTOR (1 downto 0);
+
+--signals out from memory
+addr : std_logic_vector (31 DOWNTO 0);
+w :  std_logic;
+ram_en :  std_logic;
+datain :  std_logic_vector (31 DOWNTO 0);
+memout:  std_logic_vector(31 DOWNTO 0);
+flags_output:  std_logic_vector(3 downto 0);
+opCodeFlagOut   :    std_logic_vector (6 downto 0);
+RdstMem :   std_logic_vector (2 downto 0);
+memBefOut   :    std_logic_vector (31 downto 0);
+updateFR    : std_logic;
+
+-- signal from FR
+flagRegisterInput : std_logic_vector (3 downto 0);
+
 begin 
 
 Memory : ram port map (Clk , '1' , PCout , RamOut , PCINT , PCRest);
@@ -128,6 +167,12 @@ Hazard_Detection : HDU port map (RdstALU, RdstDec , RamOut , IRregin , Asel, Bse
 Decode :Decode_stage port map (IR , PC ,INPort , stall ,Clk , Rst ,MemOutput ,Regdecoder  ,OpCodeOpflag,Rsrc1Final,Rsrc2Final,RegDest,PCreg2,Rdstreg,EAReg,IRregin);
 ALUoutputlast <= ALUOutput;
 
-FlagRegister: my_nDff generic map (4) port map (clk,rst ,'1',FlagRegOut,FlagRegIn);
+-- How do I make the input from both memory and execute?
+FlagRegister: my_nDff generic map (4) port map (clk,rst ,'1',flagRegisterInput,FlagRegIn);
+flagRegisterInput <= flags_output when updateFR = '1' else --from memory
+                     FlagRegOut; --from execute
 Execute0: Execute port map(clk,OpCodeOpflag(0),OpCodeOpflag(6 downto 1),Rsrc1Final,Rsrc2Final,Asel,Bsel,ALUoutputlast,MemOutput,PCreg2,EAReg,Rdstreg,FlagRegIn,FlagRegOut,PC3,EAALU,RdstALU,OpFlagOut,OpCodeOut,ALUOutput);
+
+memory_mainComp : memory_main port map (clk, OpCodeOut, OpFlagOut, FlagRegIn, ALUOutput, EAALU, PC3, dataout!, addr!, w!, ram_en!, datain!, memout, flags_output, opCodeFlagOut, RdstDec, memBefOut, updateFR);
+
 end a_CPU_main ;

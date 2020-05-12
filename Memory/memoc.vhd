@@ -5,7 +5,7 @@ USE IEEE.numeric_std.all;
 
 ENTITY moc IS
 
-PORT ( enable: IN std_logic;
+PORT (
 opcode : IN std_logic_vector(5 downto 0);
 opflag: IN std_logic;
 addrsel : OUT std_logic_vector(1 DOWNTO 0);
@@ -24,8 +24,8 @@ END moc;
 architecture mymoc of moc is
     signal step: std_logic;
     begin
-    process (opcode, enable) is begin
-            if(enable = '1' and opflag = '0') then
+    process (opcode) is begin
+            if(opflag = '0') then
                 if opcode = "010000" then -- PUSH 
                     addrsel <= "10";
                     outsel <= '0';
@@ -144,11 +144,16 @@ architecture mymoc of moc is
                         step <= '0';
                     end if;
                 end if;
-                else
+                else 
                     ram_en <= '0';
                     outsel <= '0';    
                     sp_update <= '0';   
                     idsel <= "00";  
+            else
+                    ram_en <= '0';
+                    outsel <= '0';    
+                    sp_update <= '0';   
+                    idsel <= "00"; 
             end if;
         end process;
 end mymoc;
