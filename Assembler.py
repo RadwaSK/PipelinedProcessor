@@ -85,7 +85,8 @@ for i in range(len(lines)):
         assembly.insert(3, add[0:16])
         assembly.insert(2, add[16:])
     elif words[0] == ".ORG" and not words[1] == "2" and not words[1] == "0":
-        for j in range(4 , int (words[1],16)):
+        l =len(assembly)
+        for j in range( l , int (words[1],16)):
             assembly.append("0000000000000000")
 
     elif words[0] in OneOP.keys():

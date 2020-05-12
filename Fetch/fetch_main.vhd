@@ -39,7 +39,7 @@ signal PCin , mux1out , mux2out: std_logic_vector(31 DOWNTO 0);
 signal selt1 , selt2 : std_logic_vector(2 DOWNTO 0);
 signal temp : std_logic_vector(1 DOWNTO 0) := "00";
 signal  FSM : integer := 0;
-
+signal  FSM_INT : integer := 0;
 BEGIN
 IRReg : Reg port map (Clk , Rst , '1' ,outRam , IR );
 PCReg : Reg generic map (32) port map (Clk , Rst , '1' ,PCin , PCout );
@@ -59,10 +59,11 @@ begin
     end if;
 
 
-  if (stall= '1' or 
+  if (stall= '1' or FSM_INT = 1 or 
    (FSM < 4 and (outRam = "0110110000000000"  or outRam = "0111000000000000" ))  ) then 
     selt1 <= "000" ;
     selt2 <= "010" ;
+    FSM_INT <= 0 ; 
   --Reset
   elsif  (outRam = "1000100000000000"  and IRFlag = "00" ) then
     selt1 <= "000" ;
@@ -71,7 +72,7 @@ begin
   elsif  (outRam = "1001100000000000"  and IRFlag = "00" ) then
     selt1 <= "000" ;
     selt2 <= "001" ;
-
+    FSM_INT<= 1;
     -- RTI and RETs
     elsif  ((outRam = "0110110000000000"  or outRam = "0111000000000000" ) and IRFlag = "00" and FSM = 4) then
       selt1 <= "000" ;
