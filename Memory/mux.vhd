@@ -3,7 +3,7 @@ USE IEEE.std_logic_1164.all;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 ENTITY MUX IS
 PORT( val1 ,  val2 ,  val3 ,  val4 : IN std_logic_vector(31 DOWNTO 0);
-    Sel : IN std_logic_vector(1 DOWNTO 0);
+    Sel : IN std_logic_vector(2 DOWNTO 0);
     Output : OUT std_logic_vector(31 DOWNTO 0));
 
 END ENTITY MUX;

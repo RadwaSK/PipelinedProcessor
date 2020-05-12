@@ -15,7 +15,7 @@ ARCHITECTURE myspinc OF spinc IS
 BEGIN
   
 spnew <= sp when (Sel="00")
-else sp-1 when (Sel="01")
-else sp+1 when (Sel="10");
+else sp-2 when (Sel="01")
+else sp+2 when (Sel="10");
 
 END myspinc;
