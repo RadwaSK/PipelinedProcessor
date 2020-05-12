@@ -6,8 +6,7 @@ entity EOC is
     port (OpCode            :       in std_logic_vector (5 downto 0);
           OpFlag            :       in std_logic;
           NOP, NopA, NopB, NotA, IncA, DecA, AswapB, AaddB, AsubB, AandB, AorB, AshlB, AshrB : out std_logic;
-          Aen, Ben, reset   :       out std_logic;
-          clock             :       in std_logic);
+          Aen, Ben, reset   :       out std_logic);
 end entity EOC;
 
 architecture EOC_Arch of EOC is
@@ -81,21 +80,21 @@ begin
         end if;
     end process;
 
-    NOP <= options(0) when clock = '1';
-    NopA <= options(1) when clock = '1';
-    NopB <= options(2) when clock = '1';
-    NotA <= options(3) when clock = '1';
-    IncA <= options(4) when clock = '1';
-    DecA <= options(5) when clock = '1';
-    AswapB <= options(6) when clock = '1';
-    AaddB <= options(7) when clock = '1';
-    AsubB <= options(8) when clock = '1';
-    AandB <= options(9) when clock = '1';
-    AorB <= options(10) when clock = '1';
-    AshlB <= options(11) when clock = '1';
-    AshrB <= options(12) when clock = '1';
+    NOP <= options(0);
+    NopA <= options(1);
+    NopB <= options(2);
+    NotA <= options(3);
+    IncA <= options(4);
+    DecA <= options(5);
+    AswapB <= options(6);
+    AaddB <= options(7);
+    AsubB <= options(8);
+    AandB <= options(9);
+    AorB <= options(10);
+    AshlB <= options(11);
+    AshrB <= options(12);
     
-    Aen <= AenSig when clock = '1';
-    Ben <= BenSig when clock = '1';
+    Aen <= AenSig;
+    Ben <= BenSig;
 
 end EOC_Arch;

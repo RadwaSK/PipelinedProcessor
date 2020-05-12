@@ -3,7 +3,7 @@
 .ORG 0
 10
 .ORG 2
-1A
+10
 
 #this program has no logical function 
 .ORG 10
