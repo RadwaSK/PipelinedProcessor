@@ -24,6 +24,13 @@ architecture Behavioral of DOC is
 begin
 process( IR , stall, IRregin)
 	begin
+
+--registers in rst signal equal zero 
+if(IR= "1000100000000000") then
+IRflag <= "00";
+end if;
+
+
  -- EA or immediate 
 if (IRregin = "00" or IRregin="UU") then
 --one operand
@@ -141,8 +148,8 @@ elsif ( IR(15 downto 13) = "011" ) then
 	Rsrc1Sel <="00";
 	end if;
 	--input and output
-elsif ( IR(15 downto 13) = "100" ) then
-	Opcode <= IR(15 downto 12) & "10";
+elsif ( IR(15 downto 10) = "100110" ) then
+	Opcode <= IR(15 downto 10);
 	opflag <= '0'; --note this
 	IRflag <= "00";	
 	end if;

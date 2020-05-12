@@ -17,6 +17,8 @@ signal Rsrc2 : std_logic_vector(2 downto 0);
 
 begin
     -- get sources 
+	Asel <= "00";
+	Bsel <="00";
     process ( RamInp, RdstALU, RdstDec , IRregin)
     variable n : integer := 0;
     begin

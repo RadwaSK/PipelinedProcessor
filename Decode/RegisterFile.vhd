@@ -5,6 +5,7 @@ ENTITY registerFile IS
     PORT (
 	Rsrc1:    in   STD_LOGIC_VECTOR(2 downto 0);
 	Rsrc2:    in   STD_LOGIC_VECTOR(2 downto 0);
+	RFetch:   in   STD_LOGIC_VECTOR(2 downto 0);
 	Rdst:     in   STD_LOGIC_VECTOR(2 downto 0);
 	MemOutput:in   STD_LOGIC_VECTOR(31 downto 0);
 
@@ -16,7 +17,8 @@ ENTITY registerFile IS
 	--------------------------------------------
 	Rsrc1vFetch: out  STD_LOGIC_VECTOR(31 downto 0);
 	Rsrc2vFetch: out  STD_LOGIC_VECTOR(31 downto 0);
-	
+	-------------------------------------------
+	f1 : out  STD_LOGIC_VECTOR(31 downto 0);
 
 	clk :     in   std_logic;
 	rst :     in   std_logic
@@ -49,13 +51,13 @@ COMPONENT regtri IS
 
 END COMPONENT regtri;
 
-COMPONENT myrev_nDFF IS
+COMPONENT my_nDFF IS
 GENERIC ( n : integer := 16);
 PORT( Clk,Rst,enable : IN std_logic;
  d : IN std_logic_vector(n-1 DOWNTO 0);
   q : OUT std_logic_vector(n-1 DOWNTO 0));
 
-END COMPONENT myrev_nDFF;
+END COMPONENT my_nDFF;
 
 signal decsrc1out ,decsrc2out , decrdstout: std_logic_vector(7 downto 0);
 signal enwR0,enwR1 , enwR2 , enwR3 ,enwR4 ,enwR5,enwR6,enwR7: std_logic;
@@ -117,8 +119,18 @@ d1 <=   outR0 when Rsrc1="000" else
 	outR5 when Rsrc1="101" else
 	outR6 when Rsrc1="110" else
 	outR7 when Rsrc1="111";
-src1: myrev_nDFF generic map (N => 32) port map(Clk,Rst,'1',d1,Rsrc1v);
-src1Fetch: myrev_nDFF generic map (N => 32) port map(Clk,Rst,'1',d1,Rsrc1vfetch);
+
+f1 <=   outR0 when RFetch="000" else
+        outR1 when RFetch="001" else
+        outR2 when RFetch="010" else
+        outR3 when RFetch="011" else
+	outR4 when RFetch="100" else
+	outR5 when RFetch="101" else
+	outR6 when RFetch="110" else
+	outR7 when RFetch="111";
+
+src1: my_nDFF generic map (N => 32) port map(Clk,Rst,'1',d1,Rsrc1v);
+src1Fetch: my_nDFF generic map (N => 32) port map(Clk,Rst,'1',d1,Rsrc1vfetch);
 --Rsrc2
 d2 <=   outR0 when Rsrc2="000" else
 	outR1 when Rsrc2="001" else
@@ -128,7 +140,7 @@ d2 <=   outR0 when Rsrc2="000" else
 	outR5 when Rsrc2="101" else
 	outR6 when Rsrc2="110" else
 	outR7 when Rsrc2="111";
-src2: myrev_nDFF generic map (N => 32) port map(Clk,Rst,'1',d2,Rsrc2v);
-src2fetch: myrev_nDFF generic map (N => 32) port map(Clk,Rst,'1',d2,Rsrc2vfetch);
+src2: my_nDFF generic map (N => 32) port map(Clk,Rst,'1',d2,Rsrc2v);
+src2fetch: my_nDFF generic map (N => 32) port map(Clk,Rst,'1',d2,Rsrc2vfetch);
 
 END struct;
