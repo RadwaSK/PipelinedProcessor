@@ -1,14 +1,14 @@
 LIBRARY IEEE;
 USE IEEE.std_logic_1164.all;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
-ENTITY MUX IS
+ENTITY MUX_M IS
 PORT( val1 ,  val2 ,  val3 ,  val4 : IN std_logic_vector(31 DOWNTO 0);
-    Sel : IN std_logic_vector(2 DOWNTO 0);
+    Sel : IN std_logic_vector(1 DOWNTO 0);
     Output : OUT std_logic_vector(31 DOWNTO 0));
 
-END ENTITY MUX;
+END ENTITY MUX_M;
 
-ARCHITECTURE my_MUX OF MUX IS
+ARCHITECTURE my_MUX OF MUX_M IS
 
 BEGIN
   

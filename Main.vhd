@@ -62,13 +62,18 @@ END component;
 
 COMPONENT ram IS
 PORT (clk : IN std_logic;
---we : IN std_logic;
+
 re : IN std_logic;
 addr : IN std_logic_vector (31 DOWNTO 0); 
---datain : IN std_logic_vector(15 DOWNTO 0);
 dataout : OUT std_logic_vector(15 DOWNTO 0); 
 PCRest : OUT std_logic_vector(31 DOWNTO 0); 
-PCINT : OUT std_logic_vector(31 DOWNTO 0)); 
+PCINT : OUT std_logic_vector(31 DOWNTO 0); 
+
+
+dataout_Stack: OUT std_logic_vector(31 DOWNTO 0); 
+addrSTC  , datain : in std_logic_vector(31 DOWNTO 0); 
+we , ram_en: IN std_logic );
+
 end COMPONENT ; 
 
 COMPONENT HDU IS
@@ -109,7 +114,7 @@ PORT (clk : IN std_logic;
     rdstALU :   IN std_logic_vector (2 downto 0);
     opflag: IN std_logic;
     aluout: IN std_logic_vector (31 downto 0);
-    ea: IN std_logic_vector(19 downto 0);
+    ea: IN std_logic_vector(31 downto 0);
     pc: In std_logic_vector(31 downto 0);
     dataout : IN std_logic_vector(31 DOWNTO 0);
     addr : OUT std_logic_vector (31 DOWNTO 0);
@@ -121,7 +126,7 @@ PORT (clk : IN std_logic;
     opCodeFlagOut   :   out std_logic_vector (6 downto 0);
     RdstMem :   OUT std_logic_vector (2 downto 0);
     memBefOut   :   OUT std_logic_vector (31 downto 0);
-    updateFR    : OUT std_logic;
+    updateFR    : OUT std_logic
 );
 end component;
 
@@ -145,23 +150,19 @@ signal	EAReg:   STD_LOGIC_VECTOR(31 downto 0);
 signal	IregoutFetch:  STD_LOGIC_VECTOR (1 downto 0);
 
 --signals out from memory
-addr : std_logic_vector (31 DOWNTO 0);
-w :  std_logic;
-ram_en :  std_logic;
-datain :  std_logic_vector (31 DOWNTO 0);
-memout:  std_logic_vector(31 DOWNTO 0);
-flags_output:  std_logic_vector(3 downto 0);
-opCodeFlagOut   :    std_logic_vector (6 downto 0);
-RdstMem :   std_logic_vector (2 downto 0);
-memBefOut   :    std_logic_vector (31 downto 0);
-updateFR    : std_logic;
+signal addr , datain , memout , memBefOut , dataout : std_logic_vector (31 DOWNTO 0);
+signal w  , ram_en , updateFR:  std_logic;
+signal lags_output:  std_logic_vector(3 downto 0);
+signal opCodeFlagOut   :    std_logic_vector (6 downto 0);
+signal RdstMem :   std_logic_vector (2 downto 0);
+
 
 -- signal from FR
-flagRegisterInput : std_logic_vector (3 downto 0);
+signal flagRegisterInput , flags_output : std_logic_vector (3 downto 0);
 
 begin 
 
-Memory : ram port map (Clk , '1' , PCout , RamOut , PCINT , PCRest);
+Memory : ram port map (Clk , '1' , PCout , RamOut , PCINT , PCRest , dataout, addr, datain , w, ram_en);
 Fetch : FetMpd port map (Clk , Stall , IRregin , RamOut , RegDest , MemPC , PCRest , PCINT , IR , JZStates , PC , PCout ,Regdecoder );
 Hazard_Detection : HDU port map (RdstALU, RdstDec , RamOut , IRregin , Asel, Bsel , OpFlagBeforeALU, Stall);
 Decode :Decode_stage port map (IR , PC ,INPort , stall ,Clk , Rst ,MemOutput ,Regdecoder  ,OpCodeOpflag,Rsrc1Final,Rsrc2Final,RegDest,PCreg2,Rdstreg,EAReg,IRregin);
@@ -173,6 +174,7 @@ flagRegisterInput <= flags_output when updateFR = '1' else --from memory
                      FlagRegOut; --from execute
 Execute0: Execute port map(clk,OpCodeOpflag(0),OpCodeOpflag(6 downto 1),Rsrc1Final,Rsrc2Final,Asel,Bsel,ALUoutputlast,MemOutput,PCreg2,EAReg,Rdstreg,FlagRegIn,FlagRegOut,PC3,EAALU,RdstALU,OpFlagOut,OpCodeOut,ALUOutput);
 
-memory_mainComp : memory_main port map (clk, OpCodeOut, OpFlagOut, FlagRegIn, ALUOutput, EAALU, PC3, dataout!, addr!, w!, ram_en!, datain!, memout, flags_output, opCodeFlagOut, RdstDec, memBefOut, updateFR);
+memory_mainComp : memory_main port map (clk, OpCodeOut, FlagRegIn , RdstALU,OpFlagOut , ALUOutput, EAALU, PC3, dataout, addr, w, ram_en, datain, memout, flags_output, opCodeFlagOut, RdstDec, memBefOut, updateFR);
 
 end a_CPU_main ;
+

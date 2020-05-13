@@ -4,15 +4,15 @@ USE IEEE.std_logic_1164.all;
 USE IEEE.numeric_std.all;
 
 
-ENTITY Reg IS
+ENTITY Reg_SP IS
 
 PORT( Clk,Rst,enable : IN std_logic;
  d : IN std_logic_vector(31 DOWNTO 0);
  q : OUT std_logic_vector(31 DOWNTO 0));
 
-END Reg;
+END Reg_SP;
 
-ARCHITECTURE a_Reg OF Reg IS
+ARCHITECTURE a_Reg OF Reg_SP IS
 
 BEGIN
 

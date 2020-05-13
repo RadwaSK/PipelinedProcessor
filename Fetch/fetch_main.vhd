@@ -46,7 +46,7 @@ PCReg : Reg generic map (32) port map (Clk , Rst , '1' ,PCin , PCout );
 M1 : MUX port map( "00000000000000000000000000000000" , "00000000000000000000000000000000" , "00000000000000000000000000000001" , "00000000000000000000000000000001" , "00000000000000000000000000000001"  , selt1,mux1out);
 M2 : MUX port map (PCRest , PCINT , PCout , RegDest , MemPC ,selt2 , mux2out );
 PCin <= mux2out + mux1out ; 
-PC <= PCout; 
+PC <= PCin; 
 JZStates <= temp;
 
 --FOC Logic 
