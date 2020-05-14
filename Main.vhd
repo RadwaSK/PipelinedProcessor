@@ -43,7 +43,10 @@ port(
 	INport: in STD_LOGIC_VECTOR(31 downto 0);
 	stall : in STD_LOGIC;
 	Clk,Rst: IN std_logic;
-	MemOutput:in   STD_LOGIC_VECTOR(31 downto 0);--??
+  MemOutput:in   STD_LOGIC_VECTOR(31 downto 0);
+  Rdstout : in  STD_LOGIC_VECTOR(2 downto 0);
+  wr_en : in STD_LOGIC ; 
+
 	RFetch:   in   STD_LOGIC_VECTOR(2 downto 0);
 
 	OpCodeOpflag: out STD_LOGIC_VECTOR(6 downto 0);
@@ -53,10 +56,9 @@ port(
 	PCreg2: out STD_LOGIC_VECTOR(31 downto 0);
 	Rdstreg: out STD_LOGIC_VECTOR (2 downto 0);--enable ?
 	EAReg:  out STD_LOGIC_VECTOR(31 downto 0);
-	IregoutFetch: out STD_LOGIC_VECTOR (1 downto 0)
-	
-	
-
+	IregoutFetch: out STD_LOGIC_VECTOR (1 downto 0);
+  JZStates : inout STD_LOGIC_VECTOR (1 downto 0)
+  
 );
 END component;
 
@@ -131,7 +133,7 @@ PORT (clk : IN std_logic;
 end component;
 
 
-signal RegDest , MemPC , PCINT , PCRest , PCout , PC: std_logic_vector(31 DOWNTO 0);
+signal RegDest , PCINT , PCRest , PCout , PC: std_logic_vector(31 DOWNTO 0);
 signal RamOut , IR: std_logic_vector(15 DOWNTO 0);
 signal RdstALU, RdstDec , Regdecoder: std_logic_vector(2 DOWNTO 0);
 signal IRregin , Asel, Bsel , JZStates : std_logic_vector(1 DOWNTO 0);
@@ -178,16 +180,16 @@ signal WB_Data :  std_logic_vector(31 downto 0);
 begin 
 
 Memory : ram port map (Clk , '1' , PCout , RamOut , PCINT , PCRest , dataout, addr, datain , w, ram_en);
-Fetch : FetMpd port map (Clk , Stall , INT , IRregin , RamOut , RegDest , MemPC , PCRest , PCINT , IR , JZStates , PC , PCout ,Regdecoder );
+Fetch : FetMpd port map (Clk , Stall , INT , IRregin , RamOut , RegDest , memBefOut , PCRest , PCINT , IR , JZStates , PC , PCout ,Regdecoder );
 Hazard_Detection : HDU port map (RdstALU, Rdstreg , RamOut , IRregin , Asel, Bsel , OpFlagBeforeALU, Stall);
-Decode :Decode_stage port map (IR , PC ,INPort , stall ,Clk , Rst ,MemOutput ,Regdecoder  ,OpCodeOpflag,Rsrc1Final,Rsrc2Final,RegDest,PCreg2,Rdstreg,EAReg,IRregin);
+Decode :Decode_stage port map (IR , PC ,INPort , stall ,Clk , Rst ,WB_Data , Rdstout, writeEn , Regdecoder ,OpCodeOpflag,Rsrc1Final,Rsrc2Final,RegDest,PCreg2,Rdstreg,EAReg,IRregin , JZStates);
 ALUoutputlast <= ALUOutput;
 
 -- How do I make the input from both memory and execute?
 FlagRegister: my_nDff generic map (4) port map (clk,rst ,'1',flagRegisterInput,FlagRegIn);
 flagRegisterInput <= flags_output when updateFR = '1' else --from memory
                      FlagRegOut; --from execute
-Execute0: Execute port map(clk,OpCodeOpflag(0),OpCodeOpflag(6 downto 1),Rsrc1Final,Rsrc2Final,Asel,Bsel,ALUoutputlast,MemOutput,PCreg2,EAReg,Rdstreg,FlagRegIn,FlagRegOut,PC3,EAALU,RdstALU,OpFlagOut,OpCodeOut,ALUOutput);
+Execute0: Execute port map(clk,OpCodeOpflag(0),OpCodeOpflag(6 downto 1),Rsrc1Final,Rsrc2Final,Asel,Bsel,ALUoutputlast,memout,PCreg2,EAReg,Rdstreg,FlagRegIn,FlagRegOut,PC3,EAALU,RdstALU,OpFlagOut,OpCodeOut,ALUOutput);
 
 memory_mainComp : memory_main port map (clk, OpCodeOut, FlagRegIn , RdstALU,OpFlagOut , ALUOutput, EAALU, PC3, dataout, addr, w, ram_en, datain, memout, flags_output, opCodeFlagOut, RdstDec, memBefOut, updateFR);
 
