@@ -29,7 +29,7 @@ process( IR , stall, IRregin)
 	begin
 
 --registers in rst signal equal zero 
-if(stall='0') then
+if(stall/='1') then
 
 if(IR= "1000100000000000") then
 IRflag <= "00";

@@ -22,6 +22,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 
 -- Compiling entity mux_2x1
 -- Compiling architecture Behavioral of mux_2x1
 
+} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/DOC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Decode\DOC.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DOC
+-- Compiling architecture Behavioral of DOC
+
 } {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regTristate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regTristate.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
 -- Loading package STANDARD
@@ -54,6 +62,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 
 -- Compiling entity decoder_3_8
 -- Compiling architecture my_decoder_3_8 of decoder_3_8
 
+} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Main.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Main.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity CPU_main
+-- Compiling architecture a_CPU_main of CPU_main
+
 } {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AND.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AND.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
 -- Loading package STANDARD
@@ -80,6 +98,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 
 -- Loading package std_logic_1164
 -- Compiling entity my_nDFF
 -- Compiling architecture a_my_nDFF of my_nDFF
+
+} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/decodeStage.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Decode\decodeStage.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Decode_stage
+-- Compiling architecture use_DOC of Decode_stage
 
 } {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/tristate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/tristate.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
