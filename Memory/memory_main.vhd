@@ -6,6 +6,7 @@ USE IEEE.numeric_std.all;
 ENTITY memory_main IS
 PORT (clk : IN std_logic;
     opcode : IN std_logic_vector(5 downto 0);
+    int: IN std_logic;
     flags_in: IN std_logic_vector(3 downto 0);
     rdstALU :   IN std_logic_vector (2 downto 0);
     opflag: IN std_logic;
@@ -36,6 +37,7 @@ architecture mymem of memory_main is
 
     component moc is port( 
         opcode : IN std_logic_vector(5 downto 0);
+        int: IN std_logic;
         opflag: IN std_logic;
         addrsel : OUT std_logic_vector(1 DOWNTO 0);
         idsel : OUT std_logic_vector(1 DOWNTO 0);
@@ -106,7 +108,7 @@ architecture mymem of memory_main is
         out_en <= not out_flags;
         pc_inc <= std_logic_vector(unsigned(pc) + 1);
         flags_ext <= x"0000000" & flags_in;
-        moc_block: moc PORT MAP(opcode, opflag, addrsel, idsel, outsel, ram_en, w, sp_update, rst_sp, datainsel, out_flags);
+        moc_block: moc PORT MAP(opcode, int, opflag, addrsel, idsel, outsel, ram_en, w, sp_update, rst_sp, datainsel, out_flags);
         SP_UPD: spinc PORT MAP(idsel, sp_out, mod_sp);
         SP: Reg_SP PORT MAP(clk, rst_sp, sp_update, mod_sp, sp_out);
         M1: MUX_M PORT MAP(ea, mod_sp, sp_out, pc, addrsel, addr);
