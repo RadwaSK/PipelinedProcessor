@@ -189,7 +189,7 @@ begin
 Memory : ram port map (Clk , '1' , PCout , RamOut ,PCRest  , PCINT , dataout, addr, datain , w, ram_en);
 Fetch : FetMpd port map (Clk , Stall , INT , IRregin , RamOut , RegDest , memBefOut , PCRest , PCINT , IR , JZStates , PC , PCout ,Regdecoder );
 Hazard_Detection : HDU port map (CLK , RdstALU, Rdstreg , RamOut , IRregin , Asel, Bsel , OpFlagBeforeALU, Stall);
-Decode :Decode_stage port map (IR , PC ,INPort , stall ,Clk , Rst ,WB_Data , Rdstout, writeEn , Regdecoder ,OpCodeOpflag,Rsrc1Final,Rsrc2Final,RegDest,PCreg2,Rdstreg,EAReg,IRregin , JZStates);
+Decode :Decode_stage port map (IR , PC ,INPort , stall ,Clk , Rst ,WB_Data , Rdstout, writeEn , Regdecoder ,OpCodeOpflag,Rsrc1Final,Rsrc2Final,RegDest,PCreg2,Rdstreg,EAReg,IRregin,FlagRegIn ,JZStates);
 ALUoutputlast <= ALUOutput;
 
 -- How do I make the input from both memory and execute?

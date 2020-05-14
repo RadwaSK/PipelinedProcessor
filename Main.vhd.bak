@@ -6,7 +6,7 @@ ENTITY CPU_main IS
 PORT( Clk,Rst , INT : IN std_logic;
 
       INport: in STD_LOGIC_VECTOR(31 downto 0);
-	    Outport:out   STD_LOGIC_VECTOR(31 downto 0)--??
+	    Outport:out   STD_LOGIC_VECTOR(31 downto 0)
       
 	
  ) ; 
@@ -83,7 +83,9 @@ we , ram_en: IN std_logic );
 end COMPONENT ; 
 
 COMPONENT HDU IS
-port ( RdstALU, RdstDec :   in std_logic_vector(2 downto 0);
+port ( 
+  clk : in std_logic ;
+RdstALU, RdstDec :   in std_logic_vector(2 downto 0);
 RamInp :   in std_logic_vector(15 downto 0);
 IRregin : in std_logic_vector (1 downto 0);
 Asel, Bsel  :       out std_logic_vector (1 downto 0);
@@ -184,10 +186,10 @@ signal Rdstout : std_logic_vector(2 downto 0);
 signal WB_Data :  std_logic_vector(31 downto 0);
 begin 
 
-Memory : ram port map (Clk , '1' , PCout , RamOut ,PCRst  , PCINT , dataout, addr, datain , w, ram_en);
+Memory : ram port map (Clk , '1' , PCout , RamOut ,PCRest  , PCINT , dataout, addr, datain , w, ram_en);
 Fetch : FetMpd port map (Clk , Stall , INT , IRregin , RamOut , RegDest , memBefOut , PCRest , PCINT , IR , JZStates , PC , PCout ,Regdecoder );
-Hazard_Detection : HDU port map (RdstALU, Rdstreg , RamOut , IRregin , Asel, Bsel , OpFlagBeforeALU, Stall);
-Decode :Decode_stage port map (IR , PC ,INPort , stall ,Clk , Rst ,WB_Data , Rdstout, writeEn , Regdecoder ,OpCodeOpflag,Rsrc1Final,Rsrc2Final,RegDest,PCreg2,Rdstreg,EAReg,IRregin ,FlagRegIn ,JZStates);
+Hazard_Detection : HDU port map (CLK , RdstALU, Rdstreg , RamOut , IRregin , Asel, Bsel , OpFlagBeforeALU, Stall);
+Decode :Decode_stage port map (IR , PC ,INPort , stall ,Clk , Rst ,WB_Data , Rdstout, writeEn , Regdecoder ,OpCodeOpflag,Rsrc1Final,Rsrc2Final,RegDest,PCreg2,Rdstreg,EAReg,IRregin , JZStates);
 ALUoutputlast <= ALUOutput;
 
 -- How do I make the input from both memory and execute?

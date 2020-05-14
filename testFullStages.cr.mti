@@ -187,6 +187,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 
 -- Compiling entity spinc
 -- Compiling architecture myspinc of spinc
 
+} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Main.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Main.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity CPU_main
+-- Compiling architecture a_CPU_main of CPU_main
+
 } {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/halfAdder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/halfAdder.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
 -- Loading package STANDARD
@@ -212,17 +222,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 
 -- Loading package NUMERIC_STD
 -- Compiling entity lvl_reg
 -- Compiling architecture mylvlreg of lvl_reg
-
-} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memory_main.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memory_main.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Loading package NUMERIC_STD
--- Compiling entity memory_main
--- Compiling architecture mymem of memory_main
 
 } {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AND.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AND.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
@@ -281,6 +280,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 
 -- Compiling entity Ex_M_S
 -- Compiling architecture Ex_M_SArch of Ex_M_S
 
+} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/HDU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\HDU.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity HDU
+-- Compiling architecture HDU_Arch of HDU
+
 } {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full32bitAdder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full32bitAdder.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
 -- Loading package STANDARD
@@ -313,15 +321,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 
 -- Loading package std_logic_1164
 -- Compiling entity my_nDFF
 -- Compiling architecture a_my_nDFF of my_nDFF
-
-} {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/HDU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/HDU.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity HDU
--- Compiling architecture HDU_Arch of HDU
 
 } {} {}} {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_MS.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_MS.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
