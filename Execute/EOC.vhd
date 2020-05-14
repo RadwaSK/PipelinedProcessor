@@ -5,18 +5,18 @@ use IEEE.STD_LOGIC_1164.all;
 entity EOC is
     port (OpCode            :       in std_logic_vector (5 downto 0);
           OpFlag            :       in std_logic;
-          NOP, NopA, NopB, NotA, IncA, DecA, AswapB, AaddB, AsubB, AandB, AorB, AshlB, AshrB : out std_logic;
+          NOP, NopA, NopB, NotA, IncA, DecA, AswapB, AaddB, AsubB, AandB, AorB, AshlB, AshrB, JZ : out std_logic;
           Aen, Ben, reset   :       out std_logic);
 end entity EOC;
 
 architecture EOC_Arch of EOC is
-type optionsArray is array (12 downto 0) of std_logic;
+type optionsArray is array (13 downto 0) of std_logic;
 signal options : optionsArray;
 signal AenSig, BenSig   :   std_logic;
 
 begin
     process (OpCode, OpFlag) begin
-        options(12 downto 0) <= (others => '0');
+        options(13 downto 0) <= (others => '0');
         AenSig <= '1';
         BenSig <= '1';
         reset  <= '0';
@@ -65,8 +65,12 @@ begin
                 end if;
             end if;
             
-            if (OpCode = "010010" or OpCode = "010100" or OpCode = "011000" or OpCode = "011001" or OpCode = "011010") then
+            if (OpCode = "010010" or OpCode = "010100" or OpCode = "011001" or OpCode = "011010") then
                 options(1) <= '1';
+            end if;
+            
+            if (OpCode = "011000") then
+                options(13) <= '1';
             end if;
             
             if (OpCode = "010000") then
@@ -93,6 +97,7 @@ begin
     AorB <= options(10);
     AshlB <= options(11);
     AshrB <= options(12);
+    JZ <= options(13);
     
     Aen <= AenSig;
     Ben <= BenSig;

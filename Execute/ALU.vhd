@@ -5,7 +5,7 @@ use IEEE.STD_LOGIC_1164.all;
 entity ALU is
     port (A, B              :       in std_logic_vector (31 downto 0);
           F                 :       out std_logic_vector (31 downto 0);
-          NOP, NopA, NopB, NotA, IncA, DecA, AswapB, AaddB, AsubB, AandB, AorB, AshlB, AshrB : in std_logic;
+          NOP, NopA, NopB, NotA, IncA, DecA, AswapB, AaddB, AsubB, AandB, AorB, AshlB, AshrB, JZ : in std_logic;
           Cin, ZFin, Nin    :       in std_logic;
           Cout, ZFout, Nout :       out std_logic);
 end entity ALU;
@@ -68,6 +68,7 @@ begin
             Cin when en = '0';
     
     ZFout <= '1' when Fout = "00000000000000000000000000000000" and en = '1' else
+             '0' when JZ = '1' and en = '1' else
              '0' when en = '1' else
              ZFin when en = '0';
     

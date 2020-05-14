@@ -129,7 +129,7 @@ BEGIN
 xDOC: DOC port map(IR,stall,IRreginwire,Rsrc1w,Rsrc2w,Rdstw,Rsrc1Selw,Rsrc2Selw,Opcodew,Opflagw,extendw,IRflagwire,FlagRegisterin,JZStates);
 IregoutFetch <= IRreginwire;
 IRFlagRegister: my_nDFF generic map (N => 2) port map(clk,rst,'1',IRflagwire,IRreginwire);
-xregisterfile: registerFile port map(Rsrc1w,Rsrc2w,Rfetch,Rdstout,MemOutput,wr_en,Rsrc1vw,Rsrc2vw,Rsrc1vFetchw,Rsrc2vFetchw,f1,clk,rst);
+xregisterfile: registerFile port map(Rsrc1w,Rsrc2w,Rfetch,Rdstout,MemOutput,enwrite,Rsrc1vw,Rsrc2vw,Rsrc1vFetchw,Rsrc2vFetchw,f1,clk,rst);
 
 -------------------------
 --for fetch
