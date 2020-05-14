@@ -4,22 +4,28 @@ USE IEEE.std_logic_1164.all;
 
 ENTITY Decode IS
 port(
+	
 	IR : in STD_LOGIC_VECTOR(15 downto 0);
 	PC : in STD_LOGIC_VECTOR(31 downto 0);
 	INport: in STD_LOGIC_VECTOR(31 downto 0);
 	stall : in STD_LOGIC;
 	Clk,Rst: IN std_logic;
-	MemOutput:in   STD_LOGIC_VECTOR(31 downto 0);--??
-	
+  MemOutput:in   STD_LOGIC_VECTOR(31 downto 0);
+  Rdstout : in  STD_LOGIC_VECTOR(2 downto 0);
+  wr_en : in STD_LOGIC ; 
+
+	RFetch:   in   STD_LOGIC_VECTOR(2 downto 0);
 
 	OpCodeOpflag: out STD_LOGIC_VECTOR(6 downto 0);
 	Rsrc1Final : out STD_LOGIC_VECTOR(31 downto 0);
 	Rsrc2Final : out STD_LOGIC_VECTOR(31 downto 0);
+	f1 : out  STD_LOGIC_VECTOR(31 downto 0);
 	PCreg2: out STD_LOGIC_VECTOR(31 downto 0);
 	Rdstreg: out STD_LOGIC_VECTOR (2 downto 0);--enable ?
-	EAReg:  out STD_LOGIC_VECTOR(31 downto 0)
-	
-
+	EAReg:  out STD_LOGIC_VECTOR(31 downto 0);
+	IregoutFetch: out STD_LOGIC_VECTOR (1 downto 0);
+  JZStates : inout STD_LOGIC_VECTOR (1 downto 0)
+  
 );
 END Decode;
 
