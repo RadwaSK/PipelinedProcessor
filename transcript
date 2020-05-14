@@ -1,0 +1,28 @@
+# Compile of HDU.vhd was successful.
+# Compile of Main.vhd was successful.
+# Compile of AddressExtend.vhd was successful.
+# Compile of AND.vhd was successful.
+# Compile of Decode.vhd was successful.
+# Compile of decoder3x8.vhd was successful.
+# Compile of decodeStage.vhd was successful.
+# Compile of DOC.vhd was successful.
+# Compile of mux2x1.vhd was successful.
+# Compile of mux4x1.vhd was successful.
+# Compile of Reg.vhd was successful.
+# Compile of RegisterFile.vhd was successful.
+# Compile of REGISTERS.vhd was successful.
+# Compile of regrev.vhd was successful.
+# Compile of regTristate.vhd was successful.
+# Compile of tristate.vhd was successful.
+# 16 compiles, 0 failed with no errors.
+# Compile of DOC.vhd was successful.
+# Compile of RegisterFile.vhd failed with 1 errors.
+# Compile of RegisterFile.vhd was successful.
+# Compile of DOC.vhd was successful.
+# Compile of decodeStage.vhd failed with 1 errors.
+# Compile of decodeStage.vhd failed with 4 errors.
+# Compile of decodeStage.vhd failed with 4 errors.
+# Compile of decodeStage.vhd was successful.
+# Compile of Main.vhd failed with 1 errors.
+# Compile of Main.vhd failed with 1 errors.
+# Compile of Main.vhd was successful.
