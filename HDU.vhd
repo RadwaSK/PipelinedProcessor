@@ -3,7 +3,9 @@ use ieee.numeric_std.all;
 use IEEE.STD_LOGIC_1164.all;
 
 entity HDU is
-    port ( RdstALU, RdstDec :   in std_logic_vector(2 downto 0);
+    port ( 
+            clk : in std_logic ;
+            RdstALU, RdstDec :   in std_logic_vector(2 downto 0);
             RamInp :   in std_logic_vector(15 downto 0);
             IRregin : in std_logic_vector (1 downto 0);
           Asel, Bsel  :       out std_logic_vector (1 downto 0);
@@ -19,7 +21,8 @@ begin
     -- get sources 
 	Asel <= "00";
 	Bsel <="00";
-    process ( RamInp, RdstALU, RdstDec , IRregin)
+    process ( clk , RamInp, RdstALU, RdstDec , IRregin)
+    if clk = '1' then 
     variable n : integer := 0;
     begin
         if (IRregin = "00") then 
@@ -89,6 +92,6 @@ begin
             end if ; 
          end if ;
     end if;
-
+            end if ; 
     end process;
 end HDU_Arch;
