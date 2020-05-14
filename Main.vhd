@@ -3,11 +3,11 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 USE IEEE.std_logic_1164.all;
 
 ENTITY CPU_main IS
-PORT( Clk,Rst : IN std_logic;
+PORT( Clk,Rst , INT : IN std_logic;
 
       INport: in STD_LOGIC_VECTOR(31 downto 0);
-	MemOutput:in   STD_LOGIC_VECTOR(31 downto 0)--??
-	
+	    Outport:out   STD_LOGIC_VECTOR(31 downto 0)--??
+      
 	
  ) ; 
 
@@ -96,7 +96,7 @@ END  COMPONENT my_nDFF;
 
 
 COMPONENT FetMpd IS 
-PORT( Clk , stall : IN std_logic;
+PORT( Clk , stall , INT : IN std_logic;
   IRFlag: IN std_logic_vector(1 DOWNTO 0);
   outRam: in std_logic_vector(15 DOWNTO 0);
   RegDest , MemPC ,PCRest , PCINT: IN std_logic_vector(31 DOWNTO 0); 
@@ -130,6 +130,7 @@ PORT (clk : IN std_logic;
 );
 end component;
 
+
 signal RegDest , MemPC , PCINT , PCRest , PCout , PC: std_logic_vector(31 DOWNTO 0);
 signal RamOut , IR: std_logic_vector(15 DOWNTO 0);
 signal RdstALU, RdstDec , Regdecoder: std_logic_vector(2 DOWNTO 0);
@@ -160,11 +161,25 @@ signal RdstMem :   std_logic_vector (2 downto 0);
 -- signal from FR
 signal flagRegisterInput , flags_output : std_logic_vector (3 downto 0);
 
+component WB is
+  port (  clk : in std_logic;
+          Rdstin :   in std_logic_vector(2 downto 0);
+          Ramout :   in std_logic_vector(31 downto 0);
+          OPcode_Flag : in std_logic_vector (6 downto 0);
+          outport , Regout :   out std_logic_vector(31 downto 0);
+          Rdstout :   out std_logic_vector(2 downto 0);
+          writeEn : out std_logic
+          );
+end component WB;
+--write back signals 
+signal writeEn : std_logic ; 
+signal Rdstout : std_logic_vector(2 downto 0);
+signal WB_Data :  std_logic_vector(31 downto 0);
 begin 
 
 Memory : ram port map (Clk , '1' , PCout , RamOut , PCINT , PCRest , dataout, addr, datain , w, ram_en);
-Fetch : FetMpd port map (Clk , Stall , IRregin , RamOut , RegDest , MemPC , PCRest , PCINT , IR , JZStates , PC , PCout ,Regdecoder );
-Hazard_Detection : HDU port map (RdstALU, RdstDec , RamOut , IRregin , Asel, Bsel , OpFlagBeforeALU, Stall);
+Fetch : FetMpd port map (Clk , Stall , INT , IRregin , RamOut , RegDest , MemPC , PCRest , PCINT , IR , JZStates , PC , PCout ,Regdecoder );
+Hazard_Detection : HDU port map (RdstALU, Rdstreg , RamOut , IRregin , Asel, Bsel , OpFlagBeforeALU, Stall);
 Decode :Decode_stage port map (IR , PC ,INPort , stall ,Clk , Rst ,MemOutput ,Regdecoder  ,OpCodeOpflag,Rsrc1Final,Rsrc2Final,RegDest,PCreg2,Rdstreg,EAReg,IRregin);
 ALUoutputlast <= ALUOutput;
 
@@ -176,5 +191,7 @@ Execute0: Execute port map(clk,OpCodeOpflag(0),OpCodeOpflag(6 downto 1),Rsrc1Fin
 
 memory_mainComp : memory_main port map (clk, OpCodeOut, FlagRegIn , RdstALU,OpFlagOut , ALUOutput, EAALU, PC3, dataout, addr, w, ram_en, datain, memout, flags_output, opCodeFlagOut, RdstDec, memBefOut, updateFR);
 
+
+WriteBack : WB port map (clk , RdstDec , memout , opCodeFlagOut , Outport , WB_Data, Rdstout, writeEn); 
 end a_CPU_main ;
 
