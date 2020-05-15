@@ -116,6 +116,7 @@ architecture mymem of memory_main is
         MMINI: MUXMINI PORT MAP(dataout, aluout, outsel, cand_out);
         OUTREG: Mem_MS generic map (32) PORT MAP(clk, rst_sp, out_en, cand_out, memout);
         FLAGS: Mem_MS GENERIC MAP(4) PORT MAP(clk, rst_sp, '1', flagRegSig, flags_output);
+        
         --flags_output <= cand_out(3 downto 0) when out_flags = '1' else
         --                flags_in;
                         
