@@ -82,7 +82,7 @@ R1: regtri port map(MemOutput,outR1,enwR1,enrR1 ,clk,rst );
 
 --R2
 enrR2 <= (decsrc1out(2) or decsrc2out(2)) ;--and enread;
-enwR2 <= decrdstout(2) and  enwrite;
+enwR2 <= decrdstout(2)  enwrite;
 R2: regtri port map(MemOutput,outR2, enwR2,enrR2 ,clk,rst );
 
 --R3

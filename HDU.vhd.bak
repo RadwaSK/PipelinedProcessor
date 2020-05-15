@@ -79,7 +79,7 @@ begin
 
 
         if n = 1 then    
-            if (RdstALU /= "UUU" and  RdstDec /= "UUU" and (Rsrc1 = RdstALU or Rsrc1 = RdstDec))  then 
+            if (RdstALU /= "UUU" and  RdstDec /= "UUU" and Rsrc1 = RdstALU or Rsrc1 = RdstDec)  then 
                Stall <= '1';
             else
                 Stall <= '0';
@@ -87,7 +87,7 @@ begin
         end if ;
 
         if n = 2  then 
-            if  (RdstALU /= "UUU" and  RdstDec /= "UUU" and (Rsrc1 = RdstALU or Rsrc1 = RdstDec or Rsrc2 = RdstALU or Rsrc2 = RdstDec)) then 
+            if  (RdstALU /= "UUU" and  RdstDec /= "UUU" and Rsrc1 = RdstALU or Rsrc1 = RdstDec or Rsrc2 = RdstALU or Rsrc2 = RdstDec) then 
                 Stall <= '1';
             else
                 Stall <= '0';
