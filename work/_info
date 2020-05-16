@@ -1,1914 +1,1720 @@
 m255
-K4
-z2
-!s11e vcom 2019.2 2019.04, Apr 17 2019
+K3
 13
-!s112 1.1
-!i10d 8192
-!i10e 25
-!i10f 100
 cModel Technology
-dC:/Modeltech_pe_edu_10.4a/examples
+Z0 dC:\Users\Abd ElRahman\Desktop\PipelinedProcessor
 Eaddress_extend
-Z0 w1589209573
-Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-Z3 dD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor
-Z4 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AddressExtend.vhd
-Z5 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AddressExtend.vhd
+Z1 w1589208821
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Abd ElRahman\Desktop\PipelinedProcessor
+Z5 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/AddressExtend.vhd
+Z6 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/AddressExtend.vhd
 l0
 L4
-V@XcgAl`7:KNFaIY;]gNi?1
-!s100 bd9`1UIBCJLTMGTJ9SALL3
-Z6 OV;C;2019.2;69
+V[d`gS?f:4DG1X7S8]FY^T3
+Z7 OV;C;10.1d;51
 32
-Z7 !s110 1589497544
+Z8 !s108 1589502361.205000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/AddressExtend.vhd|
+Z10 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/AddressExtend.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 4P;9FCZT7_KoJHUXbhGP]0
 !i10b 1
-Z8 !s108 1589497544.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AddressExtend.vhd|
-Z10 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AddressExtend.vhd|
-!i113 1
-Z11 o-work work -2002 -explicit
-Z12 tExplicit 1 CvgOpt 0
 Abehavioral
-R1
 R2
-DEx4 work 14 address_extend 0 22 @XcgAl`7:KNFaIY;]gNi?1
+R3
+DEx4 work 14 address_extend 0 22 [d`gS?f:4DG1X7S8]FY^T3
 l10
 L9
-VZdWbPmW@NjKfZD4_Nj;Q00
-!s100 AA96GXDhEB9QLFSXIQdOP0
-R6
-32
+VSRT^gKKohSf?[?goJL36D1
 R7
-!i10b 1
+32
 R8
 R9
 R10
-!i113 1
 R11
 R12
+!s100 oBE?CdDB1oZhMmVP8QgGE2
+!i10b 1
 Ealu
-Z13 w1589489399
-R2
-R1
-Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z13 w1589497084
 R3
-Z15 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU.vhd
-Z16 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU.vhd
+R2
+Z14 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R4
+Z15 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/ALU.vhd
+Z16 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/ALU.vhd
 l0
 L5
-VR0<PIkSG<He8QcDLYHHJ43
-!s100 L2KO85@J7A^T=<C=VYIU81
-R6
+VYL[UK8`L]oU9`C;=OBf`K1
+R7
 32
-Z17 !s110 1589497550
-!i10b 1
-Z18 !s108 1589497550.000000
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU.vhd|
-Z20 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU.vhd|
-!i113 1
+Z17 !s108 1589502370.168000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/ALU.vhd|
+Z19 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/ALU.vhd|
 R11
 R12
+!s100 a7B2n5[<ATD>WR>LDciLf1
+!i10b 1
 Aalu_arch
+R3
 R2
-R1
 R14
-DEx4 work 3 alu 0 22 R0<PIkSG<He8QcDLYHHJ43
+DEx4 work 3 alu 0 22 YL[UK8`L]oU9`C;=OBf`K1
 l26
 L13
-VhOli7g>h^NWDnGo]A>gVi0
-!s100 @N<[Cij;aZHBEB_eHoCQD2
-R6
+VoM06GSSLeQcld4YC=A4;B3
+R7
 32
 R17
-!i10b 1
 R18
 R19
-R20
-!i113 1
 R11
 R12
+!s100 ckL??A0LmJ?_JFQcLFT@N1
+!i10b 1
 Ealu_ms
-Z21 w1589486197
-R2
-R1
-R14
+Z20 w1589254163
 R3
-Z22 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_MS.vhd
-Z23 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_MS.vhd
+R2
+R14
+R4
+Z21 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/ALU_MS.vhd
+Z22 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/ALU_MS.vhd
 l0
 L5
-VYD_oDCg4eBQWZIGiLVAGg0
-!s100 2MzdLQ=jecRK>`fQjBM`R1
-R6
+VJ8[3d1[5[T^PEABdfAJ162
+R7
 32
-Z24 !s110 1589497551
-!i10b 1
-Z25 !s108 1589497551.000000
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_MS.vhd|
-Z27 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_MS.vhd|
-!i113 1
+Z23 !s108 1589502370.731000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/ALU_MS.vhd|
+Z25 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/ALU_MS.vhd|
 R11
 R12
+!s100 Wm0[=dl:Cik3m]CUT@2V@3
+!i10b 1
 Aalu_msarch
+R3
 R2
-R1
 R14
-DEx4 work 6 alu_ms 0 22 YD_oDCg4eBQWZIGiLVAGg0
+DEx4 work 6 alu_ms 0 22 J8[3d1[5[T^PEABdfAJ162
 l25
 L13
-VMV]^YWV6_c`kEn`==8Ilz2
-!s100 9fScbMBgRGVTD7XQln<Q^3
-R6
+VH0TZ=93:XJ3@C?0Zof]^F3
+R7
 32
+R23
 R24
-!i10b 1
 R25
-R26
-R27
-!i113 1
 R11
 R12
+!s100 dXaFANGZ@QYIEI6`8@Z@l2
+!i10b 1
 Ealureg
-R21
-R1
+R20
 R2
 R3
-Z28 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_Reg.vhd
-Z29 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_Reg.vhd
+R4
+Z26 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/ALU_Reg.vhd
+Z27 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/ALU_Reg.vhd
 l0
 L5
-VCPDo]30MMz?f^;_WJ5YPe0
-!s100 b7JifZf]VaMbUGgnb6kba2
-R6
+VC^A^X_3`j6U]cc=od`8EQ2
+R7
 32
-R24
-!i10b 1
-R25
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_Reg.vhd|
-Z31 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_Reg.vhd|
-!i113 1
+Z28 !s108 1589502371.336000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/ALU_Reg.vhd|
+Z30 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/ALU_Reg.vhd|
 R11
 R12
+!s100 <45BDWTF]0l0_Xjl`2Sf20
+!i10b 1
 Aaluregarch
-R1
-R2
-DEx4 work 6 alureg 0 22 CPDo]30MMz?f^;_WJ5YPe0
-l17
-L14
-VD1NRKfl^=oJ]J;:TI8Dme3
-!s100 N=XVmg>[U`SU7BIb]b2AR3
-R6
-32
-R24
-!i10b 1
-R25
-R30
-R31
-!i113 1
-R11
-R12
-Eander
-R0
-Z32 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z33 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-R1
 R2
 R3
-Z34 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AND.vhd
-Z35 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AND.vhd
+DEx4 work 6 alureg 0 22 C^A^X_3`j6U]cc=od`8EQ2
+l17
+L14
+V310mdHDlDE52@02[Jc^2J2
+R7
+32
+R28
+R29
+R30
+R11
+R12
+!s100 X779IJ=`l5[^4CjLRke850
+!i10b 1
+Eander
+R1
+Z31 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z32 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R2
+R3
+R4
+Z33 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/AND.vhd
+Z34 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/AND.vhd
 l0
 L6
-Vf>IYfeKIM_OCPi3JTYgVn1
-!s100 n7c24od?Fh5T8KN6=zSld1
-R6
+VNFTe`U0a2Kz@LhSmP9feJ2
+R7
 32
-Z36 !s110 1589497545
-!i10b 1
-Z37 !s108 1589497545.000000
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AND.vhd|
-Z39 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AND.vhd|
-!i113 1
+Z35 !s108 1589502362.147000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/AND.vhd|
+Z37 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/AND.vhd|
 R11
 R12
+!s100 >ebZ8fd8E;l@R^Vo7:HK=1
+!i10b 1
 Astruct
+R31
 R32
-R33
-R1
-R2
-DEx4 work 5 ander 0 22 f>IYfeKIM_OCPi3JTYgVn1
-l18
-L15
-VFm:oD_JHK`di:A7zm[Sea0
-!s100 Si9N1<BlDb2lNd0o^b;Om1
-R6
-32
-R36
-!i10b 1
-R37
-R38
-R39
-!i113 1
-R11
-R12
-Ebuff
-R0
-R1
 R2
 R3
-Z40 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/tristate.vhd
-Z41 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/tristate.vhd
-l0
-L5
-VKa?gbb4D7C<BWa_XITYS:1
-!s100 MOYeFBQUVc9Xkbb_U[T8l1
-R6
+DEx4 work 5 ander 0 22 NFTe`U0a2Kz@LhSmP9feJ2
+l18
+L15
+VO1O^3H6dRF?F6VLiHK6HC2
+R7
 32
-R17
-!i10b 1
-R18
-Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/tristate.vhd|
-Z43 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/tristate.vhd|
-!i113 1
+R35
+R36
+R37
 R11
 R12
-Amybuf
-R1
+!s100 TR57h[a3^DnPSmReUf0gb2
+!i10b 1
+Ebuff
+Z38 w1589208822
 R2
-DEx4 work 4 buff 0 22 Ka?gbb4D7C<BWa_XITYS:1
+R3
+R4
+Z39 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/tristate.vhd
+Z40 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/tristate.vhd
+l0
+L5
+VYHZi9i[;cb6B1]]TV9Fk?0
+R7
+32
+Z41 !s108 1589502369.546000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/tristate.vhd|
+Z43 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/tristate.vhd|
+R11
+R12
+!s100 =3Y`:QfY`EDAFza62S]K`3
+!i10b 1
+Amybuf
+R2
+R3
+DEx4 work 4 buff 0 22 YHZi9i[;cb6B1]]TV9Fk?0
 l11
 L9
-V<CYh;kgXcfb3YO]B[^gEZ3
-!s100 i]j7zC88h9LM=0RL4bm[k2
-R6
+ViekGnZkNWE:iD<kklkkd@3
+R7
 32
-R17
-!i10b 1
-R18
+R41
 R42
 R43
-!i113 1
 R11
 R12
+!s100 `8[>l[0LeEZSHfKNTfGXc2
+!i10b 1
 Ecpu_main
-Z44 w1589498055
-R32
-R1
+Z44 w1589501938
+R31
 R2
-R33
 R3
-Z45 8D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Main.vhd
-Z46 FD:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Main.vhd
+R32
+R4
+Z45 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Main.vhd
+Z46 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Main.vhd
 l0
 L5
-V5]meZE=TR3J9M_g_9>XE<2
-!s100 [?AZQkN?00N_@5e=zNI713
-R6
+V[8;>?8iaI[9B`lLQz;_S=1
+R7
 32
-Z47 !s110 1589498059
-!i10b 1
-Z48 !s108 1589498059.000000
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Main.vhd|
-Z50 !s107 D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Main.vhd|
-!i113 1
+Z47 !s108 1589502360.735000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Main.vhd|
+Z49 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Main.vhd|
 R11
 R12
+!s100 0BI;8ee@VVUiza]ccjSZM1
+!i10b 1
 Aa_cpu_main
-R32
-R1
+R31
 R2
-R33
-DEx4 work 8 cpu_main 0 22 5]meZE=TR3J9M_g_9>XE<2
+R3
+R32
+DEx4 work 8 cpu_main 0 22 [8;>?8iaI[9B`lLQz;_S=1
 l187
 L17
-VcKd77Z16^W<knbz@NlZ^z3
-!s100 Hzb[k>5?>TT:H=DJZg<GT1
-R6
+VAIX19ab2@N0HW<P2MRSQ22
+R7
 32
 R47
-!i10b 1
 R48
 R49
-R50
-!i113 1
 R11
 R12
+!s100 ZR7l:JhhJS[AmVZL`d9Jf3
+!i10b 1
 Edecode
-Z51 w1589488904
-R1
+Z50 w1589488539
 R2
 R3
-Z52 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Decode.vhd
-Z53 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Decode.vhd
+R4
+Z51 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/Decode.vhd
+Z52 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/Decode.vhd
 l0
 L5
-V_z9Xo>g8L0CiLEg]0KR]m1
-!s100 z>N5Zi@o_S4M1LTN8fYAF2
-R6
+Ve`>X`H?h]EnA3;W48d;7k1
+R7
 32
-R36
-!i10b 1
-R37
-Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Decode.vhd|
-Z55 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Decode.vhd|
-!i113 1
+Z53 !s108 1589502363.107000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/Decode.vhd|
+Z55 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/Decode.vhd|
 R11
 R12
+!s100 >FFMa3FAzld><b94>?DX11
+!i10b 1
 Ause_doc
-R1
 R2
-DEx4 work 6 decode 0 22 _z9Xo>g8L0CiLEg]0KR]m1
+R3
+DEx4 work 6 decode 0 22 e`>X`H?h]EnA3;W48d;7k1
 l119
 L32
-VfHJASPhPcig5XiTkZ]Nf30
-!s100 Ezzg6ziQ?4K<aeXigdl:T1
-R6
+V7P6eG=[lFJFIOYbNA;4@<0
+R7
 32
-R36
-!i10b 1
-R37
+R53
 R54
 R55
-!i113 1
 R11
 R12
+!s100 9@g=157h^koa7:3YLalZ90
+!i10b 1
 Edecode_stage
-Z56 w1589491265
-R1
+R13
 R2
 R3
-Z57 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/decodeStage.vhd
-Z58 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/decodeStage.vhd
+R4
+Z56 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/decodeStage.vhd
+Z57 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/decodeStage.vhd
 l0
 L5
-VNo>k7=;NQmKOK1[B<l?Pd1
-!s100 6akbaaIH[G3^>5JcmnbnR3
-R6
+V`_D_i8@2g_Y]5JfEi5LYi0
+R7
 32
-Z59 !s110 1589497546
-!i10b 1
-Z60 !s108 1589497546.000000
-Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/decodeStage.vhd|
-Z62 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/decodeStage.vhd|
-!i113 1
+Z58 !s108 1589502364.009000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/decodeStage.vhd|
+Z60 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/decodeStage.vhd|
 R11
 R12
+!s100 381@g2aI@bPT?l7kV50`?0
+!i10b 1
 Ause_doc
-R1
 R2
-DEx4 work 12 decode_stage 0 22 No>k7=;NQmKOK1[B<l?Pd1
+R3
+DEx4 work 12 decode_stage 0 22 `_D_i8@2g_Y]5JfEi5LYi0
 l127
 L32
-VR9gVJH><iO0@W07__WXM00
-!s100 imP;[gil9o4[=]`8^`cCF0
-R6
+VENjI@T[YOT;PlW44heG=n1
+R7
 32
+R58
 R59
-!i10b 1
 R60
-R61
-R62
-!i113 1
 R11
 R12
+!s100 C605YH1R2iUef<;g=lGog1
+!i10b 1
 Edecoder_3_8
-R0
 R1
 R2
 R3
-Z63 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/decoder3x8.vhd
-Z64 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/decoder3x8.vhd
+R4
+Z61 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/decoder3x8.vhd
+Z62 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/decoder3x8.vhd
 l0
 L4
-V2L98MNDlH;Kz:h@gCc]JB0
-!s100 TOHLM;zX;XJRKVZZ0Q1No1
-R6
+VOlS5T9MmcKI<_=_<5=Oa10
+R7
 32
-R36
-!i10b 1
-R37
-Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/decoder3x8.vhd|
-Z66 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/decoder3x8.vhd|
-!i113 1
+Z63 !s108 1589502363.524000
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/decoder3x8.vhd|
+Z65 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/decoder3x8.vhd|
 R11
 R12
+!s100 Q`E5_G2jX>dcJAc]SmV[13
+!i10b 1
 Amy_decoder_3_8
-R1
 R2
-DEx4 work 11 decoder_3_8 0 22 2L98MNDlH;Kz:h@gCc]JB0
+R3
+DEx4 work 11 decoder_3_8 0 22 OlS5T9MmcKI<_=_<5=Oa10
 l15
 L13
-V9]Gmg6Fo1U[2LGhm>?CK32
-!s100 0MCS?H3^o??9aR]0J4BM[0
-R6
+V27d81[8W<5kS1>G4IeY<>3
+R7
 32
-R36
-!i10b 1
-R37
+R63
+R64
 R65
-R66
-!i113 1
 R11
 R12
+!s100 48BhI:3[OUQ9GFMJ2?DHO0
+!i10b 1
 Edoc
-Z67 w1589492739
-R1
+Z66 w1589500366
 R2
 R3
-Z68 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/DOC.vhd
-Z69 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/DOC.vhd
+R4
+Z67 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/DOC.vhd
+Z68 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/DOC.vhd
 l0
 L4
-Vb82hG2M`0NjRjPJhRnz0n3
-!s100 5RON^hVI[BIZzET@EC=0N0
-R6
+VZzb;zJb=AE1QM@@;?0T362
+R7
 32
-R59
-!i10b 1
-R60
-Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/DOC.vhd|
-Z71 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/DOC.vhd|
-!i113 1
+Z69 !s108 1589502364.766000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/DOC.vhd|
+Z71 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/DOC.vhd|
 R11
 R12
+!s100 S5S:NMD:WgTO69K<3>C<71
+!i10b 1
 Abehavioral
-R1
 R2
-DEx4 work 3 doc 0 22 b82hG2M`0NjRjPJhRnz0n3
+R3
+DEx4 work 3 doc 0 22 Zzb;zJb=AE1QM@@;?0T362
 l27
 L26
-VTGDJ^DASW_b;L[T9hIeQC3
-!s100 oX6]^58<3Lk>cUiWLAkN12
-R6
+Vdf9jE^Rz5hIJz0LQPgk7M3
+R7
 32
-R59
-!i10b 1
-R60
+R69
 R70
 R71
-!i113 1
 R11
 R12
+!s100 Z6V8L?<E3nz0E:<m]_`Sz2
+!i10b 1
 Eeoc
 R13
-R2
-R1
-R14
 R3
-Z72 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/EOC.vhd
-Z73 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/EOC.vhd
+R2
+R14
+R4
+Z72 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/EOC.vhd
+Z73 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/EOC.vhd
 l0
 L5
-VGJcN;X8B4X>`W@1go:GCf2
-!s100 C[RGNnmd67aEg59VkWCT^1
-R6
+V=GOzXz]XNV][DZK9S3A@22
+R7
 32
-Z74 !s110 1589497552
-!i10b 1
-Z75 !s108 1589497552.000000
-Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/EOC.vhd|
-Z77 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/EOC.vhd|
-!i113 1
+Z74 !s108 1589502371.881000
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/EOC.vhd|
+Z76 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/EOC.vhd|
 R11
 R12
+!s100 m:R4D9?EKbg67:z3[9Ci<3
+!i10b 1
 Aeoc_arch
+R3
 R2
-R1
 R14
-DEx4 work 3 eoc 0 22 GJcN;X8B4X>`W@1go:GCf2
+DEx4 work 3 eoc 0 22 =GOzXz]XNV][DZK9S3A@22
 l17
 L12
-VOAaD8b_BHW]T?OgObhH6E0
-!s100 ENACL_f9PiDlGK9L0OBZc0
-R6
+Vd]VnU?L__oDITmKkD_=gV2
+R7
 32
 R74
-!i10b 1
 R75
 R76
-R77
-!i113 1
 R11
 R12
+!s100 o:;g91?GM`Yd:1:?0a3oL2
+!i10b 1
 Eex_m_s
-R21
-R2
-R1
-R14
+R20
 R3
-Z78 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave.vhd
-Z79 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave.vhd
+R2
+R14
+R4
+Z77 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Master_Slave.vhd
+Z78 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Master_Slave.vhd
 l0
 L5
-VElX`6MDcWdRebbmPI_?HR2
-!s100 8K@;JhR>:F3RnBF94gJaX3
-R6
+VH<@Ozee3NbQP>YVGGZF1P2
+R7
 32
-Z80 !s110 1589497554
-!i10b 1
-Z81 !s108 1589497553.000000
-Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave.vhd|
-Z83 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave.vhd|
-!i113 1
+Z79 !s108 1589502374.671000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Master_Slave.vhd|
+Z81 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Master_Slave.vhd|
 R11
 R12
+!s100 iMe`]J1>LACPYYQgjhO;c1
+!i10b 1
 Aex_m_sarch
+R3
 R2
-R1
 R14
-DEx4 work 6 ex_m_s 0 22 ElX`6MDcWdRebbmPI_?HR2
+DEx4 work 6 ex_m_s 0 22 H<@Ozee3NbQP>YVGGZF1P2
 l25
 L13
-V>UgGfUSEZ3n6aW;JWoY272
-!s100 JalS]BNzWB2jeNLJgnM?01
-R6
+V6ZYM5]JaL3g:Z5ao56;oS3
+R7
 32
+R79
 R80
-!i10b 1
 R81
-R82
-R83
-!i113 1
 R11
 R12
+!s100 N;><D8WzWE4><gSi>Tz3h3
+!i10b 1
 Eexecute
 R13
-R2
-R1
-R14
 R3
-Z84 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Execute.vhd
-Z85 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Execute.vhd
+R2
+R14
+R4
+Z82 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Execute.vhd
+Z83 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Execute.vhd
 l0
 L5
-V@;Dg?=3UCT=E21TZ=CKW22
-!s100 n4daD3PH`ffQ0n9B5?MT<1
-R6
+VR@F:Rz_^zMPa_@_bUn<X92
+R7
 32
-R74
-!i10b 1
-R75
-Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Execute.vhd|
-Z87 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Execute.vhd|
-!i113 1
+Z84 !s108 1589502372.380000
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Execute.vhd|
+Z86 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Execute.vhd|
 R11
 R12
+!s100 CTjk<9zd5<:E:1Q]CQ7U91
+!i10b 1
 Aexecute_arch
+R3
 R2
-R1
 R14
-DEx4 work 7 execute 0 22 @;Dg?=3UCT=E21TZ=CKW22
+DEx4 work 7 execute 0 22 R@F:Rz_^zMPa_@_bUn<X92
 l76
 L22
-VKC[oFFTDfU072e5SNX3z_3
-!s100 3I1zZ_@UW[_<a2C4MEV_D0
-R6
+VCNm7fg>U1Wlz[TE7DJ0Bf0
+R7
 32
-R74
-!i10b 1
-R75
+R84
+R85
 R86
-R87
-!i113 1
 R11
 R12
+!s100 WSUzdF9kLb>YPU4C7]nfB1
+!i10b 1
 Efetmpd
-R21
-R32
-R1
+Z87 w1589476503
+R31
 R2
-R33
 R3
-Z88 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/fetch_main.vhd
-Z89 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/fetch_main.vhd
+R32
+R4
+Z88 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/fetch_main.vhd
+Z89 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/fetch_main.vhd
 l0
 L5
-Vf?N<BBG<Lf^W[`2?abX[e0
-!s100 mM3V5bG=KzDbeV:NehF`i2
-R6
+V?YldaKoYQ9@BH@QhC1[^_1
+R7
 32
-Z90 !s110 1589497542
-!i10b 1
-Z91 !s108 1589497542.000000
-Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/fetch_main.vhd|
-Z93 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/fetch_main.vhd|
-!i113 1
+Z90 !s108 1589502379.127000
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/fetch_main.vhd|
+Z92 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/fetch_main.vhd|
 R11
 R12
+!s100 M6`4X;TGj>`dj0=U19I]a2
+!i10b 1
 Aa_fetmpd
-R32
-R1
+R31
 R2
-R33
-DEx4 work 6 fetmpd 0 22 f?N<BBG<Lf^W[`2?abX[e0
+R3
+R32
+DEx4 work 6 fetmpd 0 22 ?YldaKoYQ9@BH@QhC1[^_1
 l44
 L19
-VWdW[5B?[OEU:P2:Ga2nej0
-!s100 lO_EHgi;EZVD3g@i?Q_fi3
-R6
+V@]DcjYnh6R2b`=69b4[_j2
+R7
 32
 R90
-!i10b 1
 R91
 R92
-R93
-!i113 1
 R11
 R12
+!s100 kgY;Kj5jP7g5gL]QTlW0m3
+!i10b 1
 Efull1bitadder
-Z94 w1588716129
-R1
+R38
 R2
 R3
-Z95 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full1bitAdder.vhd
-Z96 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full1bitAdder.vhd
+R4
+Z93 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/full1bitAdder.vhd
+Z94 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/full1bitAdder.vhd
 l0
 L4
-VO<X9XR>]0HgI32_KBgb@Z3
-!s100 T_Vh70HSUo1_lmlnCI_]j1
-R6
+VB`OJG>YN]FfA69n7<G`nJ2
+R7
 32
-R74
-!i10b 1
-R75
-Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full1bitAdder.vhd|
-Z98 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full1bitAdder.vhd|
-!i113 1
+Z95 !s108 1589502373.040000
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/full1bitAdder.vhd|
+Z97 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/full1bitAdder.vhd|
 R11
 R12
+!s100 Om^L2Mzab>M?_ac]65UA]1
+!i10b 1
 Afulladderarch
-R1
 R2
-DEx4 work 13 full1bitadder 0 22 O<X9XR>]0HgI32_KBgb@Z3
+R3
+DEx4 work 13 full1bitadder 0 22 B`OJG>YN]FfA69n7<G`nJ2
 l17
 L9
-VnYUSEmBhCMGO^^DBY]`Na0
-!s100 ^m=KE>1H601`^OhoaQcMh0
-R6
+VT5WH;Hk>ofFzaKz@WRAgR0
+R7
 32
-R74
-!i10b 1
-R75
+R95
+R96
 R97
-R98
-!i113 1
 R11
 R12
+!s100 2jf`WjIPj3fCO><Wfc3[z3
+!i10b 1
 Efull32bitadder
-Z99 w1588716301
-R1
+R38
 R2
 R3
-Z100 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full32bitAdder.vhd
-Z101 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full32bitAdder.vhd
+R4
+Z98 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/full32bitAdder.vhd
+Z99 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/full32bitAdder.vhd
 l0
 L4
-VQYhUnL`L5NlcU2Z9HR4lD1
-!s100 4AMfhEIHWiYEKY3Y2W;DI0
-R6
+Vfk:Jj;m<2feo^`hTOFgGl2
+R7
 32
-Z102 !s110 1589497553
-!i10b 1
-R81
-Z103 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full32bitAdder.vhd|
-Z104 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full32bitAdder.vhd|
-!i113 1
+Z100 !s108 1589502373.736000
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/full32bitAdder.vhd|
+Z102 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/full32bitAdder.vhd|
 R11
 R12
+!s100 V9^ClM2NGEBYooNo::^R80
+!i10b 1
 Afull32arch
-R1
 R2
-DEx4 work 14 full32bitadder 0 22 QYhUnL`L5NlcU2Z9HR4lD1
+R3
+DEx4 work 14 full32bitadder 0 22 fk:Jj;m<2feo^`hTOFgGl2
 l20
 L11
-VlDbF@Kd1afnE9j21XPnN=0
-!s100 kaNXk8QP9UlCe6KSzFRHf1
-R6
+V7c[Pk[Mk@gZAmRSDhB]S[2
+R7
 32
+R100
+R101
 R102
-!i10b 1
-R81
-R103
-R104
-!i113 1
 R11
 R12
+!s100 ;0`EmUTTQ]:m>eWZQUX;X1
+!i10b 1
 Egenreg
-R21
-R1
+R20
 R2
 R3
-Z105 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg.vhd
-Z106 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg.vhd
+R4
+Z103 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Reg.vhd
+Z104 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Reg.vhd
 l0
 L5
-V71]gEb7NRk:SDI_[f6J;62
-!s100 =Wea_SYJ]Q:GG>DjR@:PB2
-R6
+VLhBgnUjDAbecjl7j5VS`X2
+R7
 32
-Z107 !s110 1589497556
-!i10b 1
-Z108 !s108 1589497556.000000
-Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg.vhd|
-Z110 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg.vhd|
-!i113 1
+Z105 !s108 1589502377.988000
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Reg.vhd|
+Z107 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Reg.vhd|
 R11
 R12
+!s100 72S4K`7GAcE:o6>263F8E3
+!i10b 1
 Agenregarch
-R1
 R2
-DEx4 work 6 genreg 0 22 71]gEb7NRk:SDI_[f6J;62
+R3
+DEx4 work 6 genreg 0 22 LhBgnUjDAbecjl7j5VS`X2
 l15
 L14
-V_P76e:fMo4nAB8[2gUnJU0
-!s100 gmKU;HY`:=bj15QXKW2Fa1
-R6
+VDXSoKYh0``SEd1zDKMV;30
+R7
 32
+R105
+R106
 R107
-!i10b 1
-R108
-R109
-R110
-!i113 1
 R11
 R12
+!s100 oM;Reo1n^lbE1cf=[ULNf3
+!i10b 1
 Ehalfadder
-Z111 w1588716085
-R1
+R38
 R2
 R3
-Z112 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/halfAdder.vhd
-Z113 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/halfAdder.vhd
+R4
+Z108 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/halfAdder.vhd
+Z109 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/halfAdder.vhd
 l0
 L4
-VCYEPFY1B3PVPJHmH_K6E<1
-!s100 AmTdfd9MWEG5iclgb3J==2
-R6
+VHPh69`c2mA_?7CG=5:_^W1
+R7
 32
-R102
-!i10b 1
-R81
-Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/halfAdder.vhd|
-Z115 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/halfAdder.vhd|
-!i113 1
+Z110 !s108 1589502374.245000
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/halfAdder.vhd|
+Z112 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/halfAdder.vhd|
 R11
 R12
+!s100 UMUb9=9g19L4I_R>b=G8H2
+!i10b 1
 Ahalfadderarch
-R1
 R2
-DEx4 work 9 halfadder 0 22 CYEPFY1B3PVPJHmH_K6E<1
+R3
+DEx4 work 9 halfadder 0 22 HPh69`c2mA_?7CG=5:_^W1
 l10
 L9
-VFkLY_D_3Z^<3J3RZ;A5S80
-!s100 f1fgW@oa03bEB9DFPJ@g?1
-R6
+VV5;S?ScMzoCn8QD^Qh:T11
+R7
 32
-R102
-!i10b 1
-R81
-R114
-R115
-!i113 1
+R110
+R111
+R112
 R11
 R12
+!s100 [;5kXMoWU7B^zVCWIQUnP1
+!i10b 1
 Ehdu
-Z116 w1589499229
-R2
-R1
-R14
+R44
 R3
-Z117 8D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\HDU.vhd
-Z118 FD:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\HDU.vhd
+R2
+R14
+R4
+Z113 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/HDU.vhd
+Z114 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/HDU.vhd
 l0
 L5
-Ve;Xfg61XCjjz0Pj?n=zj02
-!s100 zX76G;T=oY;Y0C4HLN6me1
-R6
+VcJ2FU?@gHLMQQ[W;T[>_F1
+R7
 32
-Z119 !s110 1589499234
-!i10b 1
-Z120 !s108 1589499234.000000
-Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\HDU.vhd|
-Z122 !s107 D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\HDU.vhd|
-!i113 1
+Z115 !s108 1589502360.217000
+Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/HDU.vhd|
+Z117 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/HDU.vhd|
 R11
 R12
+!s100 ?4N8a4MCgkD0Q;`h`jVAV2
+!i10b 1
 Ahdu_arch
+R3
 R2
-R1
 R14
-DEx4 work 3 hdu 0 22 e;Xfg61XCjjz0Pj?n=zj02
+DEx4 work 3 hdu 0 22 cJ2FU?@gHLMQQ[W;T[>_F1
 l20
 L15
-V[^=2mKhaKOZmkcU:FSm?f0
-!s100 lOD7Y4GT1HNUliBjTLPGz2
-R6
+VDC_SONMcVhWUkb5b5ggYC2
+R7
 32
-R119
-!i10b 1
-R120
-R121
-R122
-!i113 1
+R115
+R116
+R117
 R11
 R12
+!s100 ?1gYJlBY;MPYO_nGZ_7TY0
+!i10b 1
 Elvl_reg
-R21
+Z118 w1589327414
 R14
-R1
 R2
 R3
-Z123 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/level_reg.vhd
-Z124 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/level_reg.vhd
+R4
+Z119 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/level_reg.vhd
+Z120 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/level_reg.vhd
 l0
 L7
-VF>86HNkRo5Tb`l=d_1Sn;3
-!s100 ;N6E:UE@TS[YEmkEHFKzO1
-R6
+Vmn@f8ZU?j7K_XkbJ[[^Y>0
+R7
 32
-Z125 !s110 1589497539
-!i10b 1
-Z126 !s108 1589497538.000000
-Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/level_reg.vhd|
-Z128 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/level_reg.vhd|
-!i113 1
+Z121 !s108 1589502384.353000
+Z122 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/level_reg.vhd|
+Z123 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/level_reg.vhd|
 R11
 R12
+!s100 LC<6ol4[UKUQA?KO6NB<83
+!i10b 1
 Amylvlreg
 R14
-R1
 R2
-DEx4 work 7 lvl_reg 0 22 F>86HNkRo5Tb`l=d_1Sn;3
+R3
+DEx4 work 7 lvl_reg 0 22 mn@f8ZU?j7K_XkbJ[[^Y>0
 l18
 L16
-Vc7a;kh6OR0Z^BS[1d9_GO3
-!s100 <FFmeMk2:_[L^M02nEW<01
-R6
+V^c6lad@hYZJ[2=Pk_VQCT1
+R7
 32
-R125
-!i10b 1
-R126
-R127
-R128
-!i113 1
+R121
+R122
+R123
 R11
 R12
+!s100 ;U:J7kec:ITX:l2g0`lfK0
+!i10b 1
 Em_s
-R0
-R2
-R1
-R14
+Z124 w1588724619
 R3
-Z129 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Master_Slave.vhd
-Z130 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Master_Slave.vhd
+R2
+R14
+R4
+Z125 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/Master_Slave.vhd
+Z126 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/Master_Slave.vhd
 l0
 L5
-VGbKiVI>Q75;m5TEWn4jV?2
-!s100 0U@QWK`kW46QSH[zJLLbI1
-R6
+V2l?c28[Wl3QgL@>OL<Gjk0
+R7
 32
-Z131 !s110 1589497543
-!i10b 1
-Z132 !s108 1589497543.000000
-Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Master_Slave.vhd|
-Z134 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Master_Slave.vhd|
-!i113 1
+Z127 !s108 1589502379.924000
+Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/Master_Slave.vhd|
+Z129 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/Master_Slave.vhd|
 R11
 R12
+!s100 W4PTUWAzDzH2mhV@TYm3D3
+!i10b 1
 Aa_reg
+R3
 R2
-R1
 R14
-DEx4 work 3 m_s 0 22 GbKiVI>Q75;m5TEWn4jV?2
+DEx4 work 3 m_s 0 22 2l?c28[Wl3QgL@>OL<Gjk0
 l27
 L15
-V;8PQ<]m:fhFYX[6MM_WGd1
-!s100 :m:OkhNl=Tm>lg^2kf84N0
-R6
+VNED9@:>b=F9<YFI;_[0A_1
+R7
 32
-R131
+R127
+R128
+R129
+R11
+R12
+!s100 oB[m0kQE4PV:Ue35Lo`Fe1
 !i10b 1
+Em_s1bit
+R38
+R3
+R2
+R14
+R4
+Z130 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Master_Slave1bit.vhd
+Z131 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Master_Slave1bit.vhd
+l0
+L5
+VjP95C>eVjheY:8FJSeTzh1
+R7
+32
+Z132 !s108 1589502375.130000
+Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Master_Slave1bit.vhd|
+Z134 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Master_Slave1bit.vhd|
+R11
+R12
+!s100 E8^7E2`kB8fk8joWJY=IS3
+!i10b 1
+Am_s1bitarch
+R3
+R2
+R14
+DEx4 work 7 m_s1bit 0 22 jP95C>eVjheY:8FJSeTzh1
+l21
+L11
+VjoS;=`0gP0_?c>Z1FAbEL1
+R7
+32
 R132
 R133
 R134
-!i113 1
 R11
 R12
-Em_s1bit
-Z135 w1588730911
-R2
-R1
-R14
-R3
-Z136 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave1bit.vhd
-Z137 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave1bit.vhd
-l0
-L5
-VD`o<mL^j>zHTzCH>gjG>K3
-!s100 k?:GbV7i]?TFI=inSa7lF3
-R6
-32
-R80
+!s100 NfW?a<]:L32f2k8mM[;i>2
 !i10b 1
-Z138 !s108 1589497554.000000
-Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave1bit.vhd|
-Z140 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave1bit.vhd|
-!i113 1
-R11
-R12
-Am_s1bitarch
-R2
-R1
-R14
-DEx4 work 7 m_s1bit 0 22 D`o<mL^j>zHTzCH>gjG>K3
-l21
-L11
-V<6FHCmlboQ@Q:NZSD:Ndi1
-!s100 <Qn5`:A:mG5kW@_MUQR@_0
-R6
-32
-R80
-!i10b 1
-R138
-R139
-R140
-!i113 1
-R11
-R12
 Emem_ms
-R21
-R2
-R1
-R14
+R118
 R3
-Z141 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_MS.vhd
-Z142 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_MS.vhd
+R2
+R14
+R4
+Z135 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/Mem_MS.vhd
+Z136 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/Mem_MS.vhd
 l0
 L5
-VoeHcH_zA^fUY1P]YWI00Q2
-!s100 oWR>Ho`WRWhn1TUAeWa3O0
-R6
+VVaP8S`j<fVneNhk[OhMZY3
+R7
 32
-R125
-!i10b 1
-Z143 !s108 1589497539.000000
-Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_MS.vhd|
-Z145 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_MS.vhd|
-!i113 1
+Z137 !s108 1589502385.277000
+Z138 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/Mem_MS.vhd|
+Z139 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/Mem_MS.vhd|
 R11
 R12
+!s100 7ieESzRegjSS;H0za4H9Z3
+!i10b 1
 Amem_msarch
+R3
 R2
-R1
 R14
-DEx4 work 6 mem_ms 0 22 oeHcH_zA^fUY1P]YWI00Q2
+DEx4 work 6 mem_ms 0 22 VaP8S`j<fVneNhk[OhMZY3
 l25
 L13
-VenJV3Y`Pk9l7>S79I7KfV0
-!s100 g^R^jOaPAW]e^nRNI1kb;1
-R6
+V^>Fz0P>02jBE^aPRT=50f2
+R7
 32
-R125
+R137
+R138
+R139
+R11
+R12
+!s100 znT4FQ;OhdRoe56kF[AE_0
 !i10b 1
+Ememory_main
+Z140 w1589501939
+R14
+R31
+R32
+R2
+R3
+R4
+Z141 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/memory_main.vhd
+Z142 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/memory_main.vhd
+l0
+L6
+V<S7oUl>RAFoOneDegUiY@1
+R7
+32
+Z143 !s108 1589502388.519000
+Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/memory_main.vhd|
+Z145 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/memory_main.vhd|
+R11
+R12
+!s100 DIH_@Q?mG[eB^;V>kJGj?1
+!i10b 1
+Amymem
+R14
+R31
+R32
+R2
+R3
+DEx4 work 11 memory_main 0 22 <S7oUl>RAFoOneDegUiY@1
+l104
+L31
+VnDm46PkPOD0X:M69Oacf=0
+R7
+32
 R143
 R144
 R145
-!i113 1
 R11
 R12
-Ememory_main
-Z146 w1589499797
-R14
-R32
-R33
-R1
-R2
-R3
-Z147 8D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Memory\memory_main.vhd
-Z148 FD:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Memory\memory_main.vhd
-l0
-L6
-VZK;Ya0LgTLY^z9<>]UD4L0
-!s100 j17oUE>5k28d7]Z<znCZA3
-R6
-32
-Z149 !s110 1589499802
+!s100 VVRK8DYmh80T]@L2HSH2W0
 !i10b 1
-Z150 !s108 1589499802.000000
-Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Memory\memory_main.vhd|
-!s107 D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Memory\memory_main.vhd|
-!i113 1
-R11
-R12
-Amymem
-R14
-R32
-R33
-R1
-R2
-Z152 DEx4 work 11 memory_main 0 22 ZK;Ya0LgTLY^z9<>]UD4L0
-l104
-L31
-V^_Z_8l`QTH`2<ekACd;;n3
-!s100 V9?V><NS7VeAQkCC_de_C3
-R6
-32
-R149
-!i10b 1
-R150
-R151
-Z153 !s107 D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Memory\memory_main.vhd|
-!i113 1
-R11
-R12
 Ememreg
-R21
-R1
+R118
 R2
 R3
-Z154 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_Reg.vhd
-Z155 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_Reg.vhd
+R4
+Z146 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/Mem_Reg.vhd
+Z147 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/Mem_Reg.vhd
 l0
 L5
-V99]WJDjD?AFcKM<SWY]jP3
-!s100 3IYGJSPi[Vj54H1]ODS4Y1
-R6
+VUOkgEEiEIb>JYUnVG9zM;2
+R7
 32
-Z156 !s110 1589497540
-!i10b 1
-R143
-Z157 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_Reg.vhd|
-Z158 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_Reg.vhd|
-!i113 1
+Z148 !s108 1589502386.496000
+Z149 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/Mem_Reg.vhd|
+Z150 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/Mem_Reg.vhd|
 R11
 R12
+!s100 2O?4`CJi2]lfGkNI@mB1M1
+!i10b 1
 Amemregarch
-R1
 R2
-DEx4 work 6 memreg 0 22 99]WJDjD?AFcKM<SWY]jP3
+R3
+DEx4 work 6 memreg 0 22 UOkgEEiEIb>JYUnVG9zM;2
 l17
 L14
-VWLY>Me:iCnEbPn82YmJ2e0
-!s100 S9DVhb5f8_YFFPLM^MYI71
-R6
+VERV7`iLAHH>BDWXOzOgmf0
+R7
 32
-R156
-!i10b 1
-R143
-R157
-R158
-!i113 1
+R148
+R149
+R150
 R11
 R12
+!s100 bYaQEck=`GkKJSgH8nz^T2
+!i10b 1
 Emoc
-R21
+Z151 w1589485475
 R14
+R31
 R32
-R33
-R1
 R2
 R3
-Z159 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memoc.vhd
-Z160 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memoc.vhd
+R4
+Z152 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/memoc.vhd
+Z153 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/memoc.vhd
 l0
 L6
-VOOG2UX;MV^?YTLH9Dinof3
-!s100 08[7F5Ek7dUZQ2WB<I3eH1
-R6
+V3L_aF0I`c<?4MzU9;mc4m2
+R7
 32
-R156
-!i10b 1
-Z161 !s108 1589497540.000000
-Z162 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memoc.vhd|
-Z163 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memoc.vhd|
-!i113 1
+Z154 !s108 1589502387.568000
+Z155 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/memoc.vhd|
+Z156 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/memoc.vhd|
 R11
 R12
+!s100 f_6i7hcH8_aP1JiBlFCY?1
+!i10b 1
 Amymoc
 R14
+R31
 R32
-R33
-R1
 R2
-DEx4 work 3 moc 0 22 OOG2UX;MV^?YTLH9Dinof3
+R3
+DEx4 work 3 moc 0 22 3L_aF0I`c<?4MzU9;mc4m2
 l27
 L25
-V2ob4N[;_a[G_HPKX2lJOA1
-!s100 T^B<e67<<9KIB=aia4g4g0
-R6
+V?VP5dZ0kDAd?n>;1A<A^V0
+R7
 32
+R154
+R155
 R156
-!i10b 1
-R161
-R162
-R163
-!i113 1
 R11
 R12
+!s100 cDEiSEMJ59M^We>9bQIAU1
+!i10b 1
 Emux
-R0
+Z157 w1588617134
+R31
 R32
-R33
-R1
 R2
 R3
-Z164 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/mux.vhd
-Z165 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/mux.vhd
+R4
+Z158 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/mux.vhd
+Z159 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/mux.vhd
 l0
 L4
-V>PViSHl58nhlNjfnmDN]D2
-!s100 JLLh[OQe?DTKIe9X9IYJ63
-R6
+V1kL07I]Y?i3jmShzh94^80
+R7
 32
-R131
-!i10b 1
-R132
-Z166 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/mux.vhd|
-Z167 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/mux.vhd|
-!i113 1
+Z160 !s108 1589502380.849000
+Z161 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/mux.vhd|
+Z162 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/mux.vhd|
 R11
 R12
+!s100 iB71=:mb?WhkYNiDBIdbm1
+!i10b 1
 Amy_mux
+R31
 R32
-R33
-R1
 R2
-DEx4 work 3 mux 0 22 >PViSHl58nhlNjfnmDN]D2
+R3
+DEx4 work 3 mux 0 22 1kL07I]Y?i3jmShzh94^80
 l14
 L12
-VS]W^K@bEnPgocnBFeW]Sf2
-!s100 02dl4iVR:1EOE>__3Bo`T3
-R6
+VmJ?W0?YCd<?iUYJj@J`Q^1
+R7
 32
-R131
+R160
+R161
+R162
+R11
+R12
+!s100 N2J2o7?9[bZV5KM@787n70
 !i10b 1
-R132
+Emux2x1
+R38
+R2
+R3
+R4
+Z163 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux2x1.vhd
+Z164 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux2x1.vhd
+l0
+L4
+VmS0<1?1CUb0YKKH4hGH9i3
+R7
+32
+Z165 !s108 1589502375.574000
+Z166 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux2x1.vhd|
+Z167 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux2x1.vhd|
+R11
+R12
+!s100 Ri>`JLKieODjZ<9PkBz0f2
+!i10b 1
+Amux21arch
+R2
+R3
+DEx4 work 6 mux2x1 0 22 mS0<1?1CUb0YKKH4hGH9i3
+l11
+L10
+VP;=LBWEFK];hn0cRdB8451
+R7
+32
+R165
 R166
 R167
-!i113 1
 R11
 R12
-Emux2x1
-R21
-R1
+!s100 h:ncI@]dBh^PQ^o54]oYh0
+!i10b 1
+Emux2x1bit
+R38
 R2
 R3
-Z168 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x1.vhd
-Z169 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x1.vhd
+R4
+Z168 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux2x11bit.vhd
+Z169 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux2x11bit.vhd
 l0
 L4
-V05DfG2bY:WH4JNn964ij;2
-!s100 JG5oiZ9mobPnm>N<1hB;l2
-R6
+VR7XW7j3nLWg9o45eMn:1c0
+R7
 32
-Z170 !s110 1589497555
-!i10b 1
-R138
-Z171 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x1.vhd|
-Z172 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x1.vhd|
-!i113 1
+Z170 !s108 1589502376.294000
+Z171 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux2x11bit.vhd|
+Z172 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux2x11bit.vhd|
 R11
 R12
-Amux21arch
-R1
+!s100 PEE:975>JAL]5k>N9^Pgi0
+!i10b 1
+Amux21bitarch
 R2
-DEx4 work 6 mux2x1 0 22 05DfG2bY:WH4JNn964ij;2
+R3
+DEx4 work 9 mux2x1bit 0 22 R7XW7j3nLWg9o45eMn:1c0
 l11
 L10
-VJd7Zk?ZBb;IfNo83^O_]L2
-!s100 6D`WCX?4G:mE^CLkW8?NR0
-R6
+Vi>48FEFV=DeP?G>LL]6TY3
+R7
 32
 R170
-!i10b 1
-R138
 R171
 R172
-!i113 1
 R11
 R12
-Emux2x1bit
-Z173 w1588607080
-R1
-R2
-R3
-Z174 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x11bit.vhd
-Z175 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x11bit.vhd
-l0
-L4
-VRILo:>T[SYOzMbnLoJO]41
-!s100 WZS7WVdMf7^k0c:1z_I1Q2
-R6
-32
-R170
+!s100 [f<VcO2]J>PUhOW<RWDX:2
 !i10b 1
-Z176 !s108 1589497555.000000
-Z177 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x11bit.vhd|
-Z178 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x11bit.vhd|
-!i113 1
-R11
-R12
-Amux21bitarch
-R1
-R2
-DEx4 work 9 mux2x1bit 0 22 RILo:>T[SYOzMbnLoJO]41
-l11
-L10
-VNJO3EP4zN68MU^FU3Xc?;1
-!s100 Wc>ZA<64C6]hnK4_R7Inj3
-R6
-32
-R170
-!i10b 1
-R176
-R177
-R178
-!i113 1
-R11
-R12
 Emux4x1
-R21
-R1
+R38
 R2
 R3
-Z179 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x1.vhd
-Z180 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x1.vhd
+R4
+Z173 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux4x1.vhd
+Z174 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux4x1.vhd
 l0
 L4
-V0nYF8c2hV7zamS2E3K6Y23
-!s100 ^ahBJHg::IW_K_;31nQ?O3
-R6
+V2^Q3l[DY:nJBTZ9@hhY<S2
+R7
 32
-R170
-!i10b 1
-R176
-Z181 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x1.vhd|
-Z182 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x1.vhd|
-!i113 1
+Z175 !s108 1589502377.105000
+Z176 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux4x1.vhd|
+Z177 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux4x1.vhd|
 R11
 R12
+!s100 nY]eRVf]6^7FklNm1zZ`f2
+!i10b 1
 Amux41arch
-R1
 R2
-DEx4 work 6 mux4x1 0 22 0nYF8c2hV7zamS2E3K6Y23
+R3
+DEx4 work 6 mux4x1 0 22 2^Q3l[DY:nJBTZ9@hhY<S2
 l20
 L11
-VSBJKG03IhWJA`j4lZi7aB0
-!s100 R9B?X9OXfRK?3]F[M:WJL3
-R6
+VLEedPh63RY?eS[[^9diNT2
+R7
 32
-R170
-!i10b 1
+R175
 R176
-R181
-R182
-!i113 1
+R177
 R11
 R12
+!s100 nDAi`i1N=^1XQ_8N^MV_60
+!i10b 1
 Emux4x1bit
-Z183 w1588607361
-R1
+R38
 R2
 R3
-Z184 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x11bit.vhd
-Z185 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x11bit.vhd
+R4
+Z178 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux4x11bit.vhd
+Z179 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux4x11bit.vhd
 l0
 L4
-VHf`BPKBU_9MR]L5QZf4OG1
-!s100 HM_K>9bJ<CeL7MlcOd3h^2
-R6
+V0ZhD5zkQ_2c62ogjl>An11
+R7
 32
-R107
-!i10b 1
-R108
-Z186 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x11bit.vhd|
-Z187 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x11bit.vhd|
-!i113 1
+Z180 !s108 1589502377.572000
+Z181 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux4x11bit.vhd|
+Z182 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/mux4x11bit.vhd|
 R11
 R12
+!s100 IAXLUXdPkg[;2o_>@HL[C0
+!i10b 1
 Amux41bitarch
-R1
 R2
-DEx4 work 9 mux4x1bit 0 22 Hf`BPKBU_9MR]L5QZf4OG1
+R3
+DEx4 work 9 mux4x1bit 0 22 0ZhD5zkQ_2c62ogjl>An11
 l19
 L10
-VYnLUlP4Xl^z06I^BSI51H2
-!s100 T]6]P[CQo`]>hB?<8Vi>L2
-R6
+VWm]1lX;h`Ni@BdO4jlGFA3
+R7
 32
-R107
-!i10b 1
-R108
-R186
-R187
-!i113 1
+R180
+R181
+R182
 R11
 R12
+!s100 EK`NnizIh0LbkLmI66Bf`0
+!i10b 1
 Emux_2x1
-R0
-R1
+R38
 R2
 R3
-Z188 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux2x1.vhd
-Z189 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux2x1.vhd
+R4
+Z183 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/mux2x1.vhd
+Z184 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/mux2x1.vhd
 l0
 L4
-Vg?OEKQQiG4M14^cl2BVHB1
-!s100 26E96EgZY;]Y;V[zk8MW^1
-R6
+V=6IS0?G=T0D5W>M@1jJ_E0
+R7
 32
-Z190 !s110 1589497547
-!i10b 1
-R60
-Z191 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux2x1.vhd|
-Z192 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux2x1.vhd|
-!i113 1
+Z185 !s108 1589502365.643000
+Z186 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/mux2x1.vhd|
+Z187 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/mux2x1.vhd|
 R11
 R12
+!s100 NABa[Dli5UH?ef0Z0KzZP0
+!i10b 1
 Abehavioral
-R1
 R2
-DEx4 work 7 mux_2x1 0 22 g?OEKQQiG4M14^cl2BVHB1
+R3
+DEx4 work 7 mux_2x1 0 22 =6IS0?G=T0D5W>M@1jJ_E0
 l12
 L11
-VDz0cbRkXLgAOOZoN]PKGc1
-!s100 ]@R87b7M`KYKzo61]:J=]1
-R6
+VAIeIbJ:hieNScQHgQ@maT2
+R7
 32
-R190
-!i10b 1
-R60
-R191
-R192
-!i113 1
+R185
+R186
+R187
 R11
 R12
+!s100 WDSRGc:PYHY[0aHR5e@@U3
+!i10b 1
 Emux_4x1
-R0
-R1
+R38
 R2
 R3
-Z193 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux4x1.vhd
-Z194 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux4x1.vhd
+R4
+Z188 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/mux4x1.vhd
+Z189 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/mux4x1.vhd
 l0
 L4
-V?VADOTTzc9PJ_XZ0URWRE0
-!s100 ]1XAf9La2>3^6Xhbz1J:_0
-R6
+VVTC@@67i5aZ6`BTzaQ_eL2
+R7
 32
-R190
-!i10b 1
-Z195 !s108 1589497547.000000
-Z196 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux4x1.vhd|
-Z197 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux4x1.vhd|
-!i113 1
+Z190 !s108 1589502366.094000
+Z191 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/mux4x1.vhd|
+Z192 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/mux4x1.vhd|
 R11
 R12
+!s100 ;?[4g`N@`l4<egZ3N>lIA2
+!i10b 1
 Abehavioral
-R1
 R2
-DEx4 work 7 mux_4x1 0 22 ?VADOTTzc9PJ_XZ0URWRE0
+R3
+DEx4 work 7 mux_4x1 0 22 VTC@@67i5aZ6`BTzaQ_eL2
 l13
 L12
-V`LVA3lcdD4gZCX<<fULeB1
-!s100 fcBo_RDXXQA013XjVTNOP2
-R6
+VLIIKRg>VJKAi;UbG;`W>02
+R7
 32
 R190
-!i10b 1
-R195
-R196
-R197
-!i113 1
+R191
+R192
 R11
 R12
+!s100 ]V93[H::?F:5TWgBPLh<32
+!i10b 1
 Emux_m
-R21
+Z193 w1589338984
+R31
 R32
-R33
-R1
 R2
 R3
-Z198 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/mux.vhd
-Z199 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/mux.vhd
+R4
+Z194 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/mux.vhd
+Z195 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/mux.vhd
 l0
 L4
-VJiMELL=N_c2IPnP[gaP^Z3
-!s100 oWn28]D`JIlkNE?C<68AK1
-R6
+VR4mJh6lg^3aZzH^eWi2P23
+R7
 32
-Z200 !s110 1589497541
-!i10b 1
-Z201 !s108 1589497541.000000
-Z202 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/mux.vhd|
-Z203 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/mux.vhd|
-!i113 1
+Z196 !s108 1589502389.462000
+Z197 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/mux.vhd|
+Z198 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/mux.vhd|
 R11
 R12
+!s100 hiH[Y]mWOleeci]=HM]>]3
+!i10b 1
 Amy_mux
+R31
 R32
-R33
-R1
 R2
-DEx4 work 5 mux_m 0 22 JiMELL=N_c2IPnP[gaP^Z3
+R3
+DEx4 work 5 mux_m 0 22 R4mJh6lg^3aZzH^eWi2P23
 l13
 L11
-VE;<i88[@khCLAhDVUNnKi3
-!s100 j;PXSVObJE3[1bYPGMUal1
-R6
+V2CaVBcP0^JhK>]E9YaQcV2
+R7
 32
-R200
+R196
+R197
+R198
+R11
+R12
+!s100 aZe^<o@M7LeIa?iAlTC;j0
 !i10b 1
+Emuxmini
+R118
+R31
+R32
+R2
+R3
+R4
+Z199 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/MuxMini.vhd
+Z200 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/MuxMini.vhd
+l0
+L4
+Vg94zzl=[fbW6j`b^Y]oF[2
+R7
+32
+Z201 !s108 1589502390.174000
+Z202 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/MuxMini.vhd|
+Z203 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/MuxMini.vhd|
+R11
+R12
+!s100 ETX4zoG=?e?H7THE6V89]2
+!i10b 1
+Amy_mux
+R31
+R32
+R2
+R3
+DEx4 work 7 muxmini 0 22 g94zzl=[fbW6j`b^Y]oF[2
+l13
+L11
+V]>h>aUX@k]4GkClFH0;Kh3
+R7
+32
 R201
 R202
 R203
-!i113 1
 R11
 R12
-Emuxmini
-R21
-R32
-R33
-R1
-R2
-R3
-Z204 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/MuxMini.vhd
-Z205 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/MuxMini.vhd
-l0
-L4
-VW^[zeQQ0@G:oa@VYoA>2E3
-!s100 6NUdcO95IYo2Z[@fhAi?82
-R6
-32
-R200
+!s100 H?6:@VhCTh2RORGQHYZIC0
 !i10b 1
-R201
-Z206 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/MuxMini.vhd|
-Z207 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/MuxMini.vhd|
-!i113 1
-R11
-R12
-Amy_mux
-R32
-R33
-R1
-R2
-DEx4 work 7 muxmini 0 22 W^[zeQQ0@G:oa@VYoA>2E3
-l13
-L11
-Vkh>^5nmU4eVe]5DL_`FHL1
-!s100 cV=GUfT]=e^Xd[1L?6agd3
-R6
-32
-R200
-!i10b 1
-R201
-R206
-R207
-!i113 1
-R11
-R12
 Emy_ndff
-R0
 R1
 R2
 R3
-Z208 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Reg.vhd
-Z209 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Reg.vhd
+R4
+Z204 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/Reg.vhd
+Z205 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/Reg.vhd
 l0
 L5
-VZhi1LFUG_i`:oQ2zmIJ@90
-!s100 9J[=hBUQoUKB<l8c3M_Gb2
-R6
+VI>Dl682KB0nkR28HijKEP0
+R7
 32
-Z210 !s110 1589497548
-!i10b 1
-Z211 !s108 1589497548.000000
-Z212 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Reg.vhd|
-Z213 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Reg.vhd|
-!i113 1
+Z206 !s108 1589502366.565000
+Z207 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/Reg.vhd|
+Z208 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/Reg.vhd|
 R11
 R12
+!s100 9P`6[`j8@nakj_<Vj<cRH1
+!i10b 1
 Aa_my_ndff
-R1
 R2
-DEx4 work 7 my_ndff 0 22 Zhi1LFUG_i`:oQ2zmIJ@90
+R3
+DEx4 work 7 my_ndff 0 22 I>Dl682KB0nkR28HijKEP0
 l17
 L15
-VnbYTEimQ3RMH3TUlL[TBL2
-!s100 Dd`Ye@7OjKWES`Q:Ek1DY3
-R6
+V:=3cV4c?9JEQfIf;XUaMc1
+R7
 32
-R210
+R206
+R207
+R208
+R11
+R12
+!s100 FXmEch1Hi?jmhIVRcCXo:3
 !i10b 1
+Emyrev_ndff
+R38
+R2
+R3
+R4
+Z209 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/regrev.vhd
+Z210 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/regrev.vhd
+l0
+L5
+VU3eQ0Nf9ocKO^z`;ne3T>0
+R7
+32
+Z211 !s108 1589502368.583000
+Z212 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/regrev.vhd|
+Z213 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/regrev.vhd|
+R11
+R12
+!s100 mQaD8fmc_6:`W3`zI4P;c1
+!i10b 1
+Aa_my_ndff
+R2
+R3
+DEx4 work 10 myrev_ndff 0 22 U3eQ0Nf9ocKO^z`;ne3T>0
+l17
+L15
+V1APL<BE<JejfkL;hM3nnz1
+R7
+32
 R211
 R212
 R213
-!i113 1
 R11
 R12
-Emyrev_ndff
-R0
-R1
+!s100 VYfSgn0gA=m`9Y[a>DZ@R3
+!i10b 1
+Eram
+Z214 w1589337509
+R14
+R31
+R32
 R2
 R3
-Z214 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regrev.vhd
-Z215 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regrev.vhd
+R4
+Z215 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/Ram.vhd
+Z216 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/Ram.vhd
 l0
-L5
-Vg8bUdLdmfOC]K8ia^aMgS0
-!s100 GP4dhDZbCcW?9PkG4MLL>1
-R6
+L4
+VPmn3YJ;RJfT^7bB_c0T`50
+R7
 32
-Z216 !s110 1589497549
-!i10b 1
-Z217 !s108 1589497549.000000
-Z218 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regrev.vhd|
-Z219 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regrev.vhd|
-!i113 1
+Z217 !s108 1589502381.401000
+Z218 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/Ram.vhd|
+Z219 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/Ram.vhd|
 R11
 R12
-Aa_my_ndff
-R1
-R2
-DEx4 work 10 myrev_ndff 0 22 g8bUdLdmfOC]K8ia^aMgS0
-l17
-L15
-VGXI<S<g9ITCVJcFW><<@c0
-!s100 @Li]0=?c<8ZkHDoAHHh^Q1
-R6
-32
-R216
+!s100 gQ40b;Wz4fIP?e1V3><_50
 !i10b 1
+Async_ram_a
+R14
+R31
+R32
+R2
+R3
+DEx4 work 3 ram 0 22 Pmn3YJ;RJfT^7bB_c0T`50
+l36
+L19
+VeDnL4DS``0^<SoahZoN`W2
+R7
+32
 R217
 R218
 R219
-!i113 1
 R11
 R12
-Eram
-R21
-R14
-R32
-R33
-R1
+!s100 `6<2c`9CCS@Bh]hlB4B[m3
+!i10b 1
+Ereg
+R20
 R2
 R3
-Z220 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Ram.vhd
-Z221 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Ram.vhd
+R4
+Z220 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/Reg.vhd
+Z221 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/Reg.vhd
 l0
-L4
-VLaVPXoLGf]CM67K4UCcFR0
-!s100 Ub:Q:CV5UQXD0G2^<g<a<0
-R6
-32
+L5
+V[PDhQ399LZ_?7IdTGUY652
 R7
-!i10b 1
-R132
-Z222 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Ram.vhd|
-Z223 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Ram.vhd|
-!i113 1
+32
+Z222 !s108 1589502382.926000
+Z223 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/Reg.vhd|
+Z224 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/Reg.vhd|
 R11
 R12
-Async_ram_a
-R14
-R32
-R33
-R1
-R2
-DEx4 work 3 ram 0 22 LaVPXoLGf]CM67K4UCcFR0
-l36
-L19
-VcjXPZ>8HShMBOMG45D5Qn0
-!s100 `23mMd2fCPWC3;8zSjnU_2
-R6
-32
-R7
+!s100 :lZN2OnnM>gM`eUY7`VDB0
 !i10b 1
-R132
+Aa_reg
+R2
+R3
+DEx4 work 3 reg 0 22 [PDhQ399LZ_?7IdTGUY652
+l17
+L15
+Vdg<V2_<]cU9:m4V7^lz0R1
+R7
+32
 R222
 R223
-!i113 1
+R224
 R11
 R12
-Ereg
-R21
-R1
-R2
-R3
-Z224 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Reg.vhd
-Z225 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Reg.vhd
-l0
-L5
-VB0@fdUP6lh5IQ^?3GJA`@0
-!s100 Be>BY=dFTS2cQ?han`3781
-R6
-32
-R7
+!s100 b750fj:LdPYeOMa>T]dnY3
 !i10b 1
-R8
-Z226 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Reg.vhd|
-Z227 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Reg.vhd|
-!i113 1
-R11
-R12
-Aa_reg
-R1
-R2
-DEx4 work 3 reg 0 22 B0@fdUP6lh5IQ^?3GJA`@0
-l17
-L15
-VA09X1XLEWQ6kWMmKP][ZE3
-!s100 Mk:IbMgO9l<CHQKHUD[aS3
-R6
-32
-R7
-!i10b 1
-R8
-R226
-R227
-!i113 1
-R11
-R12
 Ereg1bit
-Z228 w1588730904
-R1
+R38
 R2
 R3
-Z229 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg1bit.vhd
-Z230 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg1bit.vhd
+R4
+Z225 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Reg1bit.vhd
+Z226 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Reg1bit.vhd
 l0
 L4
-Vdz[`ISB_0;O0PRHVKzKIV3
-!s100 5bbh5gl:9dT^bajK`z?VV0
-R6
+V^6VCX4O]EWhI2dUg7KabD0
+R7
 32
-Z231 !s110 1589497557
-!i10b 1
-Z232 !s108 1589497557.000000
-Z233 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg1bit.vhd|
-Z234 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg1bit.vhd|
-!i113 1
+Z227 !s108 1589502378.428000
+Z228 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Reg1bit.vhd|
+Z229 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Reg1bit.vhd|
 R11
 R12
+!s100 6jQamA0a@l^MAk@mUCX`>2
+!i10b 1
 Areg1bitarch
-R1
 R2
-DEx4 work 7 reg1bit 0 22 dz[`ISB_0;O0PRHVKzKIV3
+R3
+DEx4 work 7 reg1bit 0 22 ^6VCX4O]EWhI2dUg7KabD0
 l11
 L10
-VRZRLiEVL^j4UE?4YVYQhQ3
-!s100 M`KM9;@WO6PUdH;ZG^PO<3
-R6
+VcOMLC@E<DRU?j2WG0gjbc2
+R7
 32
-R231
-!i10b 1
-R232
-R233
-R234
-!i113 1
+R227
+R228
+R229
 R11
 R12
+!s100 [jbk4fGZHe5YECIHcIjTm2
+!i10b 1
 Ereg_sp
-R21
+Z230 w1589338426
 R14
-R1
 R2
 R3
-Z235 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Reg.vhd
-Z236 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Reg.vhd
+R4
+Z231 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/Reg.vhd
+Z232 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/Reg.vhd
 l0
 L7
-V<1mTY:?aL@WV89jIkRf>40
-!s100 [R=dXoKX50P4hG2cl7z5K3
-R6
+VN>Cc2P0>[G2<603jf7d6Y0
+R7
 32
-R90
-!i10b 1
-R91
-Z237 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Reg.vhd|
-Z238 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Reg.vhd|
-!i113 1
+Z233 !s108 1589502390.739000
+Z234 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/Reg.vhd|
+Z235 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/Reg.vhd|
 R11
 R12
+!s100 LD:NP;h5AO`b^S_2_8SAd1
+!i10b 1
 Aa_reg
 R14
-R1
 R2
-DEx4 work 6 reg_sp 0 22 <1mTY:?aL@WV89jIkRf>40
+R3
+DEx4 work 6 reg_sp 0 22 N>Cc2P0>[G2<603jf7d6Y0
 l17
 L15
-V19GJl<7?`dXeggTl^P[T?2
-!s100 4:zkW[^7V9Ol7=9jfa<WI0
-R6
+V53hJ22QQCJDUXO910cC5W2
+R7
 32
-R90
-!i10b 1
-R91
-R237
-R238
-!i113 1
+R233
+R234
+R235
 R11
 R12
+!s100 W6c7dCH;^hU;e3Hnh68A30
+!i10b 1
 Eregisterfile
-Z239 w1589490107
-R1
+R13
 R2
 R3
-Z240 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/RegisterFile.vhd
-Z241 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/RegisterFile.vhd
+R4
+Z236 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/RegisterFile.vhd
+Z237 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/RegisterFile.vhd
 l0
 L4
-Ve0XF:O44oZ7KT48SFQOoe3
-!s100 bAL6:blJ`8;L00>cGQaBm0
-R6
+V9lU0T8LCf<lDU[N=nc7hD2
+R7
 32
-R210
-!i10b 1
-R211
-Z242 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/RegisterFile.vhd|
-Z243 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/RegisterFile.vhd|
-!i113 1
+Z238 !s108 1589502367.309000
+Z239 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/RegisterFile.vhd|
+Z240 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/RegisterFile.vhd|
 R11
 R12
+!s100 GO[;S9:f0S^Fo7:a94BVZ0
+!i10b 1
 Astruct
-R1
 R2
-DEx4 work 12 registerfile 0 22 e0XF:O44oZ7KT48SFQOoe3
+R3
+DEx4 work 12 registerfile 0 22 9lU0T8LCf<lDU[N=nc7hD2
 l67
 L30
-VDPhj75Ljlj:Ub@4z;bFiN3
-!s100 zeUM;B5N5:Cj0Jn[^mTF:2
-R6
+VHmmC3?Lc77boNmm@Ja_lR2
+R7
 32
-R210
-!i10b 1
-R211
-R242
-R243
-!i113 1
+R238
+R239
+R240
 R11
 R12
+!s100 iDW3V9M3c;P`jW3FDBFP_0
+!i10b 1
 Eregisters
-R0
 R1
 R2
 R3
-Z244 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/REGISTERS.vhd
-Z245 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/REGISTERS.vhd
+R4
+Z241 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/REGISTERS.vhd
+Z242 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/REGISTERS.vhd
 l0
 L4
-V^ifMCbmSikU39B_YQCbzG1
-!s100 ?6UE1MLSKi1U`:`^i<SV90
-R6
+VGfkVJ8b51]23nN>e7Q;@h3
+R7
 32
-R216
-!i10b 1
-R217
-Z246 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/REGISTERS.vhd|
-Z247 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/REGISTERS.vhd|
-!i113 1
+Z243 !s108 1589502368.084000
+Z244 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/REGISTERS.vhd|
+Z245 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/REGISTERS.vhd|
 R11
 R12
+!s100 d_IC[;VT9`hhJP0Ib=eYS3
+!i10b 1
 Astruct
-R1
 R2
-DEx4 work 9 registers 0 22 ^ifMCbmSikU39B_YQCbzG1
+R3
+DEx4 work 9 registers 0 22 GfkVJ8b51]23nN>e7Q;@h3
 l46
 L18
-Vl0JiDSJ;5NJceASheY6Sb1
-!s100 bNB_KUEQdm4RQQP0K=U4A1
-R6
+VMmGeF`Z=dOa=mlXdj_Pig2
+R7
 32
-R216
-!i10b 1
-R217
-R246
-R247
-!i113 1
+R243
+R244
+R245
 R11
 R12
+!s100 gz<GWoT7DzT=@lz8f1BnI3
+!i10b 1
 Eregtri
-R0
-R1
+R38
 R2
 R3
-Z248 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regTristate.vhd
-Z249 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regTristate.vhd
+R4
+Z246 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/regTristate.vhd
+Z247 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/regTristate.vhd
 l0
 L4
-V]cS5bLo0_3@KKE:FUmdVM3
-!s100 l10<I;hU_o3?MF3kKU6TF1
-R6
+VMmY@beH6^T4z<@:_R1<fz2
+R7
 32
-R17
-!i10b 1
-R18
-Z250 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regTristate.vhd|
-Z251 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regTristate.vhd|
-!i113 1
+Z248 !s108 1589502369.058000
+Z249 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/regTristate.vhd|
+Z250 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/regTristate.vhd|
 R11
 R12
+!s100 _6onoV1ja5SRGc9a]1jU^3
+!i10b 1
 Astruct
-R1
 R2
-DEx4 work 6 regtri 0 22 ]cS5bLo0_3@KKE:FUmdVM3
+R3
+DEx4 work 6 regtri 0 22 MmY@beH6^T4z<@:_R1<fz2
 l33
 L17
-V_cdaY]7b[oN0J32I8iG<[2
-!s100 j=WfS1OgABhLR9zHE<lRM2
-R6
+VlHM?3e<Tmle<@aL[0R2K71
+R7
 32
-R17
-!i10b 1
-R18
+R248
+R249
 R250
-R251
-!i113 1
 R11
 R12
+!s100 ElYoV4@kWj5C^z^f`HHio1
+!i10b 1
 Espinc
-R21
+Z251 w1589327415
+R31
 R32
-R33
-R1
 R2
 R3
-Z252 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/sp_inc.vhd
-Z253 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/sp_inc.vhd
+R4
+Z252 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/sp_inc.vhd
+Z253 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/sp_inc.vhd
 l0
 L5
-V2ZmA:RFUZ@DTY1^]623kn3
-!s100 i=eY]:<JI>8oK;DH[D`3C0
-R6
+VnoKgQobM_][22TWTA;2;T2
+R7
 32
-R90
-!i10b 1
-R91
-Z254 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/sp_inc.vhd|
-Z255 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/sp_inc.vhd|
-!i113 1
+Z254 !s108 1589502391.573000
+Z255 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/sp_inc.vhd|
+Z256 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/sp_inc.vhd|
 R11
 R12
+!s100 :GA=P3[I`fCiB?XKO1d]b0
+!i10b 1
 Amyspinc
+R31
 R32
-R33
-R1
 R2
-DEx4 work 5 spinc 0 22 2ZmA:RFUZ@DTY1^]623kn3
+R3
+DEx4 work 5 spinc 0 22 noKgQobM_][22TWTA;2;T2
 l16
 L14
-VngOj5>gVM70XZRPL_hQ^G0
-!s100 DKB@?6c?[f>9jTh8?[ZRE1
-R6
+V^Y369f@aDYFfJ9W5aPSg;1
+R7
 32
-R90
-!i10b 1
-R91
 R254
 R255
-!i113 1
+R256
 R11
 R12
+!s100 9YN21LYBJBXT]BhXa2@K:2
+!i10b 1
 Ewb
-R21
-R2
-R1
-R14
+Z257 w1589467249
 R3
-Z256 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/writeback/WB_main.vhd
-Z257 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/writeback/WB_main.vhd
+R2
+R14
+R4
+Z258 8C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/writeback/WB_main.vhd
+Z259 FC:/Users/Abd ElRahman/Desktop/PipelinedProcessor/writeback/WB_main.vhd
 l0
 L6
-VDDeK8OOF138OmH60T@^Oe0
-!s100 k52:MPalL=3`5nYidiOO_2
-R6
+ViIYih_IJJKo^k5F^AG;f22
+!s100 Y4gej3coTP<iUU^H4Yz8Z1
+R7
 32
-Z258 !s110 1589497538
 !i10b 1
-R126
-Z259 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/writeback/WB_main.vhd|
-Z260 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/writeback/WB_main.vhd|
-!i113 1
+Z260 !s108 1589502392.561000
+Z261 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/writeback/WB_main.vhd|
+Z262 !s107 C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/writeback/WB_main.vhd|
 R11
 R12
 Awb_arch
+R3
 R2
-R1
 R14
-DEx4 work 2 wb 0 22 DDeK8OOF138OmH60T@^Oe0
+DEx4 work 2 wb 0 22 iIYih_IJJKo^k5F^AG;f22
 l19
 L18
-V56<BWb[QKk`78eJDLUC:91
-!s100 XWO:ZDLZ3FK0S3nfC@=Ao0
-R6
+V3HQLfkUJF0]nKmM3MHaaM3
+!s100 cn8?DO_MV7deifeB?@C]U3
+R7
 32
-R258
 !i10b 1
-R126
-R259
 R260
-!i113 1
+R261
+R262
 R11
 R12

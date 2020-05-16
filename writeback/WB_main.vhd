@@ -20,7 +20,7 @@ architecture WB_Arch of WB is
 
     identifier : process( clk , Ramout )
     begin
-        if clk = '0' and OPcode_Flag (0) = '0' then 
+        if clk = '1' and OPcode_Flag (0) = '0' then 
             if  OPcode_Flag (6 downto 1 ) = "000001"   or OPcode_Flag (6 downto 1 ) = "000010" or OPcode_Flag (6 downto 1 ) = "000011" or -- 1 op
                 OPcode_Flag (6 downto 4 ) = "001"   or -- 2 op 
                 OPcode_Flag (6 downto 1 ) = "010001" or OPcode_Flag (6 downto 1 ) = "010010" or OPcode_Flag (6 downto 1 ) = "010011"  --memory 
