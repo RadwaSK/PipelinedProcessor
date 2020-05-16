@@ -29,11 +29,15 @@ process( IR , stall, IRregin)
 	begin
 
 --registers in rst signal equal zero 
-if(stall='0') then
+if(stall/='1') then
 
 if(IR= "1000100000000000") then
 IRflag <= "00";
 end if;
+
+--NOP
+
+
 
 if(FlagRegisterin(0) ='0') then
 JZStates <= "01";
@@ -44,7 +48,11 @@ end if;
  -- EA or immediate 
 if (IRregin = "00" or IRregin="UU") then
 --one operand
-if (IR(15 downto 13)= "000") then
+--NOP
+if(IR="1000100000000000") then
+Opcode <= IR(15 downto 10);
+opflag <= '1';
+elsif (IR(15 downto 13)= "000") then
 	Rdst <= IR(9 downto 7);
 	Rsrc1 <= IR(9 downto 7);
 	Opcode <= IR(15 downto 10);
@@ -160,6 +168,8 @@ elsif ( IR(15 downto 13) = "011" ) then
 	--input and output
 elsif ( IR(15 downto 10) = "100110" ) then
 	Opcode <= IR(15 downto 10);
+	Rsrc1 <= IR(9 downto 7);
+	Rsrc1Sel <="10";
 	opflag <= '0'; --note this
 	IRflag <= "00";	
 	end if;

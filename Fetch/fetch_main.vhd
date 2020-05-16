@@ -77,7 +77,7 @@ begin
     selt2 <= "001" ;
     FSM_INT<= 1;
     
-    elsif outRam (15 downto 10) = "000001"  then
+    elsif outRam (15 downto 10) = "001000"  then
       FSM_SWAP<= 1 ;
       
     -- RTI and RETs

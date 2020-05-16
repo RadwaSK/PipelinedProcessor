@@ -22,9 +22,9 @@ V@XcgAl`7:KNFaIY;]gNi?1
 !s100 bd9`1UIBCJLTMGTJ9SALL3
 Z6 OV;C;2019.2;69
 32
-Z7 !s110 1589497544
+Z7 !s110 1589579762
 !i10b 1
-Z8 !s108 1589497544.000000
+Z8 !s108 1589579762.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AddressExtend.vhd|
 Z10 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AddressExtend.vhd|
 !i113 1
@@ -62,9 +62,9 @@ VR0<PIkSG<He8QcDLYHHJ43
 !s100 L2KO85@J7A^T=<C=VYIU81
 R6
 32
-Z17 !s110 1589497550
+Z17 !s110 1589579767
 !i10b 1
-Z18 !s108 1589497550.000000
+Z18 !s108 1589579767.000000
 Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU.vhd|
 Z20 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU.vhd|
 !i113 1
@@ -103,11 +103,11 @@ VYD_oDCg4eBQWZIGiLVAGg0
 !s100 2MzdLQ=jecRK>`fQjBM`R1
 R6
 32
-Z24 !s110 1589497551
+Z24 !s110 1589579768
 !i10b 1
-Z25 !s108 1589497551.000000
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_MS.vhd|
-Z27 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_MS.vhd|
+R18
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_MS.vhd|
+Z26 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_MS.vhd|
 !i113 1
 R11
 R12
@@ -124,9 +124,9 @@ R6
 32
 R24
 !i10b 1
+R18
 R25
 R26
-R27
 !i113 1
 R11
 R12
@@ -135,8 +135,8 @@ R21
 R1
 R2
 R3
-Z28 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_Reg.vhd
-Z29 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_Reg.vhd
+Z27 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_Reg.vhd
+Z28 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_Reg.vhd
 l0
 L5
 VCPDo]30MMz?f^;_WJ5YPe0
@@ -145,7 +145,7 @@ R6
 32
 R24
 !i10b 1
-R25
+Z29 !s108 1589579768.000000
 Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_Reg.vhd|
 Z31 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/ALU_Reg.vhd|
 !i113 1
@@ -163,7 +163,7 @@ R6
 32
 R24
 !i10b 1
-R25
+R29
 R30
 R31
 !i113 1
@@ -184,9 +184,9 @@ Vf>IYfeKIM_OCPi3JTYgVn1
 !s100 n7c24od?Fh5T8KN6=zSld1
 R6
 32
-Z36 !s110 1589497545
+Z36 !s110 1589579763
 !i10b 1
-Z37 !s108 1589497545.000000
+Z37 !s108 1589579763.000000
 Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AND.vhd|
 Z39 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/AND.vhd|
 !i113 1
@@ -258,19 +258,19 @@ R1
 R2
 R33
 R3
-Z45 8D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Main.vhd
-Z46 FD:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Main.vhd
+Z45 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Main.vhd
+Z46 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Main.vhd
 l0
 L5
 V5]meZE=TR3J9M_g_9>XE<2
 !s100 [?AZQkN?00N_@5e=zNI713
 R6
 32
-Z47 !s110 1589498059
+Z47 !s110 1589579756
 !i10b 1
-Z48 !s108 1589498059.000000
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Main.vhd|
-Z50 !s107 D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Main.vhd|
+Z48 !s108 1589579756.000000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Main.vhd|
+Z50 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Main.vhd|
 !i113 1
 R11
 R12
@@ -346,9 +346,9 @@ VNo>k7=;NQmKOK1[B<l?Pd1
 !s100 6akbaaIH[G3^>5JcmnbnR3
 R6
 32
-Z59 !s110 1589497546
+Z59 !s110 1589579764
 !i10b 1
-Z60 !s108 1589497546.000000
+Z60 !s108 1589579764.000000
 Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/decodeStage.vhd|
 Z62 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/decodeStage.vhd|
 !i113 1
@@ -412,41 +412,41 @@ R66
 R11
 R12
 Edoc
-Z67 w1589492739
+Z67 w1589588047
 R1
 R2
 R3
-Z68 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/DOC.vhd
-Z69 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/DOC.vhd
+Z68 8D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Decode\DOC.vhd
+Z69 FD:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Decode\DOC.vhd
 l0
 L4
 Vb82hG2M`0NjRjPJhRnz0n3
 !s100 5RON^hVI[BIZzET@EC=0N0
 R6
 32
-R59
+Z70 !s110 1589588051
 !i10b 1
-R60
-Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/DOC.vhd|
-Z71 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/DOC.vhd|
+Z71 !s108 1589588051.000000
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Decode\DOC.vhd|
+Z73 !s107 D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Decode\DOC.vhd|
 !i113 1
 R11
 R12
 Abehavioral
 R1
 R2
-DEx4 work 3 doc 0 22 b82hG2M`0NjRjPJhRnz0n3
+Z74 DEx4 work 3 doc 0 22 b82hG2M`0NjRjPJhRnz0n3
 l27
 L26
-VTGDJ^DASW_b;L[T9hIeQC3
-!s100 oX6]^58<3Lk>cUiWLAkN12
+V0AO`7US;J^Ik8UPUdh`Qc1
+!s100 YPj=c;7=llH39m6@2kMXT3
 R6
 32
-R59
-!i10b 1
-R60
 R70
+!i10b 1
 R71
+R72
+R73
 !i113 1
 R11
 R12
@@ -456,19 +456,19 @@ R2
 R1
 R14
 R3
-Z72 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/EOC.vhd
-Z73 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/EOC.vhd
+Z75 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/EOC.vhd
+Z76 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/EOC.vhd
 l0
 L5
 VGJcN;X8B4X>`W@1go:GCf2
 !s100 C[RGNnmd67aEg59VkWCT^1
 R6
 32
-Z74 !s110 1589497552
+R24
 !i10b 1
-Z75 !s108 1589497552.000000
-Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/EOC.vhd|
-Z77 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/EOC.vhd|
+R29
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/EOC.vhd|
+Z78 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/EOC.vhd|
 !i113 1
 R11
 R12
@@ -483,11 +483,11 @@ VOAaD8b_BHW]T?OgObhH6E0
 !s100 ENACL_f9PiDlGK9L0OBZc0
 R6
 32
-R74
+R24
 !i10b 1
-R75
-R76
+R29
 R77
+R78
 !i113 1
 R11
 R12
@@ -497,19 +497,19 @@ R2
 R1
 R14
 R3
-Z78 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave.vhd
-Z79 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave.vhd
+Z79 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave.vhd
+Z80 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave.vhd
 l0
 L5
 VElX`6MDcWdRebbmPI_?HR2
 !s100 8K@;JhR>:F3RnBF94gJaX3
 R6
 32
-Z80 !s110 1589497554
+Z81 !s110 1589579770
 !i10b 1
-Z81 !s108 1589497553.000000
-Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave.vhd|
-Z83 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave.vhd|
+Z82 !s108 1589579770.000000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave.vhd|
+Z84 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave.vhd|
 !i113 1
 R11
 R12
@@ -524,11 +524,11 @@ V>UgGfUSEZ3n6aW;JWoY272
 !s100 JalS]BNzWB2jeNLJgnM?01
 R6
 32
-R80
-!i10b 1
 R81
+!i10b 1
 R82
 R83
+R84
 !i113 1
 R11
 R12
@@ -538,19 +538,19 @@ R2
 R1
 R14
 R3
-Z84 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Execute.vhd
-Z85 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Execute.vhd
+Z85 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Execute.vhd
+Z86 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Execute.vhd
 l0
 L5
 V@;Dg?=3UCT=E21TZ=CKW22
 !s100 n4daD3PH`ffQ0n9B5?MT<1
 R6
 32
-R74
+Z87 !s110 1589579769
 !i10b 1
-R75
-Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Execute.vhd|
-Z87 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Execute.vhd|
+Z88 !s108 1589579769.000000
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Execute.vhd|
+Z90 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Execute.vhd|
 !i113 1
 R11
 R12
@@ -565,34 +565,34 @@ VKC[oFFTDfU072e5SNX3z_3
 !s100 3I1zZ_@UW[_<a2C4MEV_D0
 R6
 32
-R74
-!i10b 1
-R75
-R86
 R87
+!i10b 1
+R88
+R89
+R90
 !i113 1
 R11
 R12
 Efetmpd
-R21
+Z91 w1589583180
 R32
 R1
 R2
 R33
 R3
-Z88 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/fetch_main.vhd
-Z89 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/fetch_main.vhd
+Z92 8D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Fetch\fetch_main.vhd
+Z93 FD:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Fetch\fetch_main.vhd
 l0
 L5
 Vf?N<BBG<Lf^W[`2?abX[e0
 !s100 mM3V5bG=KzDbeV:NehF`i2
 R6
 32
-Z90 !s110 1589497542
+Z94 !s110 1589583189
 !i10b 1
-Z91 !s108 1589497542.000000
-Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/fetch_main.vhd|
-Z93 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/fetch_main.vhd|
+Z95 !s108 1589583189.000000
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Fetch\fetch_main.vhd|
+Z97 !s107 D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Fetch\fetch_main.vhd|
 !i113 1
 R11
 R12
@@ -604,36 +604,36 @@ R33
 DEx4 work 6 fetmpd 0 22 f?N<BBG<Lf^W[`2?abX[e0
 l44
 L19
-VWdW[5B?[OEU:P2:Ga2nej0
-!s100 lO_EHgi;EZVD3g@i?Q_fi3
+V>L?]Um2F_CLaMfnMVS?fY2
+!s100 kR_V94a4<@oW_nn]Ue[ZS1
 R6
 32
-R90
+R94
 !i10b 1
-R91
-R92
-R93
+R95
+R96
+R97
 !i113 1
 R11
 R12
 Efull1bitadder
-Z94 w1588716129
+Z98 w1588716129
 R1
 R2
 R3
-Z95 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full1bitAdder.vhd
-Z96 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full1bitAdder.vhd
+Z99 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full1bitAdder.vhd
+Z100 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full1bitAdder.vhd
 l0
 L4
 VO<X9XR>]0HgI32_KBgb@Z3
 !s100 T_Vh70HSUo1_lmlnCI_]j1
 R6
 32
-R74
+R87
 !i10b 1
-R75
-Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full1bitAdder.vhd|
-Z98 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full1bitAdder.vhd|
+R88
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full1bitAdder.vhd|
+Z102 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full1bitAdder.vhd|
 !i113 1
 R11
 R12
@@ -647,32 +647,32 @@ VnYUSEmBhCMGO^^DBY]`Na0
 !s100 ^m=KE>1H601`^OhoaQcMh0
 R6
 32
-R74
+R87
 !i10b 1
-R75
-R97
-R98
+R88
+R101
+R102
 !i113 1
 R11
 R12
 Efull32bitadder
-Z99 w1588716301
+Z103 w1588716301
 R1
 R2
 R3
-Z100 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full32bitAdder.vhd
-Z101 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full32bitAdder.vhd
+Z104 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full32bitAdder.vhd
+Z105 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full32bitAdder.vhd
 l0
 L4
 VQYhUnL`L5NlcU2Z9HR4lD1
 !s100 4AMfhEIHWiYEKY3Y2W;DI0
 R6
 32
-Z102 !s110 1589497553
-!i10b 1
 R81
-Z103 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full32bitAdder.vhd|
-Z104 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full32bitAdder.vhd|
+!i10b 1
+R88
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full32bitAdder.vhd|
+Z107 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/full32bitAdder.vhd|
 !i113 1
 R11
 R12
@@ -686,11 +686,11 @@ VlDbF@Kd1afnE9j21XPnN=0
 !s100 kaNXk8QP9UlCe6KSzFRHf1
 R6
 32
-R102
-!i10b 1
 R81
-R103
-R104
+!i10b 1
+R88
+R106
+R107
 !i113 1
 R11
 R12
@@ -699,19 +699,19 @@ R21
 R1
 R2
 R3
-Z105 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg.vhd
-Z106 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg.vhd
+Z108 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg.vhd
+Z109 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg.vhd
 l0
 L5
 V71]gEb7NRk:SDI_[f6J;62
 !s100 =Wea_SYJ]Q:GG>DjR@:PB2
 R6
 32
-Z107 !s110 1589497556
+Z110 !s110 1589579772
 !i10b 1
-Z108 !s108 1589497556.000000
-Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg.vhd|
-Z110 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg.vhd|
+Z111 !s108 1589579772.000000
+Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg.vhd|
+Z113 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg.vhd|
 !i113 1
 R11
 R12
@@ -725,32 +725,32 @@ V_P76e:fMo4nAB8[2gUnJU0
 !s100 gmKU;HY`:=bj15QXKW2Fa1
 R6
 32
-R107
-!i10b 1
-R108
-R109
 R110
+!i10b 1
+R111
+R112
+R113
 !i113 1
 R11
 R12
 Ehalfadder
-Z111 w1588716085
+Z114 w1588716085
 R1
 R2
 R3
-Z112 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/halfAdder.vhd
-Z113 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/halfAdder.vhd
+Z115 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/halfAdder.vhd
+Z116 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/halfAdder.vhd
 l0
 L4
 VCYEPFY1B3PVPJHmH_K6E<1
 !s100 AmTdfd9MWEG5iclgb3J==2
 R6
 32
-R102
-!i10b 1
 R81
-Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/halfAdder.vhd|
-Z115 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/halfAdder.vhd|
+!i10b 1
+R82
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/halfAdder.vhd|
+Z118 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/halfAdder.vhd|
 !i113 1
 R11
 R12
@@ -764,33 +764,33 @@ VFkLY_D_3Z^<3J3RZ;A5S80
 !s100 f1fgW@oa03bEB9DFPJ@g?1
 R6
 32
-R102
-!i10b 1
 R81
-R114
-R115
+!i10b 1
+R82
+R117
+R118
 !i113 1
 R11
 R12
 Ehdu
-Z116 w1589499229
+Z119 w1589499229
 R2
 R1
 R14
 R3
-Z117 8D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\HDU.vhd
-Z118 FD:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\HDU.vhd
+Z120 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/HDU.vhd
+Z121 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/HDU.vhd
 l0
 L5
 Ve;Xfg61XCjjz0Pj?n=zj02
 !s100 zX76G;T=oY;Y0C4HLN6me1
 R6
 32
-Z119 !s110 1589499234
+R47
 !i10b 1
-Z120 !s108 1589499234.000000
-Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\HDU.vhd|
-Z122 !s107 D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\HDU.vhd|
+Z122 !s108 1589579755.000000
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/HDU.vhd|
+Z124 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/HDU.vhd|
 !i113 1
 R11
 R12
@@ -805,11 +805,11 @@ V[^=2mKhaKOZmkcU:FSm?f0
 !s100 lOD7Y4GT1HNUliBjTLPGz2
 R6
 32
-R119
+R47
 !i10b 1
-R120
-R121
 R122
+R123
+R124
 !i113 1
 R11
 R12
@@ -819,19 +819,19 @@ R14
 R1
 R2
 R3
-Z123 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/level_reg.vhd
-Z124 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/level_reg.vhd
+Z125 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/level_reg.vhd
+Z126 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/level_reg.vhd
 l0
 L7
 VF>86HNkRo5Tb`l=d_1Sn;3
 !s100 ;N6E:UE@TS[YEmkEHFKzO1
 R6
 32
-Z125 !s110 1589497539
+Z127 !s110 1589579757
 !i10b 1
-Z126 !s108 1589497538.000000
-Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/level_reg.vhd|
-Z128 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/level_reg.vhd|
+Z128 !s108 1589579757.000000
+Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/level_reg.vhd|
+Z130 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/level_reg.vhd|
 !i113 1
 R11
 R12
@@ -846,11 +846,11 @@ Vc7a;kh6OR0Z^BS[1d9_GO3
 !s100 <FFmeMk2:_[L^M02nEW<01
 R6
 32
-R125
-!i10b 1
-R126
 R127
+!i10b 1
 R128
+R129
+R130
 !i113 1
 R11
 R12
@@ -860,19 +860,19 @@ R2
 R1
 R14
 R3
-Z129 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Master_Slave.vhd
-Z130 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Master_Slave.vhd
+Z131 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Master_Slave.vhd
+Z132 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Master_Slave.vhd
 l0
 L5
 VGbKiVI>Q75;m5TEWn4jV?2
 !s100 0U@QWK`kW46QSH[zJLLbI1
 R6
 32
-Z131 !s110 1589497543
+Z133 !s110 1589579761
 !i10b 1
-Z132 !s108 1589497543.000000
-Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Master_Slave.vhd|
-Z134 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Master_Slave.vhd|
+Z134 !s108 1589579761.000000
+Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Master_Slave.vhd|
+Z136 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Master_Slave.vhd|
 !i113 1
 R11
 R12
@@ -887,33 +887,33 @@ V;8PQ<]m:fhFYX[6MM_WGd1
 !s100 :m:OkhNl=Tm>lg^2kf84N0
 R6
 32
-R131
-!i10b 1
-R132
 R133
+!i10b 1
 R134
+R135
+R136
 !i113 1
 R11
 R12
 Em_s1bit
-Z135 w1588730911
+Z137 w1588730911
 R2
 R1
 R14
 R3
-Z136 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave1bit.vhd
-Z137 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave1bit.vhd
+Z138 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave1bit.vhd
+Z139 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave1bit.vhd
 l0
 L5
 VD`o<mL^j>zHTzCH>gjG>K3
 !s100 k?:GbV7i]?TFI=inSa7lF3
 R6
 32
-R80
+Z140 !s110 1589579771
 !i10b 1
-Z138 !s108 1589497554.000000
-Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave1bit.vhd|
-Z140 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave1bit.vhd|
+Z141 !s108 1589579771.000000
+Z142 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave1bit.vhd|
+Z143 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Master_Slave1bit.vhd|
 !i113 1
 R11
 R12
@@ -928,11 +928,11 @@ V<6FHCmlboQ@Q:NZSD:Ndi1
 !s100 <Qn5`:A:mG5kW@_MUQR@_0
 R6
 32
-R80
-!i10b 1
-R138
-R139
 R140
+!i10b 1
+R141
+R142
+R143
 !i113 1
 R11
 R12
@@ -942,19 +942,19 @@ R2
 R1
 R14
 R3
-Z141 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_MS.vhd
-Z142 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_MS.vhd
+Z144 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_MS.vhd
+Z145 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_MS.vhd
 l0
 L5
 VoeHcH_zA^fUY1P]YWI00Q2
 !s100 oWR>Ho`WRWhn1TUAeWa3O0
 R6
 32
-R125
+Z146 !s110 1589579758
 !i10b 1
-Z143 !s108 1589497539.000000
-Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_MS.vhd|
-Z145 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_MS.vhd|
+R128
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_MS.vhd|
+Z148 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_MS.vhd|
 !i113 1
 R11
 R12
@@ -969,35 +969,35 @@ VenJV3Y`Pk9l7>S79I7KfV0
 !s100 g^R^jOaPAW]e^nRNI1kb;1
 R6
 32
-R125
+R146
 !i10b 1
-R143
-R144
-R145
+R128
+R147
+R148
 !i113 1
 R11
 R12
 Ememory_main
-Z146 w1589499797
+Z149 w1589579589
 R14
 R32
 R33
 R1
 R2
 R3
-Z147 8D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Memory\memory_main.vhd
-Z148 FD:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Memory\memory_main.vhd
+Z150 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memory_main.vhd
+Z151 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memory_main.vhd
 l0
 L6
 VZK;Ya0LgTLY^z9<>]UD4L0
 !s100 j17oUE>5k28d7]Z<znCZA3
 R6
 32
-Z149 !s110 1589499802
+Z152 !s110 1589579759
 !i10b 1
-Z150 !s108 1589499802.000000
-Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Memory\memory_main.vhd|
-!s107 D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Memory\memory_main.vhd|
+Z153 !s108 1589579759.000000
+Z154 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memory_main.vhd|
+Z155 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memory_main.vhd|
 !i113 1
 R11
 R12
@@ -1007,18 +1007,18 @@ R32
 R33
 R1
 R2
-Z152 DEx4 work 11 memory_main 0 22 ZK;Ya0LgTLY^z9<>]UD4L0
+DEx4 work 11 memory_main 0 22 ZK;Ya0LgTLY^z9<>]UD4L0
 l104
 L31
-V^_Z_8l`QTH`2<ekACd;;n3
-!s100 V9?V><NS7VeAQkCC_de_C3
+VA4PjCnVS]fUTd:UPk]c^V3
+!s100 cVNKFcJ<V[9V;MOL4]ShR3
 R6
 32
-R149
+R152
 !i10b 1
-R150
-R151
-Z153 !s107 D:\3rd Year\2nd sem\architecture 2\Project\PipelinedProcessor\Memory\memory_main.vhd|
+R153
+R154
+R155
 !i113 1
 R11
 R12
@@ -1027,19 +1027,19 @@ R21
 R1
 R2
 R3
-Z154 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_Reg.vhd
-Z155 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_Reg.vhd
+Z156 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_Reg.vhd
+Z157 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_Reg.vhd
 l0
 L5
 V99]WJDjD?AFcKM<SWY]jP3
 !s100 3IYGJSPi[Vj54H1]ODS4Y1
 R6
 32
-Z156 !s110 1589497540
+R146
 !i10b 1
-R143
-Z157 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_Reg.vhd|
-Z158 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_Reg.vhd|
+Z158 !s108 1589579758.000000
+Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_Reg.vhd|
+Z160 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Mem_Reg.vhd|
 !i113 1
 R11
 R12
@@ -1053,11 +1053,11 @@ VWLY>Me:iCnEbPn82YmJ2e0
 !s100 S9DVhb5f8_YFFPLM^MYI71
 R6
 32
-R156
+R146
 !i10b 1
-R143
-R157
 R158
+R159
+R160
 !i113 1
 R11
 R12
@@ -1069,19 +1069,19 @@ R33
 R1
 R2
 R3
-Z159 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memoc.vhd
-Z160 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memoc.vhd
+Z161 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memoc.vhd
+Z162 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memoc.vhd
 l0
 L6
 VOOG2UX;MV^?YTLH9Dinof3
 !s100 08[7F5Ek7dUZQ2WB<I3eH1
 R6
 32
-R156
+R146
 !i10b 1
-Z161 !s108 1589497540.000000
-Z162 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memoc.vhd|
-Z163 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memoc.vhd|
+R158
+Z163 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memoc.vhd|
+Z164 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/memoc.vhd|
 !i113 1
 R11
 R12
@@ -1098,11 +1098,11 @@ V2ob4N[;_a[G_HPKX2lJOA1
 !s100 T^B<e67<<9KIB=aia4g4g0
 R6
 32
-R156
+R146
 !i10b 1
-R161
-R162
+R158
 R163
+R164
 !i113 1
 R11
 R12
@@ -1113,19 +1113,19 @@ R33
 R1
 R2
 R3
-Z164 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/mux.vhd
-Z165 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/mux.vhd
+Z165 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/mux.vhd
+Z166 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/mux.vhd
 l0
 L4
 V>PViSHl58nhlNjfnmDN]D2
 !s100 JLLh[OQe?DTKIe9X9IYJ63
 R6
 32
-R131
+R133
 !i10b 1
-R132
-Z166 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/mux.vhd|
-Z167 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/mux.vhd|
+R134
+Z167 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/mux.vhd|
+Z168 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/mux.vhd|
 !i113 1
 R11
 R12
@@ -1141,11 +1141,11 @@ VS]W^K@bEnPgocnBFeW]Sf2
 !s100 02dl4iVR:1EOE>__3Bo`T3
 R6
 32
-R131
+R133
 !i10b 1
-R132
-R166
+R134
 R167
+R168
 !i113 1
 R11
 R12
@@ -1154,17 +1154,17 @@ R21
 R1
 R2
 R3
-Z168 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x1.vhd
-Z169 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x1.vhd
+Z169 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x1.vhd
+Z170 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x1.vhd
 l0
 L4
 V05DfG2bY:WH4JNn964ij;2
 !s100 JG5oiZ9mobPnm>N<1hB;l2
 R6
 32
-Z170 !s110 1589497555
+R140
 !i10b 1
-R138
+R141
 Z171 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x1.vhd|
 Z172 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x1.vhd|
 !i113 1
@@ -1180,9 +1180,9 @@ VJd7Zk?ZBb;IfNo83^O_]L2
 !s100 6D`WCX?4G:mE^CLkW8?NR0
 R6
 32
-R170
+R140
 !i10b 1
-R138
+R141
 R171
 R172
 !i113 1
@@ -1201,11 +1201,11 @@ VRILo:>T[SYOzMbnLoJO]41
 !s100 WZS7WVdMf7^k0c:1z_I1Q2
 R6
 32
-R170
+R140
 !i10b 1
-Z176 !s108 1589497555.000000
-Z177 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x11bit.vhd|
-Z178 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x11bit.vhd|
+R141
+Z176 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x11bit.vhd|
+Z177 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux2x11bit.vhd|
 !i113 1
 R11
 R12
@@ -1219,11 +1219,11 @@ VNJO3EP4zN68MU^FU3Xc?;1
 !s100 Wc>ZA<64C6]hnK4_R7Inj3
 R6
 32
-R170
+R140
 !i10b 1
+R141
 R176
 R177
-R178
 !i113 1
 R11
 R12
@@ -1232,19 +1232,19 @@ R21
 R1
 R2
 R3
-Z179 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x1.vhd
-Z180 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x1.vhd
+Z178 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x1.vhd
+Z179 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x1.vhd
 l0
 L4
 V0nYF8c2hV7zamS2E3K6Y23
 !s100 ^ahBJHg::IW_K_;31nQ?O3
 R6
 32
-R170
+R110
 !i10b 1
-R176
-Z181 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x1.vhd|
-Z182 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x1.vhd|
+R111
+Z180 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x1.vhd|
+Z181 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x1.vhd|
 !i113 1
 R11
 R12
@@ -1258,32 +1258,32 @@ VSBJKG03IhWJA`j4lZi7aB0
 !s100 R9B?X9OXfRK?3]F[M:WJL3
 R6
 32
-R170
+R110
 !i10b 1
-R176
+R111
+R180
 R181
-R182
 !i113 1
 R11
 R12
 Emux4x1bit
-Z183 w1588607361
+Z182 w1588607361
 R1
 R2
 R3
-Z184 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x11bit.vhd
-Z185 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x11bit.vhd
+Z183 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x11bit.vhd
+Z184 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x11bit.vhd
 l0
 L4
 VHf`BPKBU_9MR]L5QZf4OG1
 !s100 HM_K>9bJ<CeL7MlcOd3h^2
 R6
 32
-R107
+R110
 !i10b 1
-R108
-Z186 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x11bit.vhd|
-Z187 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x11bit.vhd|
+R111
+Z185 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x11bit.vhd|
+Z186 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/mux4x11bit.vhd|
 !i113 1
 R11
 R12
@@ -1297,11 +1297,11 @@ VYnLUlP4Xl^z06I^BSI51H2
 !s100 T]6]P[CQo`]>hB?<8Vi>L2
 R6
 32
-R107
+R110
 !i10b 1
-R108
+R111
+R185
 R186
-R187
 !i113 1
 R11
 R12
@@ -1310,19 +1310,19 @@ R0
 R1
 R2
 R3
-Z188 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux2x1.vhd
-Z189 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux2x1.vhd
+Z187 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux2x1.vhd
+Z188 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux2x1.vhd
 l0
 L4
 Vg?OEKQQiG4M14^cl2BVHB1
 !s100 26E96EgZY;]Y;V[zk8MW^1
 R6
 32
-Z190 !s110 1589497547
+R59
 !i10b 1
 R60
-Z191 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux2x1.vhd|
-Z192 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux2x1.vhd|
+Z189 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux2x1.vhd|
+Z190 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux2x1.vhd|
 !i113 1
 R11
 R12
@@ -1336,11 +1336,11 @@ VDz0cbRkXLgAOOZoN]PKGc1
 !s100 ]@R87b7M`KYKzo61]:J=]1
 R6
 32
-R190
+R59
 !i10b 1
 R60
-R191
-R192
+R189
+R190
 !i113 1
 R11
 R12
@@ -1349,19 +1349,19 @@ R0
 R1
 R2
 R3
-Z193 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux4x1.vhd
-Z194 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux4x1.vhd
+Z191 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux4x1.vhd
+Z192 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux4x1.vhd
 l0
 L4
 V?VADOTTzc9PJ_XZ0URWRE0
 !s100 ]1XAf9La2>3^6Xhbz1J:_0
 R6
 32
-R190
+Z193 !s110 1589579765
 !i10b 1
-Z195 !s108 1589497547.000000
-Z196 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux4x1.vhd|
-Z197 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux4x1.vhd|
+Z194 !s108 1589579765.000000
+Z195 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux4x1.vhd|
+Z196 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/mux4x1.vhd|
 !i113 1
 R11
 R12
@@ -1375,11 +1375,11 @@ V`LVA3lcdD4gZCX<<fULeB1
 !s100 fcBo_RDXXQA013XjVTNOP2
 R6
 32
-R190
+R193
 !i10b 1
+R194
 R195
 R196
-R197
 !i113 1
 R11
 R12
@@ -1390,19 +1390,19 @@ R33
 R1
 R2
 R3
-Z198 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/mux.vhd
-Z199 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/mux.vhd
+Z197 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/mux.vhd
+Z198 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/mux.vhd
 l0
 L4
 VJiMELL=N_c2IPnP[gaP^Z3
 !s100 oWn28]D`JIlkNE?C<68AK1
 R6
 32
-Z200 !s110 1589497541
+R152
 !i10b 1
-Z201 !s108 1589497541.000000
-Z202 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/mux.vhd|
-Z203 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/mux.vhd|
+R153
+Z199 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/mux.vhd|
+Z200 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/mux.vhd|
 !i113 1
 R11
 R12
@@ -1418,11 +1418,11 @@ VE;<i88[@khCLAhDVUNnKi3
 !s100 j;PXSVObJE3[1bYPGMUal1
 R6
 32
-R200
+R152
 !i10b 1
-R201
-R202
-R203
+R153
+R199
+R200
 !i113 1
 R11
 R12
@@ -1433,19 +1433,19 @@ R33
 R1
 R2
 R3
-Z204 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/MuxMini.vhd
-Z205 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/MuxMini.vhd
+Z201 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/MuxMini.vhd
+Z202 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/MuxMini.vhd
 l0
 L4
 VW^[zeQQ0@G:oa@VYoA>2E3
 !s100 6NUdcO95IYo2Z[@fhAi?82
 R6
 32
-R200
+R152
 !i10b 1
-R201
-Z206 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/MuxMini.vhd|
-Z207 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/MuxMini.vhd|
+R153
+Z203 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/MuxMini.vhd|
+Z204 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/MuxMini.vhd|
 !i113 1
 R11
 R12
@@ -1461,11 +1461,11 @@ Vkh>^5nmU4eVe]5DL_`FHL1
 !s100 cV=GUfT]=e^Xd[1L?6agd3
 R6
 32
-R200
+R152
 !i10b 1
-R201
-R206
-R207
+R153
+R203
+R204
 !i113 1
 R11
 R12
@@ -1474,19 +1474,19 @@ R0
 R1
 R2
 R3
-Z208 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Reg.vhd
-Z209 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Reg.vhd
+Z205 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Reg.vhd
+Z206 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Reg.vhd
 l0
 L5
 VZhi1LFUG_i`:oQ2zmIJ@90
 !s100 9J[=hBUQoUKB<l8c3M_Gb2
 R6
 32
-Z210 !s110 1589497548
+R193
 !i10b 1
-Z211 !s108 1589497548.000000
-Z212 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Reg.vhd|
-Z213 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Reg.vhd|
+R194
+Z207 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Reg.vhd|
+Z208 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/Reg.vhd|
 !i113 1
 R11
 R12
@@ -1500,11 +1500,11 @@ VnbYTEimQ3RMH3TUlL[TBL2
 !s100 Dd`Ye@7OjKWES`Q:Ek1DY3
 R6
 32
-R210
+R193
 !i10b 1
-R211
-R212
-R213
+R194
+R207
+R208
 !i113 1
 R11
 R12
@@ -1513,19 +1513,19 @@ R0
 R1
 R2
 R3
-Z214 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regrev.vhd
-Z215 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regrev.vhd
+Z209 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regrev.vhd
+Z210 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regrev.vhd
 l0
 L5
 Vg8bUdLdmfOC]K8ia^aMgS0
 !s100 GP4dhDZbCcW?9PkG4MLL>1
 R6
 32
-Z216 !s110 1589497549
+Z211 !s110 1589579766
 !i10b 1
-Z217 !s108 1589497549.000000
-Z218 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regrev.vhd|
-Z219 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regrev.vhd|
+Z212 !s108 1589579766.000000
+Z213 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regrev.vhd|
+Z214 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regrev.vhd|
 !i113 1
 R11
 R12
@@ -1539,11 +1539,11 @@ VGXI<S<g9ITCVJcFW><<@c0
 !s100 @Li]0=?c<8ZkHDoAHHh^Q1
 R6
 32
-R216
+R211
 !i10b 1
-R217
-R218
-R219
+R212
+R213
+R214
 !i113 1
 R11
 R12
@@ -1555,8 +1555,8 @@ R33
 R1
 R2
 R3
-Z220 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Ram.vhd
-Z221 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Ram.vhd
+Z215 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Ram.vhd
+Z216 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Ram.vhd
 l0
 L4
 VLaVPXoLGf]CM67K4UCcFR0
@@ -1565,9 +1565,9 @@ R6
 32
 R7
 !i10b 1
-R132
-Z222 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Ram.vhd|
-Z223 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Ram.vhd|
+R8
+Z217 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Ram.vhd|
+Z218 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Ram.vhd|
 !i113 1
 R11
 R12
@@ -1586,9 +1586,9 @@ R6
 32
 R7
 !i10b 1
-R132
-R222
-R223
+R8
+R217
+R218
 !i113 1
 R11
 R12
@@ -1597,8 +1597,8 @@ R21
 R1
 R2
 R3
-Z224 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Reg.vhd
-Z225 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Reg.vhd
+Z219 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Reg.vhd
+Z220 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Reg.vhd
 l0
 L5
 VB0@fdUP6lh5IQ^?3GJA`@0
@@ -1608,8 +1608,8 @@ R6
 R7
 !i10b 1
 R8
-Z226 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Reg.vhd|
-Z227 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Reg.vhd|
+Z221 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Reg.vhd|
+Z222 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Fetch/Reg.vhd|
 !i113 1
 R11
 R12
@@ -1626,29 +1626,29 @@ R6
 R7
 !i10b 1
 R8
-R226
-R227
+R221
+R222
 !i113 1
 R11
 R12
 Ereg1bit
-Z228 w1588730904
+Z223 w1588730904
 R1
 R2
 R3
-Z229 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg1bit.vhd
-Z230 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg1bit.vhd
+Z224 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg1bit.vhd
+Z225 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg1bit.vhd
 l0
 L4
 Vdz[`ISB_0;O0PRHVKzKIV3
 !s100 5bbh5gl:9dT^bajK`z?VV0
 R6
 32
-Z231 !s110 1589497557
+Z226 !s110 1589579773
 !i10b 1
-Z232 !s108 1589497557.000000
-Z233 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg1bit.vhd|
-Z234 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg1bit.vhd|
+Z227 !s108 1589579773.000000
+Z228 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg1bit.vhd|
+Z229 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Execute/Reg1bit.vhd|
 !i113 1
 R11
 R12
@@ -1662,11 +1662,11 @@ VRZRLiEVL^j4UE?4YVYQhQ3
 !s100 M`KM9;@WO6PUdH;ZG^PO<3
 R6
 32
-R231
+R226
 !i10b 1
-R232
-R233
-R234
+R227
+R228
+R229
 !i113 1
 R11
 R12
@@ -1676,19 +1676,19 @@ R14
 R1
 R2
 R3
-Z235 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Reg.vhd
-Z236 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Reg.vhd
+Z230 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Reg.vhd
+Z231 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Reg.vhd
 l0
 L7
 V<1mTY:?aL@WV89jIkRf>40
 !s100 [R=dXoKX50P4hG2cl7z5K3
 R6
 32
-R90
+Z232 !s110 1589579760
 !i10b 1
-R91
-Z237 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Reg.vhd|
-Z238 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Reg.vhd|
+Z233 !s108 1589579760.000000
+Z234 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Reg.vhd|
+Z235 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/Reg.vhd|
 !i113 1
 R11
 R12
@@ -1703,32 +1703,32 @@ V19GJl<7?`dXeggTl^P[T?2
 !s100 4:zkW[^7V9Ol7=9jfa<WI0
 R6
 32
-R90
+R232
 !i10b 1
-R91
-R237
-R238
+R233
+R234
+R235
 !i113 1
 R11
 R12
 Eregisterfile
-Z239 w1589490107
+Z236 w1589490107
 R1
 R2
 R3
-Z240 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/RegisterFile.vhd
-Z241 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/RegisterFile.vhd
+Z237 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/RegisterFile.vhd
+Z238 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/RegisterFile.vhd
 l0
 L4
 Ve0XF:O44oZ7KT48SFQOoe3
 !s100 bAL6:blJ`8;L00>cGQaBm0
 R6
 32
-R210
+R193
 !i10b 1
-R211
-Z242 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/RegisterFile.vhd|
-Z243 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/RegisterFile.vhd|
+R194
+Z239 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/RegisterFile.vhd|
+Z240 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/RegisterFile.vhd|
 !i113 1
 R11
 R12
@@ -1742,11 +1742,11 @@ VDPhj75Ljlj:Ub@4z;bFiN3
 !s100 zeUM;B5N5:Cj0Jn[^mTF:2
 R6
 32
-R210
+R193
 !i10b 1
-R211
-R242
-R243
+R194
+R239
+R240
 !i113 1
 R11
 R12
@@ -1755,19 +1755,19 @@ R0
 R1
 R2
 R3
-Z244 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/REGISTERS.vhd
-Z245 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/REGISTERS.vhd
+Z241 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/REGISTERS.vhd
+Z242 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/REGISTERS.vhd
 l0
 L4
 V^ifMCbmSikU39B_YQCbzG1
 !s100 ?6UE1MLSKi1U`:`^i<SV90
 R6
 32
-R216
+R211
 !i10b 1
-R217
-Z246 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/REGISTERS.vhd|
-Z247 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/REGISTERS.vhd|
+R212
+Z243 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/REGISTERS.vhd|
+Z244 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/REGISTERS.vhd|
 !i113 1
 R11
 R12
@@ -1781,11 +1781,11 @@ Vl0JiDSJ;5NJceASheY6Sb1
 !s100 bNB_KUEQdm4RQQP0K=U4A1
 R6
 32
-R216
+R211
 !i10b 1
-R217
-R246
-R247
+R212
+R243
+R244
 !i113 1
 R11
 R12
@@ -1794,19 +1794,19 @@ R0
 R1
 R2
 R3
-Z248 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regTristate.vhd
-Z249 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regTristate.vhd
+Z245 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regTristate.vhd
+Z246 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regTristate.vhd
 l0
 L4
 V]cS5bLo0_3@KKE:FUmdVM3
 !s100 l10<I;hU_o3?MF3kKU6TF1
 R6
 32
-R17
+R211
 !i10b 1
-R18
-Z250 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regTristate.vhd|
-Z251 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regTristate.vhd|
+R212
+Z247 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regTristate.vhd|
+Z248 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Decode/regTristate.vhd|
 !i113 1
 R11
 R12
@@ -1820,11 +1820,11 @@ V_cdaY]7b[oN0J32I8iG<[2
 !s100 j=WfS1OgABhLR9zHE<lRM2
 R6
 32
-R17
+R211
 !i10b 1
-R18
-R250
-R251
+R212
+R247
+R248
 !i113 1
 R11
 R12
@@ -1835,19 +1835,19 @@ R33
 R1
 R2
 R3
-Z252 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/sp_inc.vhd
-Z253 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/sp_inc.vhd
+Z249 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/sp_inc.vhd
+Z250 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/sp_inc.vhd
 l0
 L5
 V2ZmA:RFUZ@DTY1^]623kn3
 !s100 i=eY]:<JI>8oK;DH[D`3C0
 R6
 32
-R90
+R232
 !i10b 1
-R91
-Z254 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/sp_inc.vhd|
-Z255 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/sp_inc.vhd|
+R233
+Z251 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/sp_inc.vhd|
+Z252 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/Memory/sp_inc.vhd|
 !i113 1
 R11
 R12
@@ -1863,11 +1863,11 @@ VngOj5>gVM70XZRPL_hQ^G0
 !s100 DKB@?6c?[f>9jTh8?[ZRE1
 R6
 32
-R90
+R232
 !i10b 1
-R91
-R254
-R255
+R233
+R251
+R252
 !i113 1
 R11
 R12
@@ -1877,19 +1877,19 @@ R2
 R1
 R14
 R3
-Z256 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/writeback/WB_main.vhd
-Z257 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/writeback/WB_main.vhd
+Z253 8D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/writeback/WB_main.vhd
+Z254 FD:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/writeback/WB_main.vhd
 l0
 L6
 VDDeK8OOF138OmH60T@^Oe0
 !s100 k52:MPalL=3`5nYidiOO_2
 R6
 32
-Z258 !s110 1589497538
+R127
 !i10b 1
-R126
-Z259 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/writeback/WB_main.vhd|
-Z260 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/writeback/WB_main.vhd|
+R128
+Z255 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/writeback/WB_main.vhd|
+Z256 !s107 D:/3rd Year/2nd sem/architecture 2/Project/PipelinedProcessor/writeback/WB_main.vhd|
 !i113 1
 R11
 R12
@@ -1904,11 +1904,11 @@ V56<BWb[QKk`78eJDLUC:91
 !s100 XWO:ZDLZ3FK0S3nfC@=Ao0
 R6
 32
-R258
+R127
 !i10b 1
-R126
-R259
-R260
+R128
+R255
+R256
 !i113 1
 R11
 R12
