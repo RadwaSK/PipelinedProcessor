@@ -124,7 +124,7 @@ elsif (IR(15 downto 13)= "001") then
 	Rdst <= IR(9 downto 7);
 	Rsrc1 <= IR(9 downto 7);
 	IRflag <= "01";-- note this
-	opflag <= '0';
+	opflag <= '1';
 	Rsrc1Sel <= "00";
 	Rsrc2Sel <= '0';
 	end if ;
@@ -215,6 +215,7 @@ Opcode <= IR(15 downto 10);
 elsif (IRregin = "10") then
 extend <= "0000" & IR;
 Rsrc2Sel <= '1';
+opflag <= '0';
 IRflag <= "00";
 
 end if;

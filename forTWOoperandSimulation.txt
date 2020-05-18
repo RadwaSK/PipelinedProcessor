@@ -4,7 +4,6 @@ add wave -position end sim:/cpu_main/Decode/Opcoderegister/*
 add wave -position end sim:/cpu_main/WriteBack/*
 
 add wave -position end sim:/cpu_main/Decode/xDOC/*
-add wave -position end sim:/cpu_main/Decode/Execute0/*
 add wave -position end sim:/cpu_main/Clk
 add wave -position end sim:/cpu_main/Rst
 add wave -position end sim:/cpu_main/INT
@@ -43,7 +42,6 @@ add wave -position end sim:/cpu_main/memory_mainComp/sp_out
 add wave -position end sim:/cpu_main/memory_mainComp/addrsel
 add wave -position end sim:/cpu_main/memory_mainComp/target_addrs
 add wave -position end sim:/cpu_main/WriteBack/Regout
-add wave -position end sim:/cpu_main/WriteBack/Rdsout
 add wave -position end sim:/cpu_main/WriteBack/writeEn
 add wave -position end sim:/cpu_main/INport
 add wave -position end sim:/cpu_main/Outport
