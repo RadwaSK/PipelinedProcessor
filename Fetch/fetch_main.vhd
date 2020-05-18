@@ -76,7 +76,7 @@ begin
     selt1 <= "000" ;
     selt2 <= "001" ;
     FSM_INT<= 1;
-    
+    -- SWAP
     elsif outRam (15 downto 10) = "001000"  then
       FSM_SWAP<= 1 ;
       
