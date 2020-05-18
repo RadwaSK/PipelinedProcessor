@@ -19,7 +19,9 @@ ENTITY registerFile IS
 	Rsrc2vFetch: out  STD_LOGIC_VECTOR(31 downto 0);
 	-------------------------------------------
 	f1 : out  STD_LOGIC_VECTOR(31 downto 0);
-
+	d1 : out  STD_LOGIC_VECTOR(31 downto 0);
+	d2 : out  STD_LOGIC_VECTOR(31 downto 0);
+	--------------------------------------------
 	clk :     in   std_logic;
 	rst :     in   std_logic
 
@@ -62,8 +64,8 @@ END COMPONENT my_nDFF;
 signal decsrc1out ,decsrc2out , decrdstout: std_logic_vector(7 downto 0);
 signal enwR0,enwR1 , enwR2 , enwR3 ,enwR4 ,enwR5,enwR6,enwR7: std_logic;
 signal enrR0 , enrR1 , enrR2 , enrR3, enrR4 , enrR5 , enrR6 ,enrR7 : std_logic;
-signal outR0 , outR1 , outR2 ,outR3,outR4,outR5,outR6,outR7 ,d1 ,d2 : std_logic_vector (31 downto 0);
-
+signal outR0 , outR1 , outR2 ,outR3,outR4,outR5,outR6,outR7 : std_logic_vector (31 downto 0);
+ Signal s_clk : std_logic := '1';
 BEGIN
 -- decoder
 decsrc1: decoder_3_8 port map (Rsrc1,'1',decsrc1out);
@@ -110,37 +112,64 @@ enrR7 <= (decsrc1out(7) or decsrc2out(7)) ; --and enread;
 enwR7 <= decrdstout(7) and enwrite;
 R7: regtri port map(MemOutput,outR7,enwR7,enrR7 ,clk,rst );
 
---Rsrc1
-d1 <=   outR0 when Rsrc1="000" else
-        outR1 when Rsrc1="001" else
-        outR2 when Rsrc1="010" else
-        outR3 when Rsrc1="011" else
-	outR4 when Rsrc1="100" else
-	outR5 when Rsrc1="101" else
-	outR6 when Rsrc1="110" else
-	outR7 when Rsrc1="111";
+s_Clk <= not S_Clk after 20 ps;
+process (s_clk)
+begin 
+ if(clk='1') then
+	if(Rsrc1="000")  then
+	d1<=outR0;
+	elsif (Rsrc1 ="001" ) then
+	d1<=outR1;
+	elsif (Rsrc1 ="010" ) then
+	d1<=outR2;
+	elsif (Rsrc1 ="011" ) then
+	d1<=outR3;
+	elsif (Rsrc1 ="100" ) then
+	d1<=outR4;
+	elsif (Rsrc1 ="101" ) then
+	d1<=outR5;
+	elsif (Rsrc1 ="110" ) then
+	d1<=outR6;
+	elsif (Rsrc1 ="111" ) then
+	d1<=outR7;	
+	end if;
 
-f1 <=   outR0 when RFetch="000" else
-        outR1 when RFetch="001" else
-        outR2 when RFetch="010" else
-        outR3 when RFetch="011" else
-	outR4 when RFetch="100" else
-	outR5 when RFetch="101" else
-	outR6 when RFetch="110" else
-	outR7 when RFetch="111";
-
-src1: my_nDFF generic map (N => 32) port map(Clk,Rst,'1',d1,Rsrc1v);
-src1Fetch: my_nDFF generic map (N => 32) port map(Clk,Rst,'1',d1,Rsrc1vfetch);
---Rsrc2
-d2 <=   outR0 when Rsrc2="000" else
-	outR1 when Rsrc2="001" else
-	outR2 when Rsrc2="010" else
-	outR3 when Rsrc2="011" else
-	outR4 when Rsrc2="100" else
-	outR5 when Rsrc2="101" else
-	outR6 when Rsrc2="110" else
-	outR7 when Rsrc2="111";
-src2: my_nDFF generic map (N => 32) port map(Clk,Rst,'1',d2,Rsrc2v);
-src2fetch: my_nDFF generic map (N => 32) port map(Clk,Rst,'1',d2,Rsrc2vfetch);
+	if(Rsrc2="000")  then
+	d2<=outR0;
+	elsif (Rsrc2 ="001" ) then
+	d2<=outR1;
+	elsif (Rsrc2 ="010" ) then
+	d2<=outR2;
+	elsif (Rsrc2 ="011" ) then
+	d2<=outR3;
+	elsif (Rsrc2 ="100" ) then
+	d2<=outR4;
+	elsif (Rsrc2 ="101" ) then
+	d2<=outR5;
+	elsif (Rsrc2 ="110" ) then
+	d2<=outR6;
+	elsif (Rsrc2 ="111" ) then
+	d2<=outR7;	
+	end if;
+	
+	if(RFetch="000")  then
+	f1<=outR0;
+	elsif (RFetch ="001" ) then
+	f1<=outR1;
+	elsif (RFetch ="010" ) then
+	f1<=outR2;
+	elsif (RFetch ="011" ) then
+	f1<=outR3;
+	elsif (RFetch ="100" ) then
+	f1<=outR4;
+	elsif (RFetch ="101" ) then
+	f1<=outR5;
+	elsif (RFetch ="110" ) then
+	f1<=outR6;
+	elsif (RFetch ="111" ) then
+	f1<=outR7;	
+	end if;
+end if;
+end process;
 
 END struct;

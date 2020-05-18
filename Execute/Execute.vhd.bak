@@ -28,8 +28,7 @@ component mux4x1 is
 end component mux4x1;
 
 component EOC is
-    port ( clk :   in std_logic;
-OpCode            :       in std_logic_vector (5 downto 0);
+    port (OpCode            :       in std_logic_vector (5 downto 0);
           OpFlag            :       in std_logic;
           NOP, NopA, NopB, NotA, IncA, DecA, AswapB, AaddB, AsubB, AandB, AorB, AshlB, AshrB, JZ : out std_logic;
           Aen, Ben, reset   :       out std_logic);
@@ -79,7 +78,7 @@ begin
     aluComp : ALU port map (Amux, Bmux, ALUOutputSig, NOPsig, NopAsig, NopBsig, NotAsig, IncAsig, DecAsig, AswapBsig, AaddBsig, AsubBsig, AandBsig, AorBsig, AshlBsig, AshrBsig, JZSig, FlagRegIn(2), FlagRegIn(0), FlagRegIn(1), tempFR(2), tempFR(0), tempFR(1));
     muxRsrc1: mux4x1 port map ("00000000000000000000000000000000", ALUOutLast, MemOut, Rsrc1Final, Asel, Amux, AmuxEn);
     muxRsrc2: mux4x1 port map ("00000000000000000000000000000000", ALUOutLast, MemOut, Rsrc2Final, Bsel, Bmux, BmuxEn);
-    EOCComp : EOC port map (clock,OpCodeIn, OpFlagIn, NOPsig, NopAsig, NopBsig, NotAsig, IncAsig, DecAsig, AswapBsig, AaddBsig, AsubBsig, AandBsig, AorBsig, AshlBsig, AshrBsig, JZSig, AmuxEn, BmuxEn, resetSig);
+    EOCComp : EOC port map (OpCodeIn, OpFlagIn, NOPsig, NopAsig, NopBsig, NotAsig, IncAsig, DecAsig, AswapBsig, AaddBsig, AsubBsig, AandBsig, AorBsig, AshlBsig, AshrBsig, JZSig, AmuxEn, BmuxEn, resetSig);
     PC3_reg : Ex_M_S generic  map (32) port map (clock, resetSig, '1', PC3Sig, PC3);
     EA_reg  : Ex_M_S generic  map (32) port map (clock, resetSig, '1', EAALUSig, EAALU);
     Rdst_reg: Ex_M_S generic  map (3) port map (clock, resetSig, '1', RdstALUSig, RdstALU);

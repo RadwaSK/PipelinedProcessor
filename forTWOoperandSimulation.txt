@@ -1,7 +1,10 @@
 add wave -position insertpoint sim:/cpu_main/*
-add wave -position end sim:/cpu_main/Decode/xDOC/*
+
 add wave -position end sim:/cpu_main/Decode/Opcoderegister/*
 add wave -position end sim:/cpu_main/WriteBack/*
+
+add wave -position end sim:/cpu_main/Decode/xDOC/*
+add wave -position end sim:/cpu_main/Decode/Execute0/*
 add wave -position end sim:/cpu_main/Clk
 add wave -position end sim:/cpu_main/Rst
 add wave -position end sim:/cpu_main/INT
@@ -45,7 +48,6 @@ add wave -position end sim:/cpu_main/WriteBack/writeEn
 add wave -position end sim:/cpu_main/INport
 add wave -position end sim:/cpu_main/Outport
 
-
 force -freeze sim:/cpu_main/Fetch/outRam 1000100000000000 0
 force -freeze sim:/cpu_main/Fetch/INT 0 0
 
@@ -64,46 +66,16 @@ noforce sim:/cpu_main/Fetch/selt1
 noforce sim:/cpu_main/Fetch/selt2
 noforce sim:/cpu_main/Fetch/outRam 
 
-run 400ps 
-#run 500ps
+run 100ps
 force -freeze sim:/cpu_main/INport 00000000000000000000000000000101 0
 
 run 100ps
-force -freeze sim:/cpu_main/INport 00000000000000000000000000010000 0
+force -freeze sim:/cpu_main/INport 10011000000000000000000000000000 0
 
+run 100ps
+force -freeze sim:/cpu_main/INport 11111111111111111111111111111101 0
 
-run 500 600 in decode
+run 100ps
+force -freeze sim:/cpu_main/INport 11111111111111110000010011001111 0
 
-add wave -position end sim:/cpu_main/Clk
-add wave -position end sim:/cpu_main/Rst
-add wave -position end sim:/cpu_main/INT
-add wave -position end sim:/cpu_main/Fetch/IR
-add wave -position end sim:/cpu_main/Fetch/PC
-add wave -position end sim:/cpu_main/Decode/xregisterfile/R0/Reg/q
-add wave -position end sim:/cpu_main/Decode/xregisterfile/R1/Reg/q
-add wave -position end sim:/cpu_main/Decode/xregisterfile/R2/Reg/q
-add wave -position end sim:/cpu_main/Decode/xregisterfile/R3/Reg/q
-add wave -position end sim:/cpu_main/Decode/xregisterfile/R4/Reg/q
-add wave -position end sim:/cpu_main/Decode/xregisterfile/R5/Reg/q
-add wave -position end sim:/cpu_main/Decode/xregisterfile/R6/Reg/q
-add wave -position end sim:/cpu_main/Decode/xregisterfile/R7/Reg/q
-add wave -position end sim:/cpu_main/Execute0/FlagRegOut
-add wave -position end sim:/cpu_main/memory_mainComp/sp_out
-add wave -position end sim:/cpu_main/INport
-add wave -position end sim:/cpu_main/Outport
-
-
-
-noforce  sim:/cpu_main/Decode/xregisterfile/R0/Reg/q 
-noforce  sim:/cpu_main/Decode/xregisterfile/R1/Reg/q 
-noforce  sim:/cpu_main/Decode/xregisterfile/R2/Reg/q 
-noforce  sim:/cpu_main/Decode/xregisterfile/R3/Reg/q 
-noforce  sim:/cpu_main/Decode/xregisterfile/R4/Reg/q 
-noforce  sim:/cpu_main/Decode/xregisterfile/R5/Reg/q 
-noforce  sim:/cpu_main/Decode/xregisterfile/R6/Reg/q 
-noforce  sim:/cpu_main/Decode/xregisterfile/R7/Reg/q 
-
-
-force -freeze sim:/cpu_main/Decode/xregisterfile/R0/Reg/q 00000000000000000000000000000000 0
-force -freeze sim:/cpu_main/Decode/xregisterfile/R1/Reg/q 00000000000000000000000000000010 0
-force -freeze sim:/cpu_main/Decode/x
+run 100ps

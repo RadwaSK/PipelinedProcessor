@@ -16,7 +16,7 @@ signal options : optionsArray;
 signal AenSig, BenSig   :   std_logic;
 
 begin
-    process (OpCode, OpFlag , clk ) begin
+    process (OpCode, OpFlag , clk , OpFlag) begin
         options(13 downto 0) <= (others => '0');
         AenSig <= '1';
         BenSig <= '1';
