@@ -32,7 +32,7 @@ begin
     
     
     en <= NopA or NopB or NotA or IncA or DecA or AswapB 
-            or AaddB or AsubB or AandB or AorB or AshlB or AshrB;
+            or AaddB or AsubB or AandB or AorB or AshlB or AshrB or JZ;
 
     Fout    <= A when NopA = '1' else 
                B when NopB = '1' else 

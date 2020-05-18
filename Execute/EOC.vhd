@@ -3,7 +3,8 @@ use ieee.numeric_std.all;
 use IEEE.STD_LOGIC_1164.all;
 
 entity EOC is
-    port (OpCode            :       in std_logic_vector (5 downto 0);
+    port (clock             :       in std_logic;
+          OpCode            :       in std_logic_vector (5 downto 0);
           OpFlag            :       in std_logic;
           NOP, NopA, NopB, NotA, IncA, DecA, AswapB, AaddB, AsubB, AandB, AorB, AshlB, AshrB, JZ : out std_logic;
           Aen, Ben, reset   :       out std_logic);
@@ -15,7 +16,7 @@ signal options : optionsArray;
 signal AenSig, BenSig   :   std_logic;
 
 begin
-    process (OpCode, OpFlag) begin
+    process (OpCode, OpFlag, clock) begin
         options(13 downto 0) <= (others => '0');
         AenSig <= '1';
         BenSig <= '1';
