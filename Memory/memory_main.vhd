@@ -113,15 +113,14 @@ architecture mymem of memory_main is
         SP: Reg_SP PORT MAP(clk, rst_sp, sp_update, mod_sp, sp_out);
         M1: MUX_M PORT MAP(ea, mod_sp, sp_out, pc, addrsel, addr);
         INPSEL: MUX_M PORT MAP(aluout, pc, pc_inc, flags_ext, datainsel, datain);
-        MMINI: MUXMINI PORT MAP( aluout,dataout, outsel, cand_out);
-        OUTREG: Mem_MS generic map (32) PORT MAP(clk, '0', out_en, cand_out, memout); -- reset always zero
-        FLAGS: Mem_MS GENERIC MAP(4) PORT MAP(clk, '0', '1', flagRegSig, flags_output);
-        
+        MMINI: MUXMINI PORT MAP(dataout, aluout, outsel, cand_out);
+        OUTREG: Mem_MS generic map (32) PORT MAP(clk, rst_sp, out_en, cand_out, memout);
+        FLAGS: Mem_MS GENERIC MAP(4) PORT MAP(clk, rst_sp, '1', flagRegSig, flags_output);
         --flags_output <= cand_out(3 downto 0) when out_flags = '1' else
         --                flags_in;
                         
-        OpFlagOutComp : Mem_MS generic map (7) port map (clk, '0', out_en, opFlagCodeSig, opCodeFlagOut);
-        rdstComp      : Mem_MS generic map (3) port map (clk, '0', out_en, rdstALU, RdstMem);
+        OpFlagOutComp : Mem_MS generic map (7) port map (clk, rst_sp, out_en, opFlagCodeSig, opCodeFlagOut);
+        rdstComp      : Mem_MS generic map (3) port map (clk, rst_sp, out_en, rdstALU, RdstMem);
         
         memBefOut <= cand_out;
         updateFR <= out_flags;
