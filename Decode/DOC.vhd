@@ -159,6 +159,7 @@ elsif(IRregin = "01") then
 extend <= "0000"& IR ;--note this
 Rsrc2Sel <= '1';
 IRflag <= "00";
+opflag <= '0';
 -- effective address
 elsif (IRregin = "10") then
 extend <= "0000" & IR;

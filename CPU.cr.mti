@@ -33,14 +33,6 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity full32bitAdder
 -- Compiling architecture full32Arch of full32bitAdder
 
-} {} {}} {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/decodeStage.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/decodeStage.vhd}
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity Decode_stage
--- Compiling architecture use_DOC of Decode_stage
-
 } {} {}} {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/Decode.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Decode/Decode.vhd}
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
@@ -98,17 +90,6 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity Address_Extend
 -- Compiling architecture Behavioral of Address_Extend
 
-} {} {}} {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/memoc.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/memoc.vhd}
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Loading package NUMERIC_STD
--- Compiling entity moc
--- Compiling architecture mymoc of moc
-
 } {} {}} {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/halfAdder.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/halfAdder.vhd}
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
@@ -125,16 +106,6 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package NUMERIC_STD
 -- Compiling entity Reg_SP
 -- Compiling architecture a_Reg of Reg_SP
-
-} {} {}} {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/fetch_main.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Fetch/fetch_main.vhd}
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity FetMpd
--- Compiling architecture a_FetMpd of FetMpd
 
 } {} {}} {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Master_Slave1bit.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Execute/Master_Slave1bit.vhd}
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
@@ -195,16 +166,6 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity regtri
 -- Compiling architecture struct of regtri
 
-} {} {}} {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Main.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Main.vhd}
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity CPU_main
--- Compiling architecture a_CPU_main of CPU_main
-
 } {} {}} {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/level_reg.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/level_reg.vhd}
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
@@ -213,17 +174,6 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package NUMERIC_STD
 -- Compiling entity lvl_reg
 -- Compiling architecture mylvlreg of lvl_reg
-
-} {} {}} {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/memory_main.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/memory_main.vhd}
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Loading package NUMERIC_STD
--- Compiling entity memory_main
--- Compiling architecture mymem of memory_main
 
 } {} {}} {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/MuxMini.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/Abd ElRahman/Desktop/PipelinedProcessor/Memory/MuxMini.vhd}
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012

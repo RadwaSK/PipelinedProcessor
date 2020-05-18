@@ -18,10 +18,10 @@ end entity WB;
 architecture WB_Arch of WB is
     begin
 
-    identifier : process( clk , Ramout )
+    identifier : process( clk , Ramout , OPcode_Flag )
     begin
-        if clk = '0' and OPcode_Flag (0) = '0' then 
-            if  OPcode_Flag (6 downto 1 ) = "000001"   or OPcode_Flag (6 downto 1 ) = "000010" or OPcode_Flag (6 downto 1 ) = "000011" or -- 1 op
+        if  OPcode_Flag (0) = '0' then 
+            if  OPcode_Flag (6 downto 1 ) = "000001"   or OPcode_Flag (6 downto 1 ) = "000010" or OPcode_Flag (6 downto 1 ) = "000011" or OPcode_Flag (6 downto 1 ) = "000101" or -- 1 op
                 OPcode_Flag (6 downto 4 ) = "001"   or -- 2 op 
                 OPcode_Flag (6 downto 1 ) = "010001" or OPcode_Flag (6 downto 1 ) = "010010" or OPcode_Flag (6 downto 1 ) = "010011"  --memory 
                 then 
@@ -31,6 +31,7 @@ architecture WB_Arch of WB is
 
             elsif OPcode_Flag (6 downto 1 ) = "000100" then 
                 outport<= Ramout;
+                writeEn <= '0';
             else
                 writeEn <= '0';
 
