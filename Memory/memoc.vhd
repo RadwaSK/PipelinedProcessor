@@ -132,7 +132,8 @@ architecture mymoc of moc is
                     else 
                         ram_en <= '0';
                         outsel <= '0';    
-                        sp_update <= '0';   
+                        sp_update <= '0'; 
+			 rst_sp <= '0';  
                         idsel <= "00"; 
                     end if;
                 else 

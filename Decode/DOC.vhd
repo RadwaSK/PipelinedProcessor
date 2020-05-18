@@ -3,6 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity DOC is
     Port ( 
+	    clk   : in  STD_LOGIC;
            IR   : in  STD_LOGIC_VECTOR (15 downto 0);
            stall   : in  STD_LOGIC;
 	   IRregin : in STD_LOGIC_VECTOR (1 downto 0);-- read from ir register
@@ -16,25 +17,47 @@ entity DOC is
 	Opcode:   out   STD_LOGIC_VECTOR(5 downto 0);    
 	Opflag:   out   STD_LOGIC;
 	extend:   out   STD_LOGIC_VECTOR(19 downto 0); 
-	IRflag:   out   STD_LOGIC_VECTOR(1 downto 0) -- write in ir register
+	IRflag:   out   STD_LOGIC_VECTOR(1 downto 0); -- write in ir register
+
+	FlagRegisterin: in STD_LOGIC_VECTOR (3 downto 0); 
+	JZStates : inout STD_LOGIC_VECTOR (1 downto 0)
  );
 end DOC;
 
 architecture Behavioral of DOC is
+ Signal s_clk : std_logic := '1';
 begin
-process( IR , stall, IRregin)
+s_Clk <= not S_Clk after 20 ps;
+process(clk,stall, IRregin,s_Clk)
+--process( clk )
 	begin
 
 --registers in rst signal equal zero 
+if ( clk = '1') then
+if(stall/='1') then
+report " Here";
+--RESET
 if(IR= "1000100000000000") then
+report " restart";
 IRflag <= "00";
+Opflag <='0';
+Opcode <= IR(15 downto 10);
 end if;
 
+
+if(FlagRegisterin(0) ='0') then
+JZStates <= "01";
+elsif (FlagRegisterin(0) ='1') then
+JZStates <= "11";
+end if;
 
  -- EA or immediate 
 if (IRregin = "00" or IRregin="UU") then
 --one operand
 if (IR(15 downto 13)= "000") then
+	report " one operand";
+	if(IR(12 downto 10)="001" or IR(12 downto 10)="010" or IR(12 downto 10)="011") then
+	report " NOT";
 	Rdst <= IR(9 downto 7);
 	Rsrc1 <= IR(9 downto 7);
 	Opcode <= IR(15 downto 10);
@@ -43,9 +66,28 @@ if (IR(15 downto 13)= "000") then
 	Rsrc2Sel <= '0';
 	--note this
 	opflag <= '0';
+	--OUT
+	elsif (IR(12 downto 10)="100") then
+	Opcode <= IR(15 downto 10);
+	Rsrc1 <= IR(9 downto 7);
+	IRflag <= "00";
+	--IN
+	elsif ( IR(12 downto 10)="101") then
+	Opcode <= IR(15 downto 10);
+	Rdst <= IR(9 downto 7);
+	Rsrc1 <= IR(9 downto 7);
+	IRflag <= "00";
+	Rsrc1Sel<= "10";
+	elsif ( IR(12 downto 10)="000") then
+	Opcode <= IR(15 downto 10);
+	IRflag <= "00";
+	end if;
+
+	
 	
 -- two operand
 elsif (IR(15 downto 13)= "001") then
+	report " two operand";
 	--swap 
 	if (IR(12 downto 10) = "000" ) then
 	Opcode <= IR(15 downto 10);
@@ -74,7 +116,8 @@ elsif (IR(15 downto 13)= "001") then
 	IRflag <= "01";-- note this
 	Rsrc1Sel <= "00"; --see this 
 	Rsrc2Sel <= '0';
-	opflag <= '0';
+	opflag <= '1';
+	
 	--SHL % SHR
 	elsif ( IR(12 downto 10) = "110" or IR(12 downto 10) = "111") then
 	Opcode <= IR(15 downto 10);
@@ -130,6 +173,8 @@ elsif (IR(15 downto 13)= "010") then
 	opflag <= '0';
 
 	end if;
+
+	
 --branch 
 elsif ( IR(15 downto 13) = "011" ) then
 	--RTI & RET
@@ -147,25 +192,36 @@ elsif ( IR(15 downto 13) = "011" ) then
 	IRflag <= "10";
 	Rsrc1Sel <="00";
 	end if;
-	--input and output
+
+	--INTERRUPT
+	--Edit 
 elsif ( IR(15 downto 10) = "100110" ) then
 	Opcode <= IR(15 downto 10);
+	--Rsrc1Sel <="00";
 	opflag <= '0'; --note this
 	IRflag <= "00";	
-	end if;
-
+	
+	end if; -- end operands
 --immediate
 elsif(IRregin = "01") then
 extend <= "0000"& IR ;--note this
 Rsrc2Sel <= '1';
 IRflag <= "00";
+opflag <= '0';
+Rsrc1Sel <= "00"; --see this 
+Opcode <= IR(15 downto 10);
+
 -- effective address
 elsif (IRregin = "10") then
 extend <= "0000" & IR;
 Rsrc2Sel <= '1';
 IRflag <= "00";
+
 end if;
+end if; --EA  or effective
 	
+end if; -- stall
+
 
 
 end process;

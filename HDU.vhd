@@ -3,7 +3,9 @@ use ieee.numeric_std.all;
 use IEEE.STD_LOGIC_1164.all;
 
 entity HDU is
-    port ( RdstALU, RdstDec :   in std_logic_vector(2 downto 0);
+    port ( 
+            clk : in std_logic ;
+            RdstALU, RdstDec :   in std_logic_vector(2 downto 0);
             RamInp :   in std_logic_vector(15 downto 0);
             IRregin : in std_logic_vector (1 downto 0);
           Asel, Bsel  :       out std_logic_vector (1 downto 0);
@@ -19,9 +21,12 @@ begin
     -- get sources 
 	Asel <= "00";
 	Bsel <="00";
-    process ( RamInp, RdstALU, RdstDec , IRregin)
-    variable n : integer := 0;
+    process ( clk , RamInp, RdstALU, RdstDec , IRregin)
+     variable n : integer := 0;
+    
+   
     begin
+	if (clk = '1') then 
         if (IRregin = "00") then 
             -- 1  operant 
             if RamInp (15 downto 13) = "000"  and  (RamInp (12 downto 10) = "001" or 
@@ -73,22 +78,22 @@ begin
             end if;
 
 
-        if n = 1 then
-            if Rsrc1 = RdstALU or Rsrc1 = RdstDec then 
-                Stall <= '1';
+        if n = 1 then    
+            if (RdstALU /= "UUU" and  RdstDec /= "UUU" and (Rsrc1 = RdstALU or Rsrc1 = RdstDec))  then 
+               Stall <= '1';
             else
                 Stall <= '0';
             end if ;
         end if ;
 
-        if n = 2 then 
-            if Rsrc1 = RdstALU or Rsrc1 = RdstDec or Rsrc2 = RdstALU or Rsrc2 = RdstDec then 
+        if n = 2  then 
+            if  (RdstALU /= "UUU" and  RdstDec /= "UUU" and (Rsrc1 = RdstALU or Rsrc1 = RdstDec or Rsrc2 = RdstALU or Rsrc2 = RdstDec)) then 
                 Stall <= '1';
             else
                 Stall <= '0';
             end if ; 
          end if ;
     end if;
-
+            end if ; 
     end process;
 end HDU_Arch;
