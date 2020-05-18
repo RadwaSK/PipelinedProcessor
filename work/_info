@@ -1,4 +1,5 @@
 m255
+<<<<<<< HEAD
 K3
 13
 cModel Technology
@@ -1718,3 +1719,14 @@ R249
 R250
 R10
 R11
+=======
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+>>>>>>> da30bc2476f3d1460373027dfefc78581205bbf8

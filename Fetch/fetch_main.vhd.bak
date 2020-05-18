@@ -72,7 +72,7 @@ begin
     selt1 <= "000" ;
     selt2 <= "000" ;
     --INT
-  elsif  (INT = '1') then
+  elsif  (INT = "1") then
     selt1 <= "000" ;
     selt2 <= "001" ;
     FSM_INT<= 1;
